@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="6030" started-at="2021-12-13T22:43:12 IST" finished-at="2021-12-13T22:43:18 IST">
+    <groups>
+    </groups>
+    <test name="/home/suraj/IdeaProjects/cipherApiAutomation" duration-ms="6030" started-at="2021-12-13T22:43:12 IST" finished-at="2021-12-13T22:43:18 IST">
+      <class name="restAssuredTest.basicValidationXml">
+        <test-method status="PASS" signature="testSingeContent()[pri:1, instance:restAssuredTest.basicValidationXml@74650e52]" name="testSingeContent" duration-ms="2676" started-at="2021-12-13T22:43:12 IST" finished-at="2021-12-13T22:43:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSingeContent -->
+        <test-method status="PASS" signature="testMultipContent()[pri:2, instance:restAssuredTest.basicValidationXml@74650e52]" name="testMultipContent" duration-ms="892" started-at="2021-12-13T22:43:15 IST" finished-at="2021-12-13T22:43:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultipContent -->
+        <test-method status="PASS" signature="testMultipContentInOneGo()[pri:3, instance:restAssuredTest.basicValidationXml@74650e52]" name="testMultipContentInOneGo" duration-ms="787" started-at="2021-12-13T22:43:16 IST" finished-at="2021-12-13T22:43:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultipContentInOneGo -->
+        <test-method status="PASS" signature="testFindingValuesUsingXmlPath()[pri:4, instance:restAssuredTest.basicValidationXml@74650e52]" name="testFindingValuesUsingXmlPath" duration-ms="855" started-at="2021-12-13T22:43:17 IST" finished-at="2021-12-13T22:43:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindingValuesUsingXmlPath -->
+        <test-method status="PASS" signature="testFindingValuesUsingXmlPath2()[pri:5, instance:restAssuredTest.basicValidationXml@74650e52]" name="testFindingValuesUsingXmlPath2" duration-ms="780" started-at="2021-12-13T22:43:18 IST" finished-at="2021-12-13T22:43:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindingValuesUsingXmlPath2 -->
+      </class> <!-- restAssuredTest.basicValidationXml -->
+    </test> <!-- /home/suraj/IdeaProjects/cipherApiAutomation -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

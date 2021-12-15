@@ -1,0 +1,12 @@
+restAssuredTest/putRequest.class
+serializationAndDeserialization/testWithSerialization.class
+restAssuredTest/postRequest.class
+serializationAndDeserialization/serializationAndDeserialization.class
+serializationAndDeserialization/test.class
+restAssuredTest/deleteRequest.class
+restAssuredTest/basicValidationXml.class
+serializationAndDeserialization/testWithoutSerialization.class
+restAssuredTest/basicValidations.class
+serializationAndDeserialization/registrationData.class
+restAssuredTest/restUtils.class
+restAssuredTest/getRequest.class

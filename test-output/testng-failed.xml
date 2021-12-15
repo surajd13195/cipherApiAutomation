@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <test thread-count="5" name="/home/suraj/IdeaProjects/cipherApiAutomation(failed)">
+    <classes>
+      <class name="restAssuredTest.deleteRequest">
+        <methods>
+          <include name="deleteUser"/>
+        </methods>
+      </class> <!-- restAssuredTest.deleteRequest -->
+      <class name="serializationAndDeserialization.testWithSerialization">
+        <methods>
+          <include name="detSerializedData"/>
+        </methods>
+      </class> <!-- serializationAndDeserialization.testWithSerialization -->
+    </classes>
+  </test> <!-- /home/suraj/IdeaProjects/cipherApiAutomation(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

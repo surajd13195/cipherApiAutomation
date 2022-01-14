@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="cipherApiAutomation(failed)">
+    <classes>
+      <class name="cipherApi.cipherLogin.userLogin">
+        <methods>
+          <include name="login"/>
+          <include name="registrationData"/>
+        </methods>
+      </class> <!-- cipherApi.cipherLogin.userLogin -->
+      <class name="testApi.oAuth2.oAuth2NotHardCodedToken">
+        <methods>
+          <include name="postData"/>
+          <include name="invalidApiTest"/>
+        </methods>
+      </class> <!-- testApi.oAuth2.oAuth2NotHardCodedToken -->
+      <class name="testApi.restAssuredTest.deleteRequest">
+        <methods>
+          <include name="deleteUser"/>
+        </methods>
+      </class> <!-- testApi.restAssuredTest.deleteRequest -->
+      <class name="testApi.serializationAndDeserialization.testWithSerialization">
+        <methods>
+          <include name="detSerializedData"/>
+        </methods>
+      </class> <!-- testApi.serializationAndDeserialization.testWithSerialization -->
+    </classes>
+  </test> <!-- cipherApiAutomation(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

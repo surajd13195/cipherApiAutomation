@@ -1,4 +1,13 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.389 s - in TestSuite
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.837 s <<< FAILURE! - in TestSuite
+cipherApi.cipherRegistration.registration.userRegistration.login  Time elapsed: 0.706 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path sessionId doesn't match.
+Expected: a string matching the pattern <^[a-z0-9]+$>
+  Actual: 718d7530-c89f-4ac4-aae2-587518cc86c9
+
+	at cipherApi.cipherRegistration.registration.userRegistration.login(userRegistration.java:81)
+

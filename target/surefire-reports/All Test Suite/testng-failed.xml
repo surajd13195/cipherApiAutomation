@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [All Test Suite]">
+  <test thread-count="5" verbose="0" name="/home/suraj/IdeaProjects/cipherApiAutomation(failed)">
+    <classes>
+      <class name="cipherApi.cipherRegistration.registration.userRegistration">
+        <methods>
+          <include name="login"/>
+          <include name="registrationData"/>
+        </methods>
+      </class> <!-- cipherApi.cipherRegistration.registration.userRegistration -->
+    </classes>
+  </test> <!-- /home/suraj/IdeaProjects/cipherApiAutomation(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

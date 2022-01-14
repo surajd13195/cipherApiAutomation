@@ -3,56 +3,20 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="/home/suraj/IdeaProjects/cipherApiAutomation">
         <classes>
-            <class name="restAssuredTest.basicValidationXml">
+            <class name="cipherApi.cipherRegistration.userRegistration">
                 <methods>
-                    <include name="testSingeContent"/>
-                    <include name="testMultipContent"/>
-                    <include name="testMultipContentInOneGo"/>
-                    <include name="testFindingValuesUsingXmlPath"/>
-                    <include name="testFindingValuesUsingXmlPath2"/>
+                    <include name="registrationData"/>
+                    <include name="registrationWithValidToken"/>
+                    <include name="registrationWithInvalidToken"/>
                 </methods>
             </class>
-            <!-- <class name="restAssuredTest.basicValidations">
+            <class name="cipherApi.cipherLogin.userLogin">
                 <methods>
-                    <include name="testStatusCode"/>
-                    <include name="testLogging"/>
-                    <include name="testSingleContent"/>
-                    <include name="testMultipleContent"/>
-                    <include name="testParametersAndHeaders"/>
+                    <include name="loginData"/>
+                    <include name="loginWithValidToken"/>
+                    <include name="loginWithInvalidToken"/>
                 </methods>
             </class>
-            <class name="restAssuredTest.deleteRequest">
-                <methods>
-                    <include name="deleteUser"/>
-                </methods>
-            </class>
-            <class name="restAssuredTest.getRequest">
-                <methods>
-                    <include name="getUserDetails"/>
-                </methods>
-            </class>
-            <class name="restAssuredTest.postRequest">
-                <methods>
-                    <include name="testData"/>
-                </methods>
-            </class>
-            <class name="restAssuredTest.putRequest">
-                <methods>
-                    <include name="testPut"/>
-                </methods>
-            </class>
-            <class name="serializationAndDeserialization.testWithSerialization">
-                <methods>
-                    <include name="registerUserSerialization"/>
-                    <include name="detSerializedData"/>
-                </methods>
-            </class>
-            <class name="serializationAndDeserialization.testWithoutSerialization">
-                <methods>
-                    <include name="register"/>
-                </methods>
-            </class>
-            -->
         </classes>
     </test>
 </suite>

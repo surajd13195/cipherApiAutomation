@@ -2,26 +2,19 @@ package cipherApi.pojo;
 
 public class deviceDetails {
 
-    public String bankAppVersion;
     public String deviceId;
-    public String deviceIpAddress;
     public String deviceOs;
     public String deviceOsVersion;
+    public String deviceIpAddress;
+    public String bankAppVersion;
 
-    public deviceDetails(String bankAppVersion, String deviceId, String deviceIpAddress, String deviceOs, String deviceOsVersion){
-        this.bankAppVersion=bankAppVersion;
+    public deviceDetails(String deviceId, String deviceOs, String deviceOsVersion, String deviceIpAddress, String bankAppVersion){
+
         this.deviceId=deviceId;
-        this.deviceIpAddress=deviceIpAddress;
         this.deviceOs=deviceOs;
         this.deviceOsVersion=deviceOsVersion;
-    }
-
-    public String getBankAppVersion() {
-        return bankAppVersion;
-    }
-
-    public void setBankAppVersion(String bankAppVersion) {
-        this.bankAppVersion = bankAppVersion;
+        this.deviceIpAddress=deviceIpAddress;
+        this.bankAppVersion=bankAppVersion;
     }
 
     public String getDeviceId() {
@@ -30,14 +23,6 @@ public class deviceDetails {
 
     public void setDeviceId(String deviceId) {
         this.deviceId = deviceId;
-    }
-
-    public String getDeviceIpAddress() {
-        return deviceIpAddress;
-    }
-
-    public void setDeviceIpAddress(String deviceIpAddress) {
-        this.deviceIpAddress = deviceIpAddress;
     }
 
     public String getDeviceOs() {
@@ -54,5 +39,21 @@ public class deviceDetails {
 
     public void setDeviceOsVersion(String deviceOsVersion) {
         this.deviceOsVersion = deviceOsVersion;
+    }
+
+    public String getDeviceIpAddress() {
+        return deviceIpAddress;
+    }
+
+    public void setDeviceIpAddress(String deviceIpAddress) {
+        this.deviceIpAddress = deviceIpAddress;
+    }
+
+    public String getBankAppVersion() {
+        return bankAppVersion;
+    }
+
+    public void setBankAppVersion(String bankAppVersion) {
+        this.bankAppVersion = bankAppVersion;
     }
 }

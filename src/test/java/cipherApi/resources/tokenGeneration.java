@@ -1,8 +1,6 @@
 package cipherApi.resources;
 
-import cipherApi.pojo.crnNumber;
-import cipherApi.pojo.deviceDetails;
-import cipherApi.pojo.level1Pojo;
+import cipherApi.pojo.*;
 import com.google.gson.Gson;
 import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
@@ -45,34 +43,26 @@ public class tokenGeneration {
 
     public static void main(String[] args) throws Exception {
 
-        /*level1Pojo pojo1 = new level1Pojo();
-        pojo1.setType("Level1Token");
-        pojo1.setBankId("bank01");
-        pojo1.setMobileNumber("9823242526");
+        pojo1 pojo1 = new pojo1();
 
-        crnNumber crnNumberPojo = new crnNumber();
-        crnNumberPojo.setCrnNo("11111111111111");
-        pojo1.setCrnNumber(crnNumberPojo);
+        Level1Token level1TokenPojo = new Level1Token("HDFC","9876543210");
+        pojo1.setLevel1Token(level1TokenPojo);
 
-        deviceDetails deviceDetailsPojo = new deviceDetails();
-        deviceDetailsPojo.setBankAppVersion("1.0");
-        deviceDetailsPojo.setDeviceId("f3ef2be4fe00ec72");
-        deviceDetailsPojo.setDeviceIpAddress("192.168.2.4");
-        deviceDetailsPojo.setDeviceOs("android");
-        deviceDetailsPojo.setDeviceOsVersion("11");
-        pojo1.setDeviceDetails(deviceDetailsPojo);
+        crnNumber crnNumberPojo = new crnNumber("somecrn4");
+        level1TokenPojo.setCrnNumber(crnNumberPojo);
 
-        String tokenData = new Gson().toJson(pojo1);
-        tokenGeneration gen = new tokenGeneration();
-        String encryptedMessage = gen.encrypt(tokenData);*/
+        deviceDetails deviceDetailsPojo = new deviceDetails("f3ef2be4fe00ec72","android","11","192.168.2.4","1.0");
+        level1TokenPojo.setDeviceDetails(deviceDetailsPojo);
 
-        level1Pojo pojo1 = new level1Pojo("Level1Token","bank01","9823242526");
+        activityType activityTypePojo = null;
+                //new activityType();
+        /*BalanceInquiry balanceInquiry = new BalanceInquiry();
+        activityTypePojo.setBalanceInquiry(balanceInquiry);*/
+        level1TokenPojo.setActivityType(activityTypePojo);
 
-        crnNumber crnNumberPojo = new crnNumber("11111111111111");
-        pojo1.setCrnNumber(crnNumberPojo);
-
-        deviceDetails deviceDetailsPojo = new deviceDetails("1.0","f3ef2be4fe00ec72","192.168.2.4","android","11");
-        pojo1.setDeviceDetails(deviceDetailsPojo);
+        sessionId sessionIdPojo = null;
+                //new sessionId(null);
+        level1TokenPojo.setSessionId(sessionIdPojo);
 
         String tokenData = new Gson().toJson(pojo1);
         tokenGeneration gen = new tokenGeneration();

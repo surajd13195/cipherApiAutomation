@@ -3,12 +3,20 @@
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [All Test Suite]">
   <test thread-count="5" verbose="0" name="/home/suraj/IdeaProjects/cipherApiAutomation(failed)">
     <classes>
-      <class name="cipherApi.cipherRegistration.registration.userRegistration">
+      <class name="cipherApi.cipherLogin.userLogin">
         <methods>
-          <include name="login"/>
-          <include name="registrationData"/>
+          <include name="loginData"/>
+          <include name="loginWithInvalidToken"/>
+          <include name="loginWithValidToken"/>
         </methods>
-      </class> <!-- cipherApi.cipherRegistration.registration.userRegistration -->
+      </class> <!-- cipherApi.cipherLogin.userLogin -->
+      <class name="cipherApi.cipherRegistration.userRegistration">
+        <methods>
+          <include name="registrationWithInvalidToken"/>
+          <include name="registrationData"/>
+          <include name="registrationWithValidToken"/>
+        </methods>
+      </class> <!-- cipherApi.cipherRegistration.userRegistration -->
     </classes>
   </test> <!-- /home/suraj/IdeaProjects/cipherApiAutomation(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->

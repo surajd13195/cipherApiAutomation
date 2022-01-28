@@ -1,13 +1,20 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.837 s <<< FAILURE! - in TestSuite
-cipherApi.cipherRegistration.registration.userRegistration.login  Time elapsed: 0.706 s  <<< FAILURE!
-java.lang.AssertionError: 
-1 expectation failed.
-JSON path sessionId doesn't match.
-Expected: a string matching the pattern <^[a-z0-9]+$>
-  Actual: 718d7530-c89f-4ac4-aae2-587518cc86c9
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 3.086 s <<< FAILURE! - in TestSuite
+cipherApi.cipherRegistration.userRegistration.registrationWithValidToken  Time elapsed: 1.532 s  <<< FAILURE!
+java.net.ConnectException: Connection refused (Connection refused)
+	at cipherApi.cipherRegistration.userRegistration.registrationWithValidToken(userRegistration.java:35)
 
-	at cipherApi.cipherRegistration.registration.userRegistration.login(userRegistration.java:81)
+cipherApi.cipherRegistration.userRegistration.registrationWithInvalidToken  Time elapsed: 0.061 s  <<< FAILURE!
+java.net.ConnectException: Connection refused (Connection refused)
+	at cipherApi.cipherRegistration.userRegistration.registrationWithInvalidToken(userRegistration.java:60)
+
+cipherApi.cipherLogin.userLogin.loginWithValidToken  Time elapsed: 0.15 s  <<< FAILURE!
+java.net.ConnectException: Connection refused (Connection refused)
+	at cipherApi.cipherLogin.userLogin.loginWithValidToken(userLogin.java:36)
+
+cipherApi.cipherLogin.userLogin.loginWithInvalidToken  Time elapsed: 0.038 s  <<< FAILURE!
+java.net.ConnectException: Connection refused (Connection refused)
+	at cipherApi.cipherLogin.userLogin.loginWithInvalidToken(userLogin.java:65)
 

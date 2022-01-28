@@ -1,25 +1,17 @@
 package cipherApi.pojo;
 
-public class level1Pojo {
+public class Level1Token {
 
-    public String type;
     public String bankId;
     public String mobileNumber;
     crnNumber crnNumber;
     deviceDetails deviceDetails;
+    activityType activityType;
+    sessionId sessionId;
 
-    public level1Pojo(String type, String bankId, String mobileNumber){
-        this.type=type;
+    public Level1Token(String bankId, String mobileNumber){
         this.bankId=bankId;
         this.mobileNumber=mobileNumber;
-    }
-
-    public String getType() {
-        return type;
-    }
-
-    public void setType(String type) {
-        this.type = type;
     }
 
     public String getBankId() {
@@ -52,6 +44,22 @@ public class level1Pojo {
 
     public void setDeviceDetails(cipherApi.pojo.deviceDetails deviceDetails) {
         this.deviceDetails = deviceDetails;
+    }
+
+    public cipherApi.pojo.activityType getActivityType() {
+        return activityType;
+    }
+
+    public void setActivityType(cipherApi.pojo.activityType activityType) {
+        this.activityType = activityType;
+    }
+
+    public cipherApi.pojo.sessionId getSessionId() {
+        return sessionId;
+    }
+
+    public void setSessionId(cipherApi.pojo.sessionId sessionId) {
+        this.sessionId = sessionId;
     }
 
     /**@Override

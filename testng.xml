@@ -3,20 +3,94 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="/home/suraj/IdeaProjects/cipherApiAutomation">
         <classes>
-            <class name="cipherApi.cipherRegistration.userRegistration">
-                <methods>
-                    <include name="registrationData"/>
-                    <include name="registrationWithValidToken"/>
-                    <include name="registrationWithInvalidToken"/>
-                </methods>
-            </class>
             <class name="cipherApi.cipherLogin.userLogin">
                 <methods>
-                    <include name="loginData"/>
                     <include name="loginWithValidToken"/>
                     <include name="loginWithInvalidToken"/>
                 </methods>
             </class>
+            <class name="cipherApi.cipherRegistration.userRegistration">
+                <methods>
+                    <include name="registrationWithValidToken"/>
+                    <include name="registrationWithInvalidToken"/>
+                </methods>
+            </class>
+            <!--<class name="testApi.encodingAndDecoding.studentApiTest">
+                <methods>
+                    <include name="loginTest"/>
+                </methods>
+            </class>
+            <class name="testApi.getDataAndUse.passValueFromOneApiToAnother">
+                <methods>
+                    <include name="createBooking"/>
+                    <include name="updateBooking"/>
+                </methods>
+            </class>
+            <class name="testApi.oAuth2.oAuth2HardCodedToken">
+                <methods>
+                    <include name="test1"/>
+                </methods>
+            </class>
+            <class name="testApi.oAuth2.oAuth2NotHardCodedToken">
+                <methods>
+                    <include name="validApiTest"/>
+                    <include name="invalidApiTest"/>
+                </methods>
+            </class>
+            <class name="testApi.passJsonFileAsPayload.passJsonAsPayload">
+                <methods>
+                    <include name="createUser"/>
+                </methods>
+            </class>
+            <class name="testApi.restAssuredTest.basicValidationXml">
+                <methods>
+                    <include name="testSingeContent"/>
+                    <include name="testMultipContent"/>
+                    <include name="testMultipContentInOneGo"/>
+                    <include name="testFindingValuesUsingXmlPath"/>
+                    <include name="testFindingValuesUsingXmlPath2"/>
+                </methods>
+            </class>
+            <class name="testApi.restAssuredTest.basicValidations">
+                <methods>
+                    <include name="testStatusCode"/>
+                    <include name="testLogging"/>
+                    <include name="testSingleContent"/>
+                    <include name="testMultipleContent"/>
+                    <include name="testParametersAndHeaders"/>
+                </methods>
+            </class>
+            <class name="testApi.restAssuredTest.deleteRequest">
+                <methods>
+                    <include name="deleteUser"/>
+                </methods>
+            </class>
+            <class name="testApi.restAssuredTest.getRequest">
+                <methods>
+                    <include name="getUserDetails"/>
+                </methods>
+            </class>
+            <class name="testApi.restAssuredTest.postRequest">
+                <methods>
+                    <include name="testData"/>
+                </methods>
+            </class>
+            <class name="testApi.restAssuredTest.putRequest">
+                <methods>
+                    <include name="testPut"/>
+                </methods>
+            </class>
+            <class name="testApi.serializationAndDeserialization.testWithSerialization">
+                <methods>
+                    <include name="registerUserSerialization"/>
+                    <include name="detSerializedData"/>
+                </methods>
+            </class>
+            <class name="testApi.serializationAndDeserialization.testWithoutSerialization">
+                <methods>
+                    <include name="register"/>
+                </methods>
+            </class>-->
         </classes>
     </test>
 </suite>

@@ -1,21 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
+<suite name="All Test Suite" data-provider-thread-count="2">
+    <listeners>
+        <listener class-name="listeners.testNGListeners"></listener>
+        <listener class-name="listeners.annotationTransformer"></listener>
+    </listeners>
+    <!--<test verbose="2" preserve-order="true" name="/home/suraj/IdeaProjects/cipherApiAutomation" thread-count="1" parallel="methods">-->
     <test verbose="2" preserve-order="true" name="/home/suraj/IdeaProjects/cipherApiAutomation">
         <classes>
-            <class name="cipherApi.cipherLogin.userLogin">
-                <methods>
-                    <include name="loginWithValidToken"/>
-                    <include name="loginWithInvalidToken"/>
-                </methods>
-            </class>
-            <class name="cipherApi.cipherRegistration.userRegistration">
+            <class name="cipherApi.userRegistration">
                 <methods>
                     <include name="registrationWithValidToken"/>
                     <include name="registrationWithInvalidToken"/>
+                    <include name="registrationWithMultipleDataSet"/>
                 </methods>
             </class>
-            <!--<class name="testApi.encodingAndDecoding.studentApiTest">
+            <class name="cipherApi.userLogin">
+                <methods>
+                    <include name="loginWithValidToken"/>
+                    <include name="loginWithInvalidToken"/>
+                    <include name="loginWithMultipleDataSet"/>
+                </methods>
+            </class>
+            <class name="cipherApi.performActivity">
+                <methods>
+                    <include name="performActivityWithValidToken"/>
+                    <include name="performActivityWithMultipleDataSet"/>
+                </methods>
+            </class>
+            <!--<class name="cipherApi.authCriteriaCheckApi">
+                <methods>
+                    <include name="getAuthCriteriaCheckWithValidToken"/>
+                    <include name="getAuthCriteriaCheckWithMultipleDataSet"/>
+                </methods>
+            </class>
+            <class name="cipherApi.stepUpApi">
+                <methods>
+                    <include name="stepUpValidToken"/>
+                    <include name="stepUpWithMultipleDataSet"/>
+                </methods>
+            </class>-->
+            <!--<class name="listeners.testNGListenersDemo">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                    <include name="test4"/>
+                </methods>
+            </class>-->
+            <!--<class name="testApi.asyncRequestAndProxySettings.asyncDemo">
+                <methods>
+                    <include name="syncRequest"/>
+                    <include name="asyncRequest"/>
+                </methods>
+            </class>
+            <class name="testApi.encodingAndDecoding.studentApiTest">
                 <methods>
                     <include name="loginTest"/>
                 </methods>

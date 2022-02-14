@@ -1,30 +1,899 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="1" total="5" passed="3">
+<testng-results skipped="0" failed="6" ignored="0" retried="6" total="41" passed="29">
   <reporter-output>
   </reporter-output>
-  <suite name="All Test Suite" duration-ms="6104" started-at="2022-01-21T09:59:15 IST" finished-at="2022-01-21T09:59:22 IST">
+  <suite name="All Test Suite" duration-ms="25050" started-at="2022-02-14T16:38:43 IST" finished-at="2022-02-14T16:39:08 IST">
     <groups>
     </groups>
-    <test name="/home/suraj/IdeaProjects/cipherApiAutomation" duration-ms="6104" started-at="2022-01-21T09:59:15 IST" finished-at="2022-01-21T09:59:22 IST">
-      <class name="cipherApi.cipherRegistration.userRegistration">
-        <test-method status="PASS" signature="registrationData()[pri:0, instance:cipherApi.cipherRegistration.userRegistration@1c3a4799]" name="registrationData" is-config="true" duration-ms="0" started-at="2022-01-21T09:59:21 IST" finished-at="2022-01-21T09:59:21 IST">
+    <test name="/home/suraj/IdeaProjects/cipherApiAutomation" duration-ms="25050" started-at="2022-02-14T16:38:43 IST" finished-at="2022-02-14T16:39:08 IST">
+      <class name="cipherApi.performActivity">
+        <test-method status="PASS" signature="performActivityWithValidToken()[pri:0, instance:cipherApi.performActivity@71bbf57e]" name="performActivityWithValidToken" duration-ms="194" started-at="2022-02-14T16:39:06 IST" finished-at="2022-02-14T16:39:06 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registrationData -->
-        <test-method status="PASS" signature="registrationWithValidToken()[pri:0, instance:cipherApi.cipherRegistration.userRegistration@1c3a4799]" name="registrationWithValidToken" duration-ms="285" started-at="2022-01-21T09:59:21 IST" finished-at="2022-01-21T09:59:21 IST">
+        </test-method> <!-- performActivityWithValidToken -->
+        <test-method status="PASS" signature="performActivityWithMultipleDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:cipherApi.performActivity@71bbf57e]" name="performActivityWithMultipleDataSet" duration-ms="144" started-at="2022-02-14T16:39:06 IST" data-provider="testData" finished-at="2022-02-14T16:39:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HDFC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[somecrn]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[f3ef2be4fe00ec72]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[192.168.2.4]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[BalanceInquiry]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[b4b1e064-2782-4630-adaf-0d4db46d4248]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[HTTP/1.1 200 OK]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performActivityWithMultipleDataSet -->
+        <test-method status="PASS" signature="performActivityWithMultipleDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:cipherApi.performActivity@71bbf57e]" name="performActivityWithMultipleDataSet" duration-ms="104" started-at="2022-02-14T16:39:06 IST" data-provider="testData" finished-at="2022-02-14T16:39:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bank01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9823242526]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11111111111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[f3ef2be4fe00ec72]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[192.168.2.4]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[BalanceInquiry]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[b4b1e064-2782-4630-adaf-0d4db46d4248]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[HTTP/1.1 200 OK]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performActivityWithMultipleDataSet -->
+        <test-method status="PASS" signature="performActivityWithMultipleDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:cipherApi.performActivity@71bbf57e]" name="performActivityWithMultipleDataSet" duration-ms="133" started-at="2022-02-14T16:39:06 IST" data-provider="testData" finished-at="2022-02-14T16:39:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bank02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9823242527]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11111111111112]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[f3ef2be4fe00ec73]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[192.168.2.5]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.1]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[AddBeneficiary]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[b4b1e064-2782-4630-adaf-0d4db46d4248]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[HTTP/1.1 200 OK]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performActivityWithMultipleDataSet -->
+        <test-method status="PASS" signature="performActivityWithMultipleDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:cipherApi.performActivity@71bbf57e]" name="performActivityWithMultipleDataSet" duration-ms="206" started-at="2022-02-14T16:39:06 IST" data-provider="testData" finished-at="2022-02-14T16:39:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bank03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9823242528]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11111111111113]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[f3ef2be4fe00ec74]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[192.168.2.6]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.2]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[AddBeneficiary]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[b4b1e064-2782-4630-adaf-0d4db46d4248]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[HTTP/1.1 200 OK]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performActivityWithMultipleDataSet -->
+        <test-method status="PASS" signature="performActivityWithMultipleDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:cipherApi.performActivity@71bbf57e]" name="performActivityWithMultipleDataSet" duration-ms="183" started-at="2022-02-14T16:39:06 IST" data-provider="testData" finished-at="2022-02-14T16:39:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bank04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9823242529]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11111111111114]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[f3ef2be4fe00ec75]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[192.168.2.7]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.3]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[AmountWithdrawal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[b4b1e064-2782-4630-adaf-0d4db46d4248]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[HTTP/1.1 200 OK]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performActivityWithMultipleDataSet -->
+        <test-method status="PASS" signature="performActivityWithMultipleDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:cipherApi.performActivity@71bbf57e]" name="performActivityWithMultipleDataSet" duration-ms="173" started-at="2022-02-14T16:39:07 IST" data-provider="testData" finished-at="2022-02-14T16:39:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bank05]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9823242530]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11111111111115]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[f3ef2be4fe00ec76]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[192.168.2.8]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.4]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[AmountWithdrawal]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[b4b1e064-2782-4630-adaf-0d4db46d4248]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[HTTP/1.1 200 OK]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performActivityWithMultipleDataSet -->
+        <test-method status="PASS" signature="performActivityWithMultipleDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:cipherApi.performActivity@71bbf57e]" name="performActivityWithMultipleDataSet" duration-ms="160" started-at="2022-02-14T16:39:07 IST" data-provider="testData" finished-at="2022-02-14T16:39:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bank06]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9823242531]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11111111111116]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[f3ef2be4fe00ec77]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[192.168.2.9]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.5]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[AddBeneficiary]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[b4b1e064-2782-4630-adaf-0d4db46d4248]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[HTTP/1.1 200 OK]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performActivityWithMultipleDataSet -->
+        <test-method status="PASS" signature="performActivityWithMultipleDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:cipherApi.performActivity@71bbf57e]" name="performActivityWithMultipleDataSet" duration-ms="185" started-at="2022-02-14T16:39:07 IST" data-provider="testData" finished-at="2022-02-14T16:39:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bank07]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9823242532]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11111111111117]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[f3ef2be4fe00ec78]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[192.168.2.10]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.6]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[BalanceInquiry]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[c954eadb-c395-43ec-a117-7bfd4fffa25a]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[HTTP/1.1 400 Bad Request]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[No key c954eadb-c395-43ec-a117-7bfd4fffa25a found in Redis]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performActivityWithMultipleDataSet -->
+        <test-method status="SKIP" signature="performActivityWithMultipleDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:cipherApi.performActivity@71bbf57e]" name="performActivityWithMultipleDataSet" duration-ms="171" retried="true" started-at="2022-02-14T16:39:07 IST" data-provider="testData" finished-at="2022-02-14T16:39:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bank08]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9823242533]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22222222222227]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[f3ef2be4fe00ec79]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[192.168.2.11]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.7]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[c954eadb-c395-43ec-a117-7bfd4fffa25a]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[HTTP/1.1 400 Bad Request]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[No key 22222222222227 found in Redis]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:819)
+at org.testng.Assert.assertEquals(Assert.java:829)
+at cipherApi.performActivity.performActivityWithMultipleDataSet(performActivity.java:109)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performActivityWithMultipleDataSet -->
+        <test-method status="FAIL" signature="performActivityWithMultipleDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:cipherApi.performActivity@71bbf57e]" name="performActivityWithMultipleDataSet" duration-ms="174" started-at="2022-02-14T16:39:07 IST" data-provider="testData" finished-at="2022-02-14T16:39:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bank08]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9823242533]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22222222222227]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[f3ef2be4fe00ec79]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[192.168.2.11]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.7]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[c954eadb-c395-43ec-a117-7bfd4fffa25a]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[HTTP/1.1 400 Bad Request]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[No key 22222222222227 found in Redis]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:819)
+at org.testng.Assert.assertEquals(Assert.java:829)
+at cipherApi.performActivity.performActivityWithMultipleDataSet(performActivity.java:109)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performActivityWithMultipleDataSet -->
+        <test-method status="PASS" signature="performActivityWithMultipleDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:cipherApi.performActivity@71bbf57e]" name="performActivityWithMultipleDataSet" duration-ms="162" started-at="2022-02-14T16:39:08 IST" data-provider="testData" finished-at="2022-02-14T16:39:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bank09]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9823242534]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11111111111119]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[f3ef2be4fe00ec80]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[19]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[192.168.2.12]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.8]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[HTTP/1.1 400 Bad Request]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Error in calling performActivity]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performActivityWithMultipleDataSet -->
+      </class> <!-- cipherApi.performActivity -->
+      <class name="cipherApi.userRegistration">
+        <test-method status="PASS" signature="registrationWithValidToken()[pri:0, instance:cipherApi.userRegistration@7d0587f1]" name="registrationWithValidToken" duration-ms="14941" started-at="2022-02-14T16:38:43 IST" finished-at="2022-02-14T16:38:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registrationWithValidToken -->
-        <test-method status="FAIL" signature="registrationWithInvalidToken()[pri:1, instance:cipherApi.cipherRegistration.userRegistration@1c3a4799]" name="registrationWithInvalidToken" duration-ms="301" started-at="2022-01-21T09:59:21 IST" finished-at="2022-01-21T09:59:22 IST">
+        <test-method status="SKIP" signature="registrationWithInvalidToken()[pri:1, instance:cipherApi.userRegistration@7d0587f1]" name="registrationWithInvalidToken" duration-ms="226" retried="true" started-at="2022-02-14T16:38:58 IST" finished-at="2022-02-14T16:38:58 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
-Expected status code <404> but was <400>.
+Expected status code <400> but was <200>.
 ]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: 1 expectation failed.
-Expected status code <404> but was <400>.
+Expected status code <400> but was <200>.
 
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -62,7 +931,7 @@ at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
 at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
 at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
 at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-at cipherApi.cipherRegistration.userRegistration.registrationWithInvalidToken(userRegistration.java:70)
+at cipherApi.userRegistration.registrationWithInvalidToken(userRegistration.java:81)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -96,21 +965,2326 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registrationWithInvalidToken -->
-      </class> <!-- cipherApi.cipherRegistration.userRegistration -->
-      <class name="cipherApi.cipherLogin.userLogin">
-        <test-method status="PASS" signature="loginData()[pri:0, instance:cipherApi.cipherLogin.userLogin@2a17b7b6]" name="loginData" is-config="true" duration-ms="669" started-at="2022-01-21T09:59:15 IST" finished-at="2022-01-21T09:59:16 IST">
+        <test-method status="FAIL" signature="registrationWithInvalidToken()[pri:1, instance:cipherApi.userRegistration@7d0587f1]" name="registrationWithInvalidToken" duration-ms="292" started-at="2022-02-14T16:38:58 IST" finished-at="2022-02-14T16:38:58 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <400> but was <200>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <400> but was <200>.
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+at cipherApi.userRegistration.registrationWithInvalidToken(userRegistration.java:81)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginData -->
-        <test-method status="PASS" signature="loginWithValidToken()[pri:0, instance:cipherApi.cipherLogin.userLogin@2a17b7b6]" name="loginWithValidToken" duration-ms="4461" started-at="2022-01-21T09:59:16 IST" finished-at="2022-01-21T09:59:21 IST">
+        </test-method> <!-- registrationWithInvalidToken -->
+        <test-method status="PASS" signature="registrationWithMultipleDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:cipherApi.userRegistration@7d0587f1]" name="registrationWithMultipleDataSet" duration-ms="212" started-at="2022-02-14T16:38:58 IST" data-provider="testData" finished-at="2022-02-14T16:38:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HDFC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[f3ef2be4fe00ec72]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[192.168.2.4]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[HTTP/1.1 200 OK]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[User 11111 registered successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationWithMultipleDataSet -->
+        <test-method status="PASS" signature="registrationWithMultipleDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:cipherApi.userRegistration@7d0587f1]" name="registrationWithMultipleDataSet" duration-ms="432" started-at="2022-02-14T16:38:59 IST" data-provider="testData" finished-at="2022-02-14T16:38:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bank01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9823242526]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11112]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[f3ef2be4fe00ec72]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[192.168.2.4]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[HTTP/1.1 200 OK]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[User 11112 registered successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationWithMultipleDataSet -->
+        <test-method status="PASS" signature="registrationWithMultipleDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:cipherApi.userRegistration@7d0587f1]" name="registrationWithMultipleDataSet" duration-ms="140" started-at="2022-02-14T16:38:59 IST" data-provider="testData" finished-at="2022-02-14T16:38:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bank02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9823242527]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11113]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[f3ef2be4fe00ec73]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[192.168.2.5]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.1]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[HTTP/1.1 200 OK]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[User 11113 registered successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationWithMultipleDataSet -->
+        <test-method status="PASS" signature="registrationWithMultipleDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:cipherApi.userRegistration@7d0587f1]" name="registrationWithMultipleDataSet" duration-ms="103" started-at="2022-02-14T16:38:59 IST" data-provider="testData" finished-at="2022-02-14T16:38:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bank03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9823242528]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11114]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[f3ef2be4fe00ec74]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[192.168.2.6]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.2]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[HTTP/1.1 200 OK]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[User 11114 registered successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationWithMultipleDataSet -->
+        <test-method status="PASS" signature="registrationWithMultipleDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:cipherApi.userRegistration@7d0587f1]" name="registrationWithMultipleDataSet" duration-ms="160" started-at="2022-02-14T16:38:59 IST" data-provider="testData" finished-at="2022-02-14T16:38:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bank04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9823242529]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11115]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[f3ef2be4fe00ec75]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[192.168.2.7]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.3]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[HTTP/1.1 200 OK]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[User 11115 registered successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationWithMultipleDataSet -->
+        <test-method status="PASS" signature="registrationWithMultipleDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:cipherApi.userRegistration@7d0587f1]" name="registrationWithMultipleDataSet" duration-ms="161" started-at="2022-02-14T16:38:59 IST" data-provider="testData" finished-at="2022-02-14T16:39:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bank05]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9823242530]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11116]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[f3ef2be4fe00ec76]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[192.168.2.8]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.4]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[HTTP/1.1 200 OK]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[User 11116 registered successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationWithMultipleDataSet -->
+        <test-method status="PASS" signature="registrationWithMultipleDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:cipherApi.userRegistration@7d0587f1]" name="registrationWithMultipleDataSet" duration-ms="152" started-at="2022-02-14T16:39:00 IST" data-provider="testData" finished-at="2022-02-14T16:39:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bank06]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9823242531]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11117]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[f3ef2be4fe00ec77]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[192.168.2.9]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.5]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[HTTP/1.1 200 OK]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[User 11117 registered successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationWithMultipleDataSet -->
+        <test-method status="PASS" signature="registrationWithMultipleDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:cipherApi.userRegistration@7d0587f1]" name="registrationWithMultipleDataSet" duration-ms="157" started-at="2022-02-14T16:39:00 IST" data-provider="testData" finished-at="2022-02-14T16:39:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bank07]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9823242532]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11118]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[f3ef2be4fe00ec78]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[192.168.2.10]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.6]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[HTTP/1.1 200 OK]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[User 11118 registered successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationWithMultipleDataSet -->
+        <test-method status="PASS" signature="registrationWithMultipleDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:cipherApi.userRegistration@7d0587f1]" name="registrationWithMultipleDataSet" duration-ms="201" started-at="2022-02-14T16:39:00 IST" data-provider="testData" finished-at="2022-02-14T16:39:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bank08]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9823242533]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11119]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[f3ef2be4fe00ec79]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[192.168.2.11]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.7]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[HTTP/1.1 200 OK]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[User 11119 registered successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationWithMultipleDataSet -->
+        <test-method status="PASS" signature="registrationWithMultipleDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:cipherApi.userRegistration@7d0587f1]" name="registrationWithMultipleDataSet" duration-ms="152" started-at="2022-02-14T16:39:00 IST" data-provider="testData" finished-at="2022-02-14T16:39:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bank09]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9823242534]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11120]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[f3ef2be4fe00ec80]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[19]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[192.168.2.12]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.8]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[HTTP/1.1 200 OK]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[User 11120 registered successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationWithMultipleDataSet -->
+      </class> <!-- cipherApi.userRegistration -->
+      <class name="cipherApi.userLogin">
+        <test-method status="PASS" signature="loginWithValidToken(org.testng.ITestContext)[pri:0, instance:cipherApi.userLogin@3fd7a715]" name="loginWithValidToken" duration-ms="2812" started-at="2022-02-14T16:39:00 IST" finished-at="2022-02-14T16:39:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@41b1f51e]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithValidToken -->
-        <test-method status="PASS" signature="loginWithInvalidToken()[pri:1, instance:cipherApi.cipherLogin.userLogin@2a17b7b6]" name="loginWithInvalidToken" duration-ms="327" started-at="2022-01-21T09:59:21 IST" finished-at="2022-01-21T09:59:21 IST">
+        <test-method status="SKIP" signature="loginWithInvalidToken()[pri:1, instance:cipherApi.userLogin@3fd7a715]" name="loginWithInvalidToken" duration-ms="185" retried="true" started-at="2022-02-14T16:39:03 IST" finished-at="2022-02-14T16:39:03 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <400> but was <200>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <400> but was <200>.
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+at cipherApi.userLogin.loginWithInvalidToken(userLogin.java:112)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithInvalidToken -->
-      </class> <!-- cipherApi.cipherLogin.userLogin -->
+        <test-method status="FAIL" signature="loginWithInvalidToken()[pri:1, instance:cipherApi.userLogin@3fd7a715]" name="loginWithInvalidToken" duration-ms="201" started-at="2022-02-14T16:39:03 IST" finished-at="2022-02-14T16:39:04 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <400> but was <200>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <400> but was <200>.
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+at cipherApi.userLogin.loginWithInvalidToken(userLogin.java:112)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidToken -->
+        <test-method status="PASS" signature="loginWithMultipleDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:cipherApi.userLogin@3fd7a715]" name="loginWithMultipleDataSet" duration-ms="160" started-at="2022-02-14T16:39:04 IST" data-provider="testData" finished-at="2022-02-14T16:39:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HDFC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[f3ef2be4fe00ec72]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[192.168.2.4]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[HTTP/1.1 200 OK]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[sessionId]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithMultipleDataSet -->
+        <test-method status="SKIP" signature="loginWithMultipleDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:cipherApi.userLogin@3fd7a715]" name="loginWithMultipleDataSet" duration-ms="197" retried="true" started-at="2022-02-14T16:39:04 IST" data-provider="testData" finished-at="2022-02-14T16:39:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bank01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9823242526]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22222222222221]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[f3ef2be4fe00ec72]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[192.168.2.4]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[HTTP/1.1 400 Bad Request]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[No key 22222222222221 found in Redis]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <400> but was <200>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <400> but was <200>.
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+at sun.reflect.GeneratedMethodAccessor147.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+at cipherApi.userLogin.loginWithMultipleDataSet(userLogin.java:149)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithMultipleDataSet -->
+        <test-method status="FAIL" signature="loginWithMultipleDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:cipherApi.userLogin@3fd7a715]" name="loginWithMultipleDataSet" duration-ms="129" started-at="2022-02-14T16:39:04 IST" data-provider="testData" finished-at="2022-02-14T16:39:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bank01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9823242526]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22222222222221]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[f3ef2be4fe00ec72]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[192.168.2.4]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[HTTP/1.1 400 Bad Request]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[No key 22222222222221 found in Redis]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <400> but was <200>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <400> but was <200>.
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+at sun.reflect.GeneratedMethodAccessor147.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+at cipherApi.userLogin.loginWithMultipleDataSet(userLogin.java:149)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithMultipleDataSet -->
+        <test-method status="PASS" signature="loginWithMultipleDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:cipherApi.userLogin@3fd7a715]" name="loginWithMultipleDataSet" duration-ms="187" started-at="2022-02-14T16:39:04 IST" data-provider="testData" finished-at="2022-02-14T16:39:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bank02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9823242527]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11113]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[f3ef2be4fe00ec73]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[192.168.2.5]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.1]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[HTTP/1.1 200 OK]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[sessionId]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithMultipleDataSet -->
+        <test-method status="PASS" signature="loginWithMultipleDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:cipherApi.userLogin@3fd7a715]" name="loginWithMultipleDataSet" duration-ms="154" started-at="2022-02-14T16:39:04 IST" data-provider="testData" finished-at="2022-02-14T16:39:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bank03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9823242528]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11114]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[f3ef2be4fe00ec74]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[192.168.2.6]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.2]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[HTTP/1.1 200 OK]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[sessionId]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithMultipleDataSet -->
+        <test-method status="PASS" signature="loginWithMultipleDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:cipherApi.userLogin@3fd7a715]" name="loginWithMultipleDataSet" duration-ms="122" started-at="2022-02-14T16:39:04 IST" data-provider="testData" finished-at="2022-02-14T16:39:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bank04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9823242529]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11115]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[f3ef2be4fe00ec75]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[192.168.2.7]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.3]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[HTTP/1.1 200 OK]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[sessionId]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithMultipleDataSet -->
+        <test-method status="PASS" signature="loginWithMultipleDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:cipherApi.userLogin@3fd7a715]" name="loginWithMultipleDataSet" duration-ms="171" started-at="2022-02-14T16:39:05 IST" data-provider="testData" finished-at="2022-02-14T16:39:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bank05]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9823242530]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11116]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[f3ef2be4fe00ec76]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[192.168.2.8]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.4]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[HTTP/1.1 200 OK]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[sessionId]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithMultipleDataSet -->
+        <test-method status="PASS" signature="loginWithMultipleDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:cipherApi.userLogin@3fd7a715]" name="loginWithMultipleDataSet" duration-ms="178" started-at="2022-02-14T16:39:05 IST" data-provider="testData" finished-at="2022-02-14T16:39:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bank06]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9823242531]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11117]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[f3ef2be4fe00ec77]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[192.168.2.9]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.5]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[HTTP/1.1 200 OK]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[sessionId]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithMultipleDataSet -->
+        <test-method status="PASS" signature="loginWithMultipleDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:cipherApi.userLogin@3fd7a715]" name="loginWithMultipleDataSet" duration-ms="128" started-at="2022-02-14T16:39:05 IST" data-provider="testData" finished-at="2022-02-14T16:39:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bank07]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9823242532]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11118]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[f3ef2be4fe00ec78]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[192.168.2.10]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.6]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[HTTP/1.1 200 OK]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[sessionId]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithMultipleDataSet -->
+        <test-method status="SKIP" signature="loginWithMultipleDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:cipherApi.userLogin@3fd7a715]" name="loginWithMultipleDataSet" duration-ms="139" retried="true" started-at="2022-02-14T16:39:05 IST" data-provider="testData" finished-at="2022-02-14T16:39:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bank08]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9823242533]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22222222222228]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[f3ef2be4fe00ec79]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[192.168.2.11]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.7]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[HTTP/1.1 400 Bad Request]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[No key 22222222222228 found in Redis]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <400> but was <200>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <400> but was <200>.
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+at sun.reflect.GeneratedMethodAccessor147.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+at cipherApi.userLogin.loginWithMultipleDataSet(userLogin.java:149)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithMultipleDataSet -->
+        <test-method status="FAIL" signature="loginWithMultipleDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:cipherApi.userLogin@3fd7a715]" name="loginWithMultipleDataSet" duration-ms="170" started-at="2022-02-14T16:39:05 IST" data-provider="testData" finished-at="2022-02-14T16:39:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bank08]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9823242533]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22222222222228]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[f3ef2be4fe00ec79]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[192.168.2.11]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.7]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[HTTP/1.1 400 Bad Request]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[No key 22222222222228 found in Redis]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <400> but was <200>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <400> but was <200>.
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+at sun.reflect.GeneratedMethodAccessor147.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+at cipherApi.userLogin.loginWithMultipleDataSet(userLogin.java:149)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithMultipleDataSet -->
+        <test-method status="SKIP" signature="loginWithMultipleDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:cipherApi.userLogin@3fd7a715]" name="loginWithMultipleDataSet" duration-ms="160" retried="true" started-at="2022-02-14T16:39:05 IST" data-provider="testData" finished-at="2022-02-14T16:39:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bank09]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9823242534]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22222222222229]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[f3ef2be4fe00ec80]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[19]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[192.168.2.12]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.8]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[HTTP/1.1 400 Bad Request]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[No key 22222222222229 found in Redis]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <400> but was <200>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <400> but was <200>.
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+at sun.reflect.GeneratedMethodAccessor147.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+at cipherApi.userLogin.loginWithMultipleDataSet(userLogin.java:149)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithMultipleDataSet -->
+        <test-method status="FAIL" signature="loginWithMultipleDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:cipherApi.userLogin@3fd7a715]" name="loginWithMultipleDataSet" duration-ms="89" started-at="2022-02-14T16:39:06 IST" data-provider="testData" finished-at="2022-02-14T16:39:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bank09]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9823242534]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22222222222229]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[f3ef2be4fe00ec80]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[19]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[192.168.2.12]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.8]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[HTTP/1.1 400 Bad Request]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[No key 22222222222229 found in Redis]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <400> but was <200>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <400> but was <200>.
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+at sun.reflect.GeneratedMethodAccessor147.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+at cipherApi.userLogin.loginWithMultipleDataSet(userLogin.java:149)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithMultipleDataSet -->
+      </class> <!-- cipherApi.userLogin -->
     </test> <!-- /home/suraj/IdeaProjects/cipherApiAutomation -->
   </suite> <!-- All Test Suite -->
 </testng-results>

@@ -1,20 +1,43 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 3.086 s <<< FAILURE! - in TestSuite
-cipherApi.cipherRegistration.userRegistration.registrationWithValidToken  Time elapsed: 1.532 s  <<< FAILURE!
-java.net.ConnectException: Connection refused (Connection refused)
-	at cipherApi.cipherRegistration.userRegistration.registrationWithValidToken(userRegistration.java:35)
+Tests run: 41, Failures: 6, Errors: 0, Skipped: 6, Time elapsed: 10.497 s <<< FAILURE! - in TestSuite
+cipherApi.cipherRegistration.userRegistration.registrationWithInvalidToken  Time elapsed: 0.151 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
 
-cipherApi.cipherRegistration.userRegistration.registrationWithInvalidToken  Time elapsed: 0.061 s  <<< FAILURE!
-java.net.ConnectException: Connection refused (Connection refused)
-	at cipherApi.cipherRegistration.userRegistration.registrationWithInvalidToken(userRegistration.java:60)
+	at cipherApi.cipherRegistration.userRegistration.registrationWithInvalidToken(userRegistration.java:82)
 
-cipherApi.cipherLogin.userLogin.loginWithValidToken  Time elapsed: 0.15 s  <<< FAILURE!
-java.net.ConnectException: Connection refused (Connection refused)
-	at cipherApi.cipherLogin.userLogin.loginWithValidToken(userLogin.java:36)
+cipherApi.cipherLogin.userLogin.loginWithInvalidToken  Time elapsed: 0.244 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
 
-cipherApi.cipherLogin.userLogin.loginWithInvalidToken  Time elapsed: 0.038 s  <<< FAILURE!
-java.net.ConnectException: Connection refused (Connection refused)
-	at cipherApi.cipherLogin.userLogin.loginWithInvalidToken(userLogin.java:65)
+	at cipherApi.cipherLogin.userLogin.loginWithInvalidToken(userLogin.java:100)
+
+cipherApi.cipherLogin.userLogin.loginWithMultipleDataSet[bank01, 9823242526, 22222222222221, f3ef2be4fe00ec72, android, 11, 192.168.2.4, 1.0, , , 400, HTTP/1.1 400 Bad Request, No key 22222222222221 found in Redis](3)  Time elapsed: 0.205 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+	at cipherApi.cipherLogin.userLogin.loginWithMultipleDataSet(userLogin.java:149)
+
+cipherApi.cipherLogin.userLogin.loginWithMultipleDataSet[bank08, 9823242533, 22222222222228, f3ef2be4fe00ec79, android, 18, 192.168.2.11, 1.7, , , 400, HTTP/1.1 400 Bad Request, No key 22222222222228 found in Redis](11)  Time elapsed: 0.164 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+	at cipherApi.cipherLogin.userLogin.loginWithMultipleDataSet(userLogin.java:149)
+
+cipherApi.cipherLogin.userLogin.loginWithMultipleDataSet[bank09, 9823242534, 22222222222229, f3ef2be4fe00ec80, android, 19, 192.168.2.12, 1.8, , , 400, HTTP/1.1 400 Bad Request, No key 22222222222229 found in Redis](13)  Time elapsed: 0.137 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+	at cipherApi.cipherLogin.userLogin.loginWithMultipleDataSet(userLogin.java:149)
+
+cipherApi.cipherPerformActivity.performActivity.performActivityWithMultipleDataSet[bank08, 9823242533, 22222222222227, f3ef2be4fe00ec79, android, 18, 192.168.2.11, 1.7, , c954eadb-c395-43ec-a117-7bfd4fffa25a, 400, HTTP/1.1 400 Bad Request, No key 22222222222227 found in Redis](10)  Time elapsed: 0.141 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at cipherApi.cipherPerformActivity.performActivity.performActivityWithMultipleDataSet(performActivity.java:97)
 

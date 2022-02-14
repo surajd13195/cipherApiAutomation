@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
   <test thread-count="5" name="cipherApiAutomation(failed)">
     <classes>
-      <class name="cipherApi.cipherLogin.userLogin">
+      <class name="cipherApi.userLogin">
         <methods>
           <include name="login"/>
           <include name="registrationData"/>
         </methods>
-      </class> <!-- cipherApi.cipherLogin.userLogin -->
+      </class> <!-- cipherApi.userLogin -->
       <class name="testApi.oAuth2.oAuth2NotHardCodedToken">
         <methods>
           <include name="postData"/>

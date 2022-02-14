@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="3.086" tests="4" errors="0" skipped="0" failures="4">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="10.497" tests="41" errors="0" skipped="6" failures="6">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -7,7 +7,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/suraj/IdeaProjects/cipherApiAutomation/target/test-classes:/home/suraj/IdeaProjects/cipherApiAutomation/target/classes:/home/suraj/.m2/repository/io/rest-assured/rest-assured/4.4.0/rest-assured-4.4.0.jar:/home/suraj/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8.jar:/home/suraj/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.8/groovy-xml-3.0.8.jar:/home/suraj/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/suraj/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/home/suraj/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/suraj/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/home/suraj/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/home/suraj/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/home/suraj/.m2/repository/io/rest-assured/json-schema-validator/4.4.0/json-schema-validator-4.4.0.jar:/home/suraj/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/home/suraj/.m2/repository/com/google/guava/guava/28.2-android/guava-28.2-android.jar:/home/suraj/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/suraj/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/suraj/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/home/suraj/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/home/suraj/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/suraj/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/home/suraj/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.jar:/home/suraj/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar:/home/suraj/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0.jar:/home/suraj/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/home/suraj/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/home/suraj/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/home/suraj/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/home/suraj/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/home/suraj/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/home/suraj/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/home/suraj/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/home/suraj/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/home/suraj/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/suraj/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/suraj/.m2/repository/io/rest-assured/json-path/4.4.0/json-path-4.4.0.jar:/home/suraj/.m2/repository/org/codehaus/groovy/groovy-json/3.0.8/groovy-json-3.0.8.jar:/home/suraj/.m2/repository/io/rest-assured/rest-assured-common/4.4.0/rest-assured-common-4.4.0.jar:/home/suraj/.m2/repository/io/rest-assured/xml-path/4.4.0/xml-path-4.4.0.jar:/home/suraj/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/home/suraj/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/home/suraj/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/home/suraj/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/home/suraj/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/home/suraj/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/home/suraj/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/home/suraj/.m2/repository/org/hamcrest/java-hamcrest/2.0.0.0/java-hamcrest-2.0.0.0.jar:/home/suraj/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:/home/suraj/.m2/repository/org/hamcrest/hamcrest-library/2.2/hamcrest-library-2.2.jar:/home/suraj/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M5/maven-surefire-plugin-3.0.0-M5.jar:/home/suraj/.m2/repository/org/apache/maven/surefire/maven-surefire-common/3.0.0-M5/maven-surefire-common-3.0.0-M5.jar:/home/suraj/.m2/repository/org/apache/maven/surefire/surefire-api/3.0.0-M5/surefire-api-3.0.0-M5.jar:/home/suraj/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.0.0-M5/surefire-logger-api-3.0.0-M5.jar:/home/suraj/.m2/repository/org/apache/maven/surefire/surefire-extensions-api/3.0.0-M5/surefire-extensions-api-3.0.0-M5.jar:/home/suraj/.m2/repository/org/apache/maven/surefire/surefire-booter/3.0.0-M5/surefire-booter-3.0.0-M5.jar:/home/suraj/.m2/repository/org/apache/maven/surefire/surefire-extensions-spi/3.0.0-M5/surefire-extensions-spi-3.0.0-M5.jar:/home/suraj/.m2/repository/org/apache/maven/maven-toolchain/3.0-alpha-2/maven-toolchain-3.0-alpha-2.jar:/home/suraj/.m2/repository/org/apache/maven/shared/maven-artifact-transfer/0.11.0/maven-artifact-transfer-0.11.0.jar:/home/suraj/.m2/repository/org/apache/maven/shared/maven-common-artifact-filters/3.0.1/maven-common-artifact-filters-3.0.1.jar:/home/suraj/.m2/repository/org/apache/maven/surefire/surefire-shared-utils/3.0.0-M4/surefire-shared-utils-3.0.0-M4.jar:/home/suraj/.m2/repository/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.jar:/home/suraj/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar:/home/suraj/.m2/repository/org/apache/maven/maven-model/3.0/maven-model-3.0.jar:/home/suraj/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar:/home/suraj/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar:/home/suraj/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar:/home/suraj/.m2/repository/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar:/home/suraj/.m2/repository/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.jar:/home/suraj/.m2/repository/org/apache/maven/maven-core/3.0/maven-core-3.0.jar:/home/suraj/.m2/repository/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar:/home/suraj/.m2/repository/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar:/home/suraj/.m2/repository/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar:/home/suraj/.m2/repository/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar:/home/suraj/.m2/repository/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.jar:/home/suraj/.m2/repository/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar:/home/suraj/.m2/repository/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar:/home/suraj/.m2/repository/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar:/home/suraj/.m2/repository/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar:/home/suraj/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar:/home/suraj/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar:/home/suraj/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/home/suraj/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/home/suraj/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/home/suraj/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar:/home/suraj/.m2/repository/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar:/home/suraj/.m2/repository/org/codehaus/plexus/plexus-java/0.9.10/plexus-java-0.9.10.jar:/home/suraj/.m2/repository/org/ow2/asm/asm/6.2/asm-6.2.jar:/home/suraj/.m2/repository/com/thoughtworks/qdox/qdox/2.0-M8/qdox-2.0-M8.jar:/home/suraj/.m2/repository/org/codehaus/plexus/plexus-compiler-api/2.8.4/plexus-compiler-api-2.8.4.jar:/home/suraj/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.8.4/plexus-compiler-manager-2.8.4.jar:/home/suraj/.m2/repository/org/codehaus/plexus/plexus-compiler-javac/2.8.4/plexus-compiler-javac-2.8.4.jar:/home/suraj/.m2/repository/org/apache/poi/poi/5.1.0/poi-5.1.0.jar:/home/suraj/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/home/suraj/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/home/suraj/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/home/suraj/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/home/suraj/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/home/suraj/.m2/repository/org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1.jar:/home/suraj/.m2/repository/org/apache/poi/poi-ooxml/5.1.0/poi-ooxml-5.1.0.jar:/home/suraj/.m2/repository/org/apache/poi/poi-ooxml-lite/5.1.0/poi-ooxml-lite-5.1.0.jar:/home/suraj/.m2/repository/org/apache/xmlbeans/xmlbeans/5.0.2/xmlbeans-5.0.2.jar:/home/suraj/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/home/suraj/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/home/suraj/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/home/suraj/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.8.2/log4j-to-slf4j-2.8.2.jar:/home/suraj/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/home/suraj/.m2/repository/org/slf4j/slf4j-simple/1.7.32/slf4j-simple-1.7.32.jar:/home/suraj/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:"/>
+    <property name="java.class.path" value="/home/suraj/IdeaProjects/cipherApiAutomation/target/test-classes:/home/suraj/IdeaProjects/cipherApiAutomation/target/classes:/home/suraj/.m2/repository/io/rest-assured/rest-assured/4.4.0/rest-assured-4.4.0.jar:/home/suraj/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8.jar:/home/suraj/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.8/groovy-xml-3.0.8.jar:/home/suraj/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/suraj/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/home/suraj/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/suraj/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/home/suraj/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/home/suraj/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/home/suraj/.m2/repository/io/rest-assured/json-schema-validator/4.4.0/json-schema-validator-4.4.0.jar:/home/suraj/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/home/suraj/.m2/repository/com/google/guava/guava/28.2-android/guava-28.2-android.jar:/home/suraj/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/suraj/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/suraj/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/home/suraj/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/home/suraj/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/suraj/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/home/suraj/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.jar:/home/suraj/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar:/home/suraj/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0.jar:/home/suraj/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/home/suraj/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/home/suraj/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/home/suraj/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/home/suraj/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/home/suraj/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/home/suraj/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/home/suraj/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/home/suraj/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/home/suraj/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/suraj/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/suraj/.m2/repository/io/rest-assured/json-path/4.4.0/json-path-4.4.0.jar:/home/suraj/.m2/repository/org/codehaus/groovy/groovy-json/3.0.8/groovy-json-3.0.8.jar:/home/suraj/.m2/repository/io/rest-assured/rest-assured-common/4.4.0/rest-assured-common-4.4.0.jar:/home/suraj/.m2/repository/io/rest-assured/xml-path/4.4.0/xml-path-4.4.0.jar:/home/suraj/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/home/suraj/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/home/suraj/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/home/suraj/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/home/suraj/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/home/suraj/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/home/suraj/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/home/suraj/.m2/repository/org/hamcrest/java-hamcrest/2.0.0.0/java-hamcrest-2.0.0.0.jar:/home/suraj/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:/home/suraj/.m2/repository/org/hamcrest/hamcrest-library/2.2/hamcrest-library-2.2.jar:/home/suraj/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M5/maven-surefire-plugin-3.0.0-M5.jar:/home/suraj/.m2/repository/org/apache/maven/surefire/maven-surefire-common/3.0.0-M5/maven-surefire-common-3.0.0-M5.jar:/home/suraj/.m2/repository/org/apache/maven/surefire/surefire-api/3.0.0-M5/surefire-api-3.0.0-M5.jar:/home/suraj/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.0.0-M5/surefire-logger-api-3.0.0-M5.jar:/home/suraj/.m2/repository/org/apache/maven/surefire/surefire-extensions-api/3.0.0-M5/surefire-extensions-api-3.0.0-M5.jar:/home/suraj/.m2/repository/org/apache/maven/surefire/surefire-booter/3.0.0-M5/surefire-booter-3.0.0-M5.jar:/home/suraj/.m2/repository/org/apache/maven/surefire/surefire-extensions-spi/3.0.0-M5/surefire-extensions-spi-3.0.0-M5.jar:/home/suraj/.m2/repository/org/apache/maven/maven-toolchain/3.0-alpha-2/maven-toolchain-3.0-alpha-2.jar:/home/suraj/.m2/repository/org/apache/maven/shared/maven-artifact-transfer/0.11.0/maven-artifact-transfer-0.11.0.jar:/home/suraj/.m2/repository/org/apache/maven/shared/maven-common-artifact-filters/3.0.1/maven-common-artifact-filters-3.0.1.jar:/home/suraj/.m2/repository/org/apache/maven/surefire/surefire-shared-utils/3.0.0-M4/surefire-shared-utils-3.0.0-M4.jar:/home/suraj/.m2/repository/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.jar:/home/suraj/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar:/home/suraj/.m2/repository/org/apache/maven/maven-model/3.0/maven-model-3.0.jar:/home/suraj/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar:/home/suraj/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar:/home/suraj/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar:/home/suraj/.m2/repository/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar:/home/suraj/.m2/repository/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.jar:/home/suraj/.m2/repository/org/apache/maven/maven-core/3.0/maven-core-3.0.jar:/home/suraj/.m2/repository/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar:/home/suraj/.m2/repository/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar:/home/suraj/.m2/repository/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar:/home/suraj/.m2/repository/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar:/home/suraj/.m2/repository/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.jar:/home/suraj/.m2/repository/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar:/home/suraj/.m2/repository/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar:/home/suraj/.m2/repository/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar:/home/suraj/.m2/repository/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar:/home/suraj/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar:/home/suraj/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar:/home/suraj/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/home/suraj/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/home/suraj/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/home/suraj/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar:/home/suraj/.m2/repository/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar:/home/suraj/.m2/repository/org/codehaus/plexus/plexus-java/0.9.10/plexus-java-0.9.10.jar:/home/suraj/.m2/repository/org/ow2/asm/asm/6.2/asm-6.2.jar:/home/suraj/.m2/repository/com/thoughtworks/qdox/qdox/2.0-M8/qdox-2.0-M8.jar:/home/suraj/.m2/repository/org/codehaus/plexus/plexus-compiler-api/2.8.4/plexus-compiler-api-2.8.4.jar:/home/suraj/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.8.4/plexus-compiler-manager-2.8.4.jar:/home/suraj/.m2/repository/org/codehaus/plexus/plexus-compiler-javac/2.8.4/plexus-compiler-javac-2.8.4.jar:/home/suraj/.m2/repository/org/apache/poi/poi/5.1.0/poi-5.1.0.jar:/home/suraj/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/home/suraj/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/home/suraj/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/home/suraj/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/home/suraj/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/home/suraj/.m2/repository/org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1.jar:/home/suraj/.m2/repository/org/apache/poi/poi-ooxml/5.1.0/poi-ooxml-5.1.0.jar:/home/suraj/.m2/repository/org/apache/poi/poi-ooxml-lite/5.1.0/poi-ooxml-lite-5.1.0.jar:/home/suraj/.m2/repository/org/apache/xmlbeans/xmlbeans/5.0.2/xmlbeans-5.0.2.jar:/home/suraj/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/home/suraj/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/home/suraj/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/home/suraj/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.8.2/log4j-to-slf4j-2.8.2.jar:/home/suraj/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/home/suraj/.m2/repository/org/slf4j/slf4j-simple/1.7.32/slf4j-simple-1.7.32.jar:/home/suraj/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/home/suraj/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/home/suraj/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/home/suraj/.m2/repository/io/netty/netty-buffer/4.1.60.Final/netty-buffer-4.1.60.Final.jar:/home/suraj/.m2/repository/io/netty/netty-codec-http/4.1.60.Final/netty-codec-http-4.1.60.Final.jar:/home/suraj/.m2/repository/io/netty/netty-common/4.1.60.Final/netty-common-4.1.60.Final.jar:/home/suraj/.m2/repository/io/netty/netty-transport/4.1.60.Final/netty-transport-4.1.60.Final.jar:/home/suraj/.m2/repository/io/netty/netty-codec/4.1.60.Final/netty-codec-4.1.60.Final.jar:/home/suraj/.m2/repository/io/netty/netty-handler/4.1.60.Final/netty-handler-4.1.60.Final.jar:/home/suraj/.m2/repository/io/netty/netty-resolver/4.1.60.Final/netty-resolver-4.1.60.Final.jar:/home/suraj/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/home/suraj/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/home/suraj/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/home/suraj/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.60.Final/netty-transport-native-unix-common-4.1.60.Final.jar:/home/suraj/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/home/suraj/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/home/suraj/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/home/suraj/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:"/>
     <property name="java.vm.vendor" value="Private Build"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
@@ -17,8 +17,8 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
-    <property name="sun.java.command" value="/home/suraj/IdeaProjects/cipherApiAutomation/target/surefire/surefirebooter1033893548764762524.jar /home/suraj/IdeaProjects/cipherApiAutomation/target/surefire 2022-01-19T16-14-40_976-jvmRun1 surefire5616990034914072640tmp surefire_03469441270359459125tmp"/>
-    <property name="surefire.test.class.path" value="/home/suraj/IdeaProjects/cipherApiAutomation/target/test-classes:/home/suraj/IdeaProjects/cipherApiAutomation/target/classes:/home/suraj/.m2/repository/io/rest-assured/rest-assured/4.4.0/rest-assured-4.4.0.jar:/home/suraj/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8.jar:/home/suraj/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.8/groovy-xml-3.0.8.jar:/home/suraj/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/suraj/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/home/suraj/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/suraj/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/home/suraj/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/home/suraj/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/home/suraj/.m2/repository/io/rest-assured/json-schema-validator/4.4.0/json-schema-validator-4.4.0.jar:/home/suraj/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/home/suraj/.m2/repository/com/google/guava/guava/28.2-android/guava-28.2-android.jar:/home/suraj/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/suraj/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/suraj/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/home/suraj/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/home/suraj/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/suraj/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/home/suraj/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.jar:/home/suraj/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar:/home/suraj/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0.jar:/home/suraj/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/home/suraj/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/home/suraj/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/home/suraj/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/home/suraj/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/home/suraj/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/home/suraj/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/home/suraj/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/home/suraj/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/home/suraj/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/suraj/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/suraj/.m2/repository/io/rest-assured/json-path/4.4.0/json-path-4.4.0.jar:/home/suraj/.m2/repository/org/codehaus/groovy/groovy-json/3.0.8/groovy-json-3.0.8.jar:/home/suraj/.m2/repository/io/rest-assured/rest-assured-common/4.4.0/rest-assured-common-4.4.0.jar:/home/suraj/.m2/repository/io/rest-assured/xml-path/4.4.0/xml-path-4.4.0.jar:/home/suraj/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/home/suraj/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/home/suraj/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/home/suraj/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/home/suraj/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/home/suraj/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/home/suraj/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/home/suraj/.m2/repository/org/hamcrest/java-hamcrest/2.0.0.0/java-hamcrest-2.0.0.0.jar:/home/suraj/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:/home/suraj/.m2/repository/org/hamcrest/hamcrest-library/2.2/hamcrest-library-2.2.jar:/home/suraj/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M5/maven-surefire-plugin-3.0.0-M5.jar:/home/suraj/.m2/repository/org/apache/maven/surefire/maven-surefire-common/3.0.0-M5/maven-surefire-common-3.0.0-M5.jar:/home/suraj/.m2/repository/org/apache/maven/surefire/surefire-api/3.0.0-M5/surefire-api-3.0.0-M5.jar:/home/suraj/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.0.0-M5/surefire-logger-api-3.0.0-M5.jar:/home/suraj/.m2/repository/org/apache/maven/surefire/surefire-extensions-api/3.0.0-M5/surefire-extensions-api-3.0.0-M5.jar:/home/suraj/.m2/repository/org/apache/maven/surefire/surefire-booter/3.0.0-M5/surefire-booter-3.0.0-M5.jar:/home/suraj/.m2/repository/org/apache/maven/surefire/surefire-extensions-spi/3.0.0-M5/surefire-extensions-spi-3.0.0-M5.jar:/home/suraj/.m2/repository/org/apache/maven/maven-toolchain/3.0-alpha-2/maven-toolchain-3.0-alpha-2.jar:/home/suraj/.m2/repository/org/apache/maven/shared/maven-artifact-transfer/0.11.0/maven-artifact-transfer-0.11.0.jar:/home/suraj/.m2/repository/org/apache/maven/shared/maven-common-artifact-filters/3.0.1/maven-common-artifact-filters-3.0.1.jar:/home/suraj/.m2/repository/org/apache/maven/surefire/surefire-shared-utils/3.0.0-M4/surefire-shared-utils-3.0.0-M4.jar:/home/suraj/.m2/repository/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.jar:/home/suraj/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar:/home/suraj/.m2/repository/org/apache/maven/maven-model/3.0/maven-model-3.0.jar:/home/suraj/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar:/home/suraj/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar:/home/suraj/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar:/home/suraj/.m2/repository/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar:/home/suraj/.m2/repository/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.jar:/home/suraj/.m2/repository/org/apache/maven/maven-core/3.0/maven-core-3.0.jar:/home/suraj/.m2/repository/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar:/home/suraj/.m2/repository/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar:/home/suraj/.m2/repository/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar:/home/suraj/.m2/repository/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar:/home/suraj/.m2/repository/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.jar:/home/suraj/.m2/repository/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar:/home/suraj/.m2/repository/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar:/home/suraj/.m2/repository/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar:/home/suraj/.m2/repository/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar:/home/suraj/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar:/home/suraj/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar:/home/suraj/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/home/suraj/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/home/suraj/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/home/suraj/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar:/home/suraj/.m2/repository/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar:/home/suraj/.m2/repository/org/codehaus/plexus/plexus-java/0.9.10/plexus-java-0.9.10.jar:/home/suraj/.m2/repository/org/ow2/asm/asm/6.2/asm-6.2.jar:/home/suraj/.m2/repository/com/thoughtworks/qdox/qdox/2.0-M8/qdox-2.0-M8.jar:/home/suraj/.m2/repository/org/codehaus/plexus/plexus-compiler-api/2.8.4/plexus-compiler-api-2.8.4.jar:/home/suraj/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.8.4/plexus-compiler-manager-2.8.4.jar:/home/suraj/.m2/repository/org/codehaus/plexus/plexus-compiler-javac/2.8.4/plexus-compiler-javac-2.8.4.jar:/home/suraj/.m2/repository/org/apache/poi/poi/5.1.0/poi-5.1.0.jar:/home/suraj/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/home/suraj/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/home/suraj/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/home/suraj/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/home/suraj/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/home/suraj/.m2/repository/org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1.jar:/home/suraj/.m2/repository/org/apache/poi/poi-ooxml/5.1.0/poi-ooxml-5.1.0.jar:/home/suraj/.m2/repository/org/apache/poi/poi-ooxml-lite/5.1.0/poi-ooxml-lite-5.1.0.jar:/home/suraj/.m2/repository/org/apache/xmlbeans/xmlbeans/5.0.2/xmlbeans-5.0.2.jar:/home/suraj/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/home/suraj/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/home/suraj/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/home/suraj/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.8.2/log4j-to-slf4j-2.8.2.jar:/home/suraj/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/home/suraj/.m2/repository/org/slf4j/slf4j-simple/1.7.32/slf4j-simple-1.7.32.jar:/home/suraj/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:"/>
+    <property name="sun.java.command" value="/home/suraj/IdeaProjects/cipherApiAutomation/target/surefire/surefirebooter542725990117981347.jar /home/suraj/IdeaProjects/cipherApiAutomation/target/surefire 2022-02-07T10-30-16_204-jvmRun1 surefire5342118058167900750tmp surefire_07936144940528176989tmp"/>
+    <property name="surefire.test.class.path" value="/home/suraj/IdeaProjects/cipherApiAutomation/target/test-classes:/home/suraj/IdeaProjects/cipherApiAutomation/target/classes:/home/suraj/.m2/repository/io/rest-assured/rest-assured/4.4.0/rest-assured-4.4.0.jar:/home/suraj/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8.jar:/home/suraj/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.8/groovy-xml-3.0.8.jar:/home/suraj/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/suraj/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/home/suraj/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/suraj/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/home/suraj/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/home/suraj/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/home/suraj/.m2/repository/io/rest-assured/json-schema-validator/4.4.0/json-schema-validator-4.4.0.jar:/home/suraj/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/home/suraj/.m2/repository/com/google/guava/guava/28.2-android/guava-28.2-android.jar:/home/suraj/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/suraj/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/suraj/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/home/suraj/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/home/suraj/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/suraj/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/home/suraj/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.jar:/home/suraj/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar:/home/suraj/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0.jar:/home/suraj/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/home/suraj/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/home/suraj/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/home/suraj/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/home/suraj/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/home/suraj/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/home/suraj/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/home/suraj/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/home/suraj/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/home/suraj/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/suraj/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/suraj/.m2/repository/io/rest-assured/json-path/4.4.0/json-path-4.4.0.jar:/home/suraj/.m2/repository/org/codehaus/groovy/groovy-json/3.0.8/groovy-json-3.0.8.jar:/home/suraj/.m2/repository/io/rest-assured/rest-assured-common/4.4.0/rest-assured-common-4.4.0.jar:/home/suraj/.m2/repository/io/rest-assured/xml-path/4.4.0/xml-path-4.4.0.jar:/home/suraj/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/home/suraj/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/home/suraj/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/home/suraj/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/home/suraj/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/home/suraj/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/home/suraj/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/home/suraj/.m2/repository/org/hamcrest/java-hamcrest/2.0.0.0/java-hamcrest-2.0.0.0.jar:/home/suraj/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:/home/suraj/.m2/repository/org/hamcrest/hamcrest-library/2.2/hamcrest-library-2.2.jar:/home/suraj/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M5/maven-surefire-plugin-3.0.0-M5.jar:/home/suraj/.m2/repository/org/apache/maven/surefire/maven-surefire-common/3.0.0-M5/maven-surefire-common-3.0.0-M5.jar:/home/suraj/.m2/repository/org/apache/maven/surefire/surefire-api/3.0.0-M5/surefire-api-3.0.0-M5.jar:/home/suraj/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.0.0-M5/surefire-logger-api-3.0.0-M5.jar:/home/suraj/.m2/repository/org/apache/maven/surefire/surefire-extensions-api/3.0.0-M5/surefire-extensions-api-3.0.0-M5.jar:/home/suraj/.m2/repository/org/apache/maven/surefire/surefire-booter/3.0.0-M5/surefire-booter-3.0.0-M5.jar:/home/suraj/.m2/repository/org/apache/maven/surefire/surefire-extensions-spi/3.0.0-M5/surefire-extensions-spi-3.0.0-M5.jar:/home/suraj/.m2/repository/org/apache/maven/maven-toolchain/3.0-alpha-2/maven-toolchain-3.0-alpha-2.jar:/home/suraj/.m2/repository/org/apache/maven/shared/maven-artifact-transfer/0.11.0/maven-artifact-transfer-0.11.0.jar:/home/suraj/.m2/repository/org/apache/maven/shared/maven-common-artifact-filters/3.0.1/maven-common-artifact-filters-3.0.1.jar:/home/suraj/.m2/repository/org/apache/maven/surefire/surefire-shared-utils/3.0.0-M4/surefire-shared-utils-3.0.0-M4.jar:/home/suraj/.m2/repository/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.jar:/home/suraj/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar:/home/suraj/.m2/repository/org/apache/maven/maven-model/3.0/maven-model-3.0.jar:/home/suraj/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar:/home/suraj/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar:/home/suraj/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar:/home/suraj/.m2/repository/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar:/home/suraj/.m2/repository/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.jar:/home/suraj/.m2/repository/org/apache/maven/maven-core/3.0/maven-core-3.0.jar:/home/suraj/.m2/repository/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar:/home/suraj/.m2/repository/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar:/home/suraj/.m2/repository/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar:/home/suraj/.m2/repository/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar:/home/suraj/.m2/repository/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.jar:/home/suraj/.m2/repository/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar:/home/suraj/.m2/repository/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar:/home/suraj/.m2/repository/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar:/home/suraj/.m2/repository/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar:/home/suraj/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar:/home/suraj/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar:/home/suraj/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/home/suraj/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/home/suraj/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/home/suraj/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar:/home/suraj/.m2/repository/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar:/home/suraj/.m2/repository/org/codehaus/plexus/plexus-java/0.9.10/plexus-java-0.9.10.jar:/home/suraj/.m2/repository/org/ow2/asm/asm/6.2/asm-6.2.jar:/home/suraj/.m2/repository/com/thoughtworks/qdox/qdox/2.0-M8/qdox-2.0-M8.jar:/home/suraj/.m2/repository/org/codehaus/plexus/plexus-compiler-api/2.8.4/plexus-compiler-api-2.8.4.jar:/home/suraj/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.8.4/plexus-compiler-manager-2.8.4.jar:/home/suraj/.m2/repository/org/codehaus/plexus/plexus-compiler-javac/2.8.4/plexus-compiler-javac-2.8.4.jar:/home/suraj/.m2/repository/org/apache/poi/poi/5.1.0/poi-5.1.0.jar:/home/suraj/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/home/suraj/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/home/suraj/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/home/suraj/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/home/suraj/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/home/suraj/.m2/repository/org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1.jar:/home/suraj/.m2/repository/org/apache/poi/poi-ooxml/5.1.0/poi-ooxml-5.1.0.jar:/home/suraj/.m2/repository/org/apache/poi/poi-ooxml-lite/5.1.0/poi-ooxml-lite-5.1.0.jar:/home/suraj/.m2/repository/org/apache/xmlbeans/xmlbeans/5.0.2/xmlbeans-5.0.2.jar:/home/suraj/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/home/suraj/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/home/suraj/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/home/suraj/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.8.2/log4j-to-slf4j-2.8.2.jar:/home/suraj/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/home/suraj/.m2/repository/org/slf4j/slf4j-simple/1.7.32/slf4j-simple-1.7.32.jar:/home/suraj/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/home/suraj/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/home/suraj/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/home/suraj/.m2/repository/io/netty/netty-buffer/4.1.60.Final/netty-buffer-4.1.60.Final.jar:/home/suraj/.m2/repository/io/netty/netty-codec-http/4.1.60.Final/netty-codec-http-4.1.60.Final.jar:/home/suraj/.m2/repository/io/netty/netty-common/4.1.60.Final/netty-common-4.1.60.Final.jar:/home/suraj/.m2/repository/io/netty/netty-transport/4.1.60.Final/netty-transport-4.1.60.Final.jar:/home/suraj/.m2/repository/io/netty/netty-codec/4.1.60.Final/netty-codec-4.1.60.Final.jar:/home/suraj/.m2/repository/io/netty/netty-handler/4.1.60.Final/netty-handler-4.1.60.Final.jar:/home/suraj/.m2/repository/io/netty/netty-resolver/4.1.60.Final/netty-resolver-4.1.60.Final.jar:/home/suraj/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/home/suraj/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/home/suraj/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/home/suraj/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.60.Final/netty-transport-native-unix-common-4.1.60.Final.jar:/home/suraj/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/home/suraj/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/home/suraj/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/home/suraj/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/suraj"/>
     <property name="user.language" value="en"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/suraj/IdeaProjects/cipherApiAutomation/target/surefire/surefirebooter1033893548764762524.jar"/>
+    <property name="surefire.real.class.path" value="/home/suraj/IdeaProjects/cipherApiAutomation/target/surefire/surefirebooter542725990117981347.jar"/>
     <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_312-8u312-b07-0ubuntu1~20.04-b07"/>
@@ -58,34 +58,739 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="registrationWithValidToken" classname="cipherApi.cipherRegistration.userRegistration" time="1.532">
-    <failure message="Connection refused (Connection refused)" type="java.net.ConnectException"><![CDATA[java.net.ConnectException: Connection refused (Connection refused)
-	at cipherApi.cipherRegistration.userRegistration.registrationWithValidToken(userRegistration.java:35)
-]]></failure>
-    <system-out><![CDATA[T21URmc3bfP1NP9/fwob734mGx604DvippfE06v6OCSWnYBAMc2CfCrqe1sSX2ShuCF5Jt8mJo0i7b9PuKw1ZVQI3qxHBhsL/zuYObclVkNljvMK3I/PFhX5gSZIK0Aa0sDkx0LYoPkiVfUFyUAy13K+H/S84VLY0tsrygKX0J98tp90l607xSPqbK10Jv4A3gTnm3J605LuPG/Gc9y0LqR0Y4mxfNWvIp5ON/6DZILGHv6SqmdrYma6PK6I+ls6ZAYewpEmN81wgw/Kp4Jm4oOBNskOWR6dy9A8YmHaX33wZqdNZnv3KGaiPfhFMceRgucmULsx+9kW0sKo8MpSrQ==
+  <testcase name="registrationWithValidToken" classname="cipherApi.cipherRegistration.userRegistration" time="2.065">
+    <system-out><![CDATA[**** Test is started: registrationWithValidToken
+ViNS9bPhdn60WUO70x4uxxKgAfDSXxqPxnKIKw/3n27OO6X7a2MIuF9j+F5BNzLqv5AsSBDXkikFg3g5BikCBDW965NTo1Fq2upANeytKkiPQw6a1Npk4HUl6GotZ3juiyI3lb3sLOxJBOESb432xCMRor2hxiN8d40w9pykKo0HZFWk6PsI0ugeRUOyhsbClDZAeuroHujn6ua2FqENZORnI0a3y7ts9x1seQnP9E9rOb2uDwj4kDnKvrQRpkg3AJVq0R0SaEShgjeHcCH74B5j0tKUwjh+lG5ZMJCft/Yl+UgVLWHcCsxf3GtuzQmdv7JPLsnVDERm3uh/YiJBPk2d4gdaL/IyEGV0uyR0Jbk=
+Decrypted message: {"Level1Token":{"bankId":"HDFC","mobileNumber":"9876543210","crnNumber":{"crnNo":"11111"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec72","deviceOs":"android","deviceOsVersion":"11","deviceIpAddress":"192.168.2.4","bankAppVersion":"1.0"},"sessionId":{"sessionId":""}}}
+HTTP/1.1 200 OK
+Date: Mon, 07 Feb 2022 05:00:19 GMT
+Content-Type: application/json
+Content-Length: 48
+Connection: keep-alive
+
+{
+    "message": "User 11111 registered successfully"
+}
+**** Test is successful: registrationWithValidToken
 ]]></system-out>
   </testcase>
-  <testcase name="registrationWithInvalidToken" classname="cipherApi.cipherRegistration.userRegistration" time="0.061">
-    <failure message="Connection refused (Connection refused)" type="java.net.ConnectException"><![CDATA[java.net.ConnectException: Connection refused (Connection refused)
-	at cipherApi.cipherRegistration.userRegistration.registrationWithInvalidToken(userRegistration.java:60)
-]]></failure>
-    <system-out><![CDATA[Vqu/wqfHBXhSgRN4i3JVyX4mGx604DvippfE06v6OCSWnYBAMc2CfCrqe1sSX2ShuCF5Jt8mJo0i7b9PuKw1ZVQI3qxHBhsL/zuYObclVkNljvMK3I/PFhX5gSZIK0Aa0sDkx0LYoPkiVfUFyUAy13K+H/S84VLY0tsrygKX0J98tp90l607xSPqbK10Jv4A3gTnm3J605LuPG/Gc9y0LqR0Y4mxfNWvIp5ON/6DZILGHv6SqmdrYma6PK6I+ls6ZAYewpEmN81wgw/Kp4Jm4oOBNskOWR6dy9A8YmHaX33wZqdNZnv3KGaiPfhFMceRgucmULsx+9kW0sKo8MpSrQ==
+  <testcase name="registrationWithInvalidToken" classname="cipherApi.cipherRegistration.userRegistration" time="0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;200&gt;.&#10;"/>
+    <system-out><![CDATA[**** Test is started: registrationWithInvalidToken
+ViNS9bPhdn60WUO70x4ux68M1wRTykn29C2Qf6ipQvpb1VJ/CG5LilYn4rABVGxLnswl69EevwaEPE6dyCvAu+jMSbfFGud3FLJ68+aB2J4QZFKFvGVCPXzIendvhSTtCqlQ8VxT9NZWBdIMNiS+gSbgBV+25Rc+j8psM9DXVM8ewuSb1n13b6ptHLdAkLqNKHv5/95u16WWqllQCldaPGpnldOiUbN1Vk47EGR9ERKFK5dESsx3FFTGjE8nNwnGcfulDkQzHt16hmSi3JnGMQAYqecEcApR/+ZOOicC0bA6J9KnNBq7jmcygpcN/ES+wdLN4hPTZsQd0LeMyTw5DFtvXQFqMYHEgLZYwxtL/qI=
+Decrypted message: {"Level1Token":{"bankId":"bank01","mobileNumber":"9823242526","crnNumber":{"crnNo":"11112"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec72","deviceOs":"android","deviceOsVersion":"11","deviceIpAddress":"192.168.2.4","bankAppVersion":"1.0"},"sessionId":{"sessionId":""}}}
+HTTP/1.1 200 OK
+Date: Mon, 07 Feb 2022 05:00:19 GMT
+Content-Type: application/json
+Content-Length: 48
+Connection: keep-alive
+
+{
+    "message": "User 11112 registered successfully"
+}
+**** Test is skipped: registrationWithInvalidToken
+**** Test is started: []
 ]]></system-out>
   </testcase>
-  <testcase name="loginWithValidToken" classname="cipherApi.cipherLogin.userLogin" time="0.15">
-    <failure message="Connection refused (Connection refused)" type="java.net.ConnectException"><![CDATA[java.net.ConnectException: Connection refused (Connection refused)
-	at cipherApi.cipherLogin.userLogin.loginWithValidToken(userLogin.java:36)
+  <testcase name="registrationWithInvalidToken" classname="cipherApi.cipherRegistration.userRegistration" time="0.151">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+	at cipherApi.cipherRegistration.userRegistration.registrationWithInvalidToken(userRegistration.java:82)
 ]]></failure>
-    <system-out><![CDATA[T21URmc3bfP1NP9/fwob734mGx604DvippfE06v6OCSWnYBAMc2CfCrqe1sSX2ShuCF5Jt8mJo0i7b9PuKw1ZVQI3qxHBhsL/zuYObclVkNljvMK3I/PFhX5gSZIK0Aa0sDkx0LYoPkiVfUFyUAy13K+H/S84VLY0tsrygKX0J98tp90l607xSPqbK10Jv4A3gTnm3J605LuPG/Gc9y0LqR0Y4mxfNWvIp5ON/6DZILGHv6SqmdrYma6PK6I+ls6ZAYewpEmN81wgw/Kp4Jm4oOBNskOWR6dy9A8YmHaX33wZqdNZnv3KGaiPfhFMceRgucmULsx+9kW0sKo8MpSrQ==
+    <system-out><![CDATA[**** Test is started: registrationWithInvalidToken
+ViNS9bPhdn60WUO70x4ux68M1wRTykn29C2Qf6ipQvpb1VJ/CG5LilYn4rABVGxLnswl69EevwaEPE6dyCvAu+jMSbfFGud3FLJ68+aB2J4QZFKFvGVCPXzIendvhSTtCqlQ8VxT9NZWBdIMNiS+gSbgBV+25Rc+j8psM9DXVM8ewuSb1n13b6ptHLdAkLqNKHv5/95u16WWqllQCldaPGpnldOiUbN1Vk47EGR9ERKFK5dESsx3FFTGjE8nNwnGcfulDkQzHt16hmSi3JnGMQAYqecEcApR/+ZOOicC0bA6J9KnNBq7jmcygpcN/ES+wdLN4hPTZsQd0LeMyTw5DFtvXQFqMYHEgLZYwxtL/qI=
+Decrypted message: {"Level1Token":{"bankId":"bank01","mobileNumber":"9823242526","crnNumber":{"crnNo":"11112"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec72","deviceOs":"android","deviceOsVersion":"11","deviceIpAddress":"192.168.2.4","bankAppVersion":"1.0"},"sessionId":{"sessionId":""}}}
+HTTP/1.1 200 OK
+Date: Mon, 07 Feb 2022 05:00:19 GMT
+Content-Type: application/json
+Content-Length: 48
+Connection: keep-alive
+
+{
+    "message": "User 11112 registered successfully"
+}
+**** Test is failed: registrationWithInvalidToken
 ]]></system-out>
-    <system-err><![CDATA[Cleaning up unclosed ZipFile for archive /home/suraj/IdeaProjects/cipherApiAutomation/data/cipherTestData.xlsx
-]]></system-err>
   </testcase>
-  <testcase name="loginWithInvalidToken" classname="cipherApi.cipherLogin.userLogin" time="0.038">
-    <failure message="Connection refused (Connection refused)" type="java.net.ConnectException"><![CDATA[java.net.ConnectException: Connection refused (Connection refused)
-	at cipherApi.cipherLogin.userLogin.loginWithInvalidToken(userLogin.java:65)
+  <testcase name="registrationWithMultipleDataSet[HDFC, 9876543210, 11111, f3ef2be4fe00ec72, android, 11, 192.168.2.4, 1.0, , , 200, HTTP/1.1 200 OK, User 11111 registered successfully](1)" classname="cipherApi.cipherRegistration.userRegistration" time="0.196">
+    <system-out><![CDATA[Number of rows: 11
+Number of cells: 13
+**** Test is started: registrationWithMultipleDataSet
+ViNS9bPhdn60WUO70x4uxxKgAfDSXxqPxnKIKw/3n27OO6X7a2MIuF9j+F5BNzLqv5AsSBDXkikFg3g5BikCBDW965NTo1Fq2upANeytKkiPQw6a1Npk4HUl6GotZ3juiyI3lb3sLOxJBOESb432xCMRor2hxiN8d40w9pykKo0HZFWk6PsI0ugeRUOyhsbClDZAeuroHujn6ua2FqENZORnI0a3y7ts9x1seQnP9E9rOb2uDwj4kDnKvrQRpkg3AJVq0R0SaEShgjeHcCH74B5j0tKUwjh+lG5ZMJCft/Yl+UgVLWHcCsxf3GtuzQmdv7JPLsnVDERm3uh/YiJBPk2d4gdaL/IyEGV0uyR0Jbk=
+Decrypted message: {"Level1Token":{"bankId":"HDFC","mobileNumber":"9876543210","crnNumber":{"crnNo":"11111"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec72","deviceOs":"android","deviceOsVersion":"11","deviceIpAddress":"192.168.2.4","bankAppVersion":"1.0"},"sessionId":{"sessionId":""}}}
+HTTP/1.1 200 OK
+Date: Mon, 07 Feb 2022 05:00:19 GMT
+Content-Type: application/json
+Content-Length: 48
+Connection: keep-alive
+
+{
+    "message": "User 11111 registered successfully"
+}
+**** Test is successful: registrationWithMultipleDataSet
+]]></system-out>
+  </testcase>
+  <testcase name="registrationWithMultipleDataSet[bank01, 9823242526, 11112, f3ef2be4fe00ec72, android, 11, 192.168.2.4, 1.0, , , 200, HTTP/1.1 200 OK, User 11112 registered successfully](2)" classname="cipherApi.cipherRegistration.userRegistration" time="0.162">
+    <system-out><![CDATA[**** Test is started: registrationWithMultipleDataSet
+ViNS9bPhdn60WUO70x4ux68M1wRTykn29C2Qf6ipQvpb1VJ/CG5LilYn4rABVGxLnswl69EevwaEPE6dyCvAu+jMSbfFGud3FLJ68+aB2J4QZFKFvGVCPXzIendvhSTtCqlQ8VxT9NZWBdIMNiS+gSbgBV+25Rc+j8psM9DXVM8ewuSb1n13b6ptHLdAkLqNKHv5/95u16WWqllQCldaPGpnldOiUbN1Vk47EGR9ERKFK5dESsx3FFTGjE8nNwnGcfulDkQzHt16hmSi3JnGMQAYqecEcApR/+ZOOicC0bA6J9KnNBq7jmcygpcN/ES+wdLN4hPTZsQd0LeMyTw5DFtvXQFqMYHEgLZYwxtL/qI=
+Decrypted message: {"Level1Token":{"bankId":"bank01","mobileNumber":"9823242526","crnNumber":{"crnNo":"11112"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec72","deviceOs":"android","deviceOsVersion":"11","deviceIpAddress":"192.168.2.4","bankAppVersion":"1.0"},"sessionId":{"sessionId":""}}}
+HTTP/1.1 200 OK
+Date: Mon, 07 Feb 2022 05:00:19 GMT
+Content-Type: application/json
+Content-Length: 48
+Connection: keep-alive
+
+{
+    "message": "User 11112 registered successfully"
+}
+**** Test is successful: registrationWithMultipleDataSet
+]]></system-out>
+  </testcase>
+  <testcase name="registrationWithMultipleDataSet[bank02, 9823242527, 11113, f3ef2be4fe00ec73, android, 12, 192.168.2.5, 1.1, , , 200, HTTP/1.1 200 OK, User 11113 registered successfully](3)" classname="cipherApi.cipherRegistration.userRegistration" time="0.156">
+    <system-out><![CDATA[**** Test is started: registrationWithMultipleDataSet
+ViNS9bPhdn60WUO70x4ux09D0QmyXDXCbCmCz76ShRlb1VJ/CG5LilYn4rABVGxLvqPH841TJ3bndgqPe0v0cejMSbfFGud3FLJ68+aB2J7J6jI4mIiWMfUXLNnWI61GCqlQ8VxT9NZWBdIMNiS+gSbgBV+25Rc+j8psM9DXVM+Qu3cwqnxhPoHuPI4DOGhaKHv5/95u16WWqllQCldaPGpnldOiUbN1Vk47EGR9ERLX0WBt4tx71B9vhceAt8NbcfulDkQzHt16hmSi3JnGMThldrRqNV8S0wQ3m0OHNXVBrHQEj+aFF+51V1Hm3lhmwdLN4hPTZsQd0LeMyTw5DFtvXQFqMYHEgLZYwxtL/qI=
+Decrypted message: {"Level1Token":{"bankId":"bank02","mobileNumber":"9823242527","crnNumber":{"crnNo":"11113"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec73","deviceOs":"android","deviceOsVersion":"12","deviceIpAddress":"192.168.2.5","bankAppVersion":"1.1"},"sessionId":{"sessionId":""}}}
+HTTP/1.1 200 OK
+Date: Mon, 07 Feb 2022 05:00:20 GMT
+Content-Type: application/json
+Content-Length: 48
+Connection: keep-alive
+
+{
+    "message": "User 11113 registered successfully"
+}
+**** Test is successful: registrationWithMultipleDataSet
+]]></system-out>
+  </testcase>
+  <testcase name="registrationWithMultipleDataSet[bank03, 9823242528, 11114, f3ef2be4fe00ec74, android, 13, 192.168.2.6, 1.2, , , 200, HTTP/1.1 200 OK, User 11114 registered successfully](4)" classname="cipherApi.cipherRegistration.userRegistration" time="0.176">
+    <system-out><![CDATA[**** Test is started: registrationWithMultipleDataSet
+ViNS9bPhdn60WUO70x4ux78wWvKVGWEZDdWJigrc9oRb1VJ/CG5LilYn4rABVGxL4EfuKGZyJc0SFO6S23XzZ+jMSbfFGud3FLJ68+aB2J7ldrCpWIApj7nFsuXsDhOsCqlQ8VxT9NZWBdIMNiS+gSbgBV+25Rc+j8psM9DXVM/Ua3HfcWEW0+HV9WrHrdikKHv5/95u16WWqllQCldaPGpnldOiUbN1Vk47EGR9ERLCbFnqa3lJ861in6EGRTP+cfulDkQzHt16hmSi3JnGMakgdHEo2nDSD2Ck+4z0IIe7XPvdsKMnc8940RGhbVXzwdLN4hPTZsQd0LeMyTw5DFtvXQFqMYHEgLZYwxtL/qI=
+Decrypted message: {"Level1Token":{"bankId":"bank03","mobileNumber":"9823242528","crnNumber":{"crnNo":"11114"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec74","deviceOs":"android","deviceOsVersion":"13","deviceIpAddress":"192.168.2.6","bankAppVersion":"1.2"},"sessionId":{"sessionId":""}}}
+HTTP/1.1 200 OK
+Date: Mon, 07 Feb 2022 05:00:20 GMT
+Content-Type: application/json
+Content-Length: 48
+Connection: keep-alive
+
+{
+    "message": "User 11114 registered successfully"
+}
+**** Test is successful: registrationWithMultipleDataSet
+]]></system-out>
+  </testcase>
+  <testcase name="registrationWithMultipleDataSet[bank04, 9823242529, 11115, f3ef2be4fe00ec75, android, 14, 192.168.2.7, 1.3, , , 200, HTTP/1.1 200 OK, User 11115 registered successfully](5)" classname="cipherApi.cipherRegistration.userRegistration" time="0.172">
+    <system-out><![CDATA[**** Test is started: registrationWithMultipleDataSet
+ViNS9bPhdn60WUO70x4uxx6eyJh2OMrWUE4qTa7AZ35b1VJ/CG5LilYn4rABVGxLuhRfrDgZqHiPFrW/k69j2+jMSbfFGud3FLJ68+aB2J7ZNEIA2yqhn8LT+Ri0pCiSCqlQ8VxT9NZWBdIMNiS+gSbgBV+25Rc+j8psM9DXVM/LNDmUEhTHl/Ocx64Z4jWTKHv5/95u16WWqllQCldaPGpnldOiUbN1Vk47EGR9ERJaWqvqVQ208U/G9vCdPHTYcfulDkQzHt16hmSi3JnGMT7TUO+9aDhUra7FSnwQKkjvLqpWwlh9OBswOMYd8ooqwdLN4hPTZsQd0LeMyTw5DFtvXQFqMYHEgLZYwxtL/qI=
+Decrypted message: {"Level1Token":{"bankId":"bank04","mobileNumber":"9823242529","crnNumber":{"crnNo":"11115"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec75","deviceOs":"android","deviceOsVersion":"14","deviceIpAddress":"192.168.2.7","bankAppVersion":"1.3"},"sessionId":{"sessionId":""}}}
+HTTP/1.1 200 OK
+Date: Mon, 07 Feb 2022 05:00:20 GMT
+Content-Type: application/json
+Content-Length: 48
+Connection: keep-alive
+
+{
+    "message": "User 11115 registered successfully"
+}
+**** Test is successful: registrationWithMultipleDataSet
+]]></system-out>
+  </testcase>
+  <testcase name="registrationWithMultipleDataSet[bank05, 9823242530, 11116, f3ef2be4fe00ec76, android, 15, 192.168.2.8, 1.4, , , 200, HTTP/1.1 200 OK, User 11116 registered successfully](6)" classname="cipherApi.cipherRegistration.userRegistration" time="0.131">
+    <system-out><![CDATA[**** Test is started: registrationWithMultipleDataSet
+ViNS9bPhdn60WUO70x4uxy4K5EnFbk7OODEsbm9cUApb1VJ/CG5LilYn4rABVGxLgcFEqwH2O3Aqcl35Mmv1cOjMSbfFGud3FLJ68+aB2J5afLS4/FmlrVzhUnadaYQnCqlQ8VxT9NZWBdIMNiS+gSbgBV+25Rc+j8psM9DXVM8Yq/rf7ELRcQ8+ZKUI9rNfKHv5/95u16WWqllQCldaPGpnldOiUbN1Vk47EGR9ERKsfip+tofpfuH9xamVm09RcfulDkQzHt16hmSi3JnGMc1befZmueDIXC/fFYweyy/+EfOEdY7qZMUH4ubJBPPBwdLN4hPTZsQd0LeMyTw5DFtvXQFqMYHEgLZYwxtL/qI=
+Decrypted message: {"Level1Token":{"bankId":"bank05","mobileNumber":"9823242530","crnNumber":{"crnNo":"11116"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec76","deviceOs":"android","deviceOsVersion":"15","deviceIpAddress":"192.168.2.8","bankAppVersion":"1.4"},"sessionId":{"sessionId":""}}}
+HTTP/1.1 200 OK
+Date: Mon, 07 Feb 2022 05:00:20 GMT
+Content-Type: application/json
+Content-Length: 48
+Connection: keep-alive
+
+{
+    "message": "User 11116 registered successfully"
+}
+**** Test is successful: registrationWithMultipleDataSet
+]]></system-out>
+  </testcase>
+  <testcase name="registrationWithMultipleDataSet[bank06, 9823242531, 11117, f3ef2be4fe00ec77, android, 16, 192.168.2.9, 1.5, , , 200, HTTP/1.1 200 OK, User 11117 registered successfully](7)" classname="cipherApi.cipherRegistration.userRegistration" time="0.155">
+    <system-out><![CDATA[**** Test is started: registrationWithMultipleDataSet
+ViNS9bPhdn60WUO70x4ux8HDErZx7chlL+o48zV1Vvdb1VJ/CG5LilYn4rABVGxLYLd6iEXO9zrYv1S5FQ9EgOjMSbfFGud3FLJ68+aB2J4z3yPBAJkBPMSfkVNOd10NCqlQ8VxT9NZWBdIMNiS+gSbgBV+25Rc+j8psM9DXVM/6wlk6Igz2V5+9J4baOmj7KHv5/95u16WWqllQCldaPGpnldOiUbN1Vk47EGR9ERK7s9esz1WNbvGcb3fYszHxcfulDkQzHt16hmSi3JnGMerLxqTKEraY+G77S32asDpllRk+uJJxoEf25A26YOZAwdLN4hPTZsQd0LeMyTw5DFtvXQFqMYHEgLZYwxtL/qI=
+Decrypted message: {"Level1Token":{"bankId":"bank06","mobileNumber":"9823242531","crnNumber":{"crnNo":"11117"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec77","deviceOs":"android","deviceOsVersion":"16","deviceIpAddress":"192.168.2.9","bankAppVersion":"1.5"},"sessionId":{"sessionId":""}}}
+HTTP/1.1 200 OK
+Date: Mon, 07 Feb 2022 05:00:20 GMT
+Content-Type: application/json
+Content-Length: 48
+Connection: keep-alive
+
+{
+    "message": "User 11117 registered successfully"
+}
+**** Test is successful: registrationWithMultipleDataSet
+]]></system-out>
+  </testcase>
+  <testcase name="registrationWithMultipleDataSet[bank07, 9823242532, 11118, f3ef2be4fe00ec78, android, 17, 192.168.2.10, 1.6, , , 200, HTTP/1.1 200 OK, User 11118 registered successfully](8)" classname="cipherApi.cipherRegistration.userRegistration" time="0.128">
+    <system-out><![CDATA[**** Test is started: registrationWithMultipleDataSet
+ViNS9bPhdn60WUO70x4uxz+JoUA7VgaT/tRTNs01mixb1VJ/CG5LilYn4rABVGxLsrI1cvyFeXxD24Z3j00ST+jMSbfFGud3FLJ68+aB2J6Qu9pS5pwWVT8QRIjAcNI8CqlQ8VxT9NZWBdIMNiS+gSbgBV+25Rc+j8psM9DXVM/vcSay81ak4mvvX2h6eck/KHv5/95u16WWqllQCldaPGpnldOiUbN1Vk47EGR9ERJRDASiFo0zMZdMjrE0JwRscfulDkQzHt16hmSi3JnGMUeMo5+1AzrsiBPX6gOgC6in7+YrXMnJGC7Zr+iz38tNso1g03wDTvwLejVolW5zoMYHZtFhq4HpEpFWQxnUdnY=
+Decrypted message: {"Level1Token":{"bankId":"bank07","mobileNumber":"9823242532","crnNumber":{"crnNo":"11118"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec78","deviceOs":"android","deviceOsVersion":"17","deviceIpAddress":"192.168.2.10","bankAppVersion":"1.6"},"sessionId":{"sessionId":""}}}
+HTTP/1.1 200 OK
+Date: Mon, 07 Feb 2022 05:00:20 GMT
+Content-Type: application/json
+Content-Length: 48
+Connection: keep-alive
+
+{
+    "message": "User 11118 registered successfully"
+}
+**** Test is successful: registrationWithMultipleDataSet
+]]></system-out>
+  </testcase>
+  <testcase name="registrationWithMultipleDataSet[bank08, 9823242533, 11119, f3ef2be4fe00ec79, android, 18, 192.168.2.11, 1.7, , , 200, HTTP/1.1 200 OK, User 11119 registered successfully](9)" classname="cipherApi.cipherRegistration.userRegistration" time="0.159">
+    <system-out><![CDATA[**** Test is started: registrationWithMultipleDataSet
+ViNS9bPhdn60WUO70x4ux9Rt503AsrdEe7+KVu3kDTBb1VJ/CG5LilYn4rABVGxLuDtmYqrVbeX5u+x4FM4LD+jMSbfFGud3FLJ68+aB2J43EGkDOCz9FPj7qXSaBuW3CqlQ8VxT9NZWBdIMNiS+gSbgBV+25Rc+j8psM9DXVM/WJ80RchAsWwzUFarGtpdOKHv5/95u16WWqllQCldaPGpnldOiUbN1Vk47EGR9ERJXoCOfVupIQEXx+4UXLmmYcfulDkQzHt16hmSi3JnGMbAy5nUjKwi8H55LDuOa0mPJYzRxf7gtzquL7nJVX5P2so1g03wDTvwLejVolW5zoMYHZtFhq4HpEpFWQxnUdnY=
+Decrypted message: {"Level1Token":{"bankId":"bank08","mobileNumber":"9823242533","crnNumber":{"crnNo":"11119"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec79","deviceOs":"android","deviceOsVersion":"18","deviceIpAddress":"192.168.2.11","bankAppVersion":"1.7"},"sessionId":{"sessionId":""}}}
+HTTP/1.1 200 OK
+Date: Mon, 07 Feb 2022 05:00:21 GMT
+Content-Type: application/json
+Content-Length: 48
+Connection: keep-alive
+
+{
+    "message": "User 11119 registered successfully"
+}
+**** Test is successful: registrationWithMultipleDataSet
+]]></system-out>
+  </testcase>
+  <testcase name="registrationWithMultipleDataSet[bank09, 9823242534, 11120, f3ef2be4fe00ec80, android, 19, 192.168.2.12, 1.8, , , 200, HTTP/1.1 200 OK, User 11120 registered successfully](10)" classname="cipherApi.cipherRegistration.userRegistration" time="0.154">
+    <system-out><![CDATA[**** Test is started: registrationWithMultipleDataSet
+ViNS9bPhdn60WUO70x4uxxC0xLhY+TDM9pdhIIShnN5b1VJ/CG5LilYn4rABVGxLMEgnmqgFGKfDn1o9msLvqujMSbfFGud3FLJ68+aB2J7Yy27zlhbgMIfKKshqjAsFCqlQ8VxT9NZWBdIMNiS+gSbgBV+25Rc+j8psM9DXVM/9BTka5bHTZCDJnEB30/sGKHv5/95u16WWqllQCldaPGpnldOiUbN1Vk47EGR9ERKwewjh9rBIGu5knKgYkMiEcfulDkQzHt16hmSi3JnGMczBlYGh38Br/EfagXYNVzvS46junYlp0hea2hFM/kuBso1g03wDTvwLejVolW5zoMYHZtFhq4HpEpFWQxnUdnY=
+Decrypted message: {"Level1Token":{"bankId":"bank09","mobileNumber":"9823242534","crnNumber":{"crnNo":"11120"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec80","deviceOs":"android","deviceOsVersion":"19","deviceIpAddress":"192.168.2.12","bankAppVersion":"1.8"},"sessionId":{"sessionId":""}}}
+HTTP/1.1 200 OK
+Date: Mon, 07 Feb 2022 05:00:21 GMT
+Content-Type: application/json
+Content-Length: 48
+Connection: keep-alive
+
+{
+    "message": "User 11120 registered successfully"
+}
+**** Test is successful: registrationWithMultipleDataSet
+]]></system-out>
+  </testcase>
+  <testcase name="loginWithValidToken[org.testng.TestRunner@46d567cb](1)" classname="cipherApi.cipherLogin.userLogin" time="1.069">
+    <system-out><![CDATA[**** Test is started: loginWithValidToken
+ViNS9bPhdn60WUO70x4uxxKgAfDSXxqPxnKIKw/3n27OO6X7a2MIuF9j+F5BNzLqv5AsSBDXkikFg3g5BikCBDW965NTo1Fq2upANeytKkiPQw6a1Npk4HUl6GotZ3juiyI3lb3sLOxJBOESb432xCMRor2hxiN8d40w9pykKo0HZFWk6PsI0ugeRUOyhsbClDZAeuroHujn6ua2FqENZORnI0a3y7ts9x1seQnP9E9rOb2uDwj4kDnKvrQRpkg3AJVq0R0SaEShgjeHcCH74B5j0tKUwjh+lG5ZMJCft/Yl+UgVLWHcCsxf3GtuzQmdv7JPLsnVDERm3uh/YiJBPk2d4gdaL/IyEGV0uyR0Jbk=
+Decrypted message: {"Level1Token":{"bankId":"HDFC","mobileNumber":"9876543210","crnNumber":{"crnNo":"11111"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec72","deviceOs":"android","deviceOsVersion":"11","deviceIpAddress":"192.168.2.4","bankAppVersion":"1.0"},"sessionId":{"sessionId":""}}}
+HTTP/1.1 200 OK
+Date: Mon, 07 Feb 2022 05:00:21 GMT
+Content-Type: application/json
+Content-Length: 52
+Connection: keep-alive
+
+{
+    "sessionId": "779b4529-3bea-477c-9703-3417a5931368"
+}
+Number of rows: 11
+Session ID: 779b4529-3bea-477c-9703-3417a5931368
+**** Test is successful: loginWithValidToken
+]]></system-out>
+  </testcase>
+  <testcase name="loginWithInvalidToken" classname="cipherApi.cipherLogin.userLogin" time="0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;200&gt;.&#10;"/>
+    <system-out><![CDATA[**** Test is started: loginWithInvalidToken
+ViNS9bPhdn60WUO70x4ux68M1wRTykn29C2Qf6ipQvpb1VJ/CG5LilYn4rABVGxLnswl69EevwaEPE6dyCvAu+jMSbfFGud3FLJ68+aB2J7cfPz5qH03KnYJixXejwWPXcQl6MPV2WID74hfOD0V5hnnHTQyLjTYqRYq/KmajheCMKHLHWf3wr0jCqwnELhZrl45T7nCYw7fE57HOj/yzr9ZajanYCgE9mj+NOAeXlH3gAlASeZH9UxDUzJqIR3xc9VPamhilazvJ7TBw9UjHaoYxEgF34emUm6/T5ZUlmgPGJbjfKDTTU3ejgbKqPC6LL1Ph/AR4qrROTuFMwsTZLgIWgl81ZE1ImXuc979T8tq/oKxkIT4gO3TihbYHbjJ
+Decrypted message: {"Level1Token":{"bankId":"bank01","mobileNumber":"9823242526","crnNumber":{"crnNo":"22222222222221"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec72","deviceOs":"android","deviceOsVersion":"11","deviceIpAddress":"192.168.2.4","bankAppVersion":"1.0"},"sessionId":{"sessionId":""}}}
+HTTP/1.1 200 OK
+Date: Mon, 07 Feb 2022 05:00:22 GMT
+Content-Type: application/json
+Content-Length: 52
+Connection: keep-alive
+
+{
+    "sessionId": "9f706595-81bd-4cf1-b132-e6e0a27ccda0"
+}
+**** Test is skipped: loginWithInvalidToken
+**** Test is started: []
+]]></system-out>
+  </testcase>
+  <testcase name="loginWithInvalidToken" classname="cipherApi.cipherLogin.userLogin" time="0.244">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+	at cipherApi.cipherLogin.userLogin.loginWithInvalidToken(userLogin.java:100)
 ]]></failure>
-    <system-out><![CDATA[Vqu/wqfHBXhSgRN4i3JVyX4mGx604DvippfE06v6OCSWnYBAMc2CfCrqe1sSX2ShuCF5Jt8mJo0i7b9PuKw1ZVQI3qxHBhsL/zuYObclVkNljvMK3I/PFhX5gSZIK0Aa0sDkx0LYoPkiVfUFyUAy13K+H/S84VLY0tsrygKX0J98tp90l607xSPqbK10Jv4A3gTnm3J605LuPG/Gc9y0LqR0Y4mxfNWvIp5ON/6DZILGHv6SqmdrYma6PK6I+ls6ZAYewpEmN81wgw/Kp4Jm4oOBNskOWR6dy9A8YmHaX33wZqdNZnv3KGaiPfhFMceRgucmULsx+9kW0sKo8MpSrQ==
+    <system-out><![CDATA[**** Test is started: loginWithInvalidToken
+ViNS9bPhdn60WUO70x4ux68M1wRTykn29C2Qf6ipQvpb1VJ/CG5LilYn4rABVGxLnswl69EevwaEPE6dyCvAu+jMSbfFGud3FLJ68+aB2J7cfPz5qH03KnYJixXejwWPXcQl6MPV2WID74hfOD0V5hnnHTQyLjTYqRYq/KmajheCMKHLHWf3wr0jCqwnELhZrl45T7nCYw7fE57HOj/yzr9ZajanYCgE9mj+NOAeXlH3gAlASeZH9UxDUzJqIR3xc9VPamhilazvJ7TBw9UjHaoYxEgF34emUm6/T5ZUlmgPGJbjfKDTTU3ejgbKqPC6LL1Ph/AR4qrROTuFMwsTZLgIWgl81ZE1ImXuc979T8tq/oKxkIT4gO3TihbYHbjJ
+Decrypted message: {"Level1Token":{"bankId":"bank01","mobileNumber":"9823242526","crnNumber":{"crnNo":"22222222222221"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec72","deviceOs":"android","deviceOsVersion":"11","deviceIpAddress":"192.168.2.4","bankAppVersion":"1.0"},"sessionId":{"sessionId":""}}}
+HTTP/1.1 200 OK
+Date: Mon, 07 Feb 2022 05:00:22 GMT
+Content-Type: application/json
+Content-Length: 52
+Connection: keep-alive
+
+{
+    "sessionId": "b0e4f987-8042-4869-8c17-4d862436edcf"
+}
+**** Test is failed: loginWithInvalidToken
+]]></system-out>
+  </testcase>
+  <testcase name="loginWithMultipleDataSet[HDFC, 9876543210, 11111, f3ef2be4fe00ec72, android, 11, 192.168.2.4, 1.0, , , 200, HTTP/1.1 200 OK, sessionId](1)" classname="cipherApi.cipherLogin.userLogin" time="0.152">
+    <system-out><![CDATA[Number of rows: 11
+Number of cells: 13
+**** Test is started: loginWithMultipleDataSet
+ViNS9bPhdn60WUO70x4uxxKgAfDSXxqPxnKIKw/3n27OO6X7a2MIuF9j+F5BNzLqv5AsSBDXkikFg3g5BikCBDW965NTo1Fq2upANeytKkiPQw6a1Npk4HUl6GotZ3juiyI3lb3sLOxJBOESb432xCMRor2hxiN8d40w9pykKo0HZFWk6PsI0ugeRUOyhsbClDZAeuroHujn6ua2FqENZORnI0a3y7ts9x1seQnP9E9rOb2uDwj4kDnKvrQRpkg3AJVq0R0SaEShgjeHcCH74B5j0tKUwjh+lG5ZMJCft/Yl+UgVLWHcCsxf3GtuzQmdv7JPLsnVDERm3uh/YiJBPk2d4gdaL/IyEGV0uyR0Jbk=
+Decrypted message: {"Level1Token":{"bankId":"HDFC","mobileNumber":"9876543210","crnNumber":{"crnNo":"11111"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec72","deviceOs":"android","deviceOsVersion":"11","deviceIpAddress":"192.168.2.4","bankAppVersion":"1.0"},"sessionId":{"sessionId":""}}}
+HTTP/1.1 200 OK
+Date: Mon, 07 Feb 2022 05:00:22 GMT
+Content-Type: application/json
+Content-Length: 52
+Connection: keep-alive
+
+{
+    "sessionId": "a7b051a6-aeba-4f1b-80cd-d8e90fb7f935"
+}
+Session ID: a7b051a6-aeba-4f1b-80cd-d8e90fb7f935
+**** Test is successful: loginWithMultipleDataSet
+]]></system-out>
+  </testcase>
+  <testcase name="loginWithMultipleDataSet[bank01, 9823242526, 22222222222221, f3ef2be4fe00ec72, android, 11, 192.168.2.4, 1.0, , , 400, HTTP/1.1 400 Bad Request, No key 22222222222221 found in Redis](2)" classname="cipherApi.cipherLogin.userLogin" time="0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;200&gt;.&#10;"/>
+    <system-out><![CDATA[**** Test is started: loginWithMultipleDataSet
+ViNS9bPhdn60WUO70x4ux68M1wRTykn29C2Qf6ipQvpb1VJ/CG5LilYn4rABVGxLnswl69EevwaEPE6dyCvAu+jMSbfFGud3FLJ68+aB2J7cfPz5qH03KnYJixXejwWPXcQl6MPV2WID74hfOD0V5hnnHTQyLjTYqRYq/KmajheCMKHLHWf3wr0jCqwnELhZrl45T7nCYw7fE57HOj/yzr9ZajanYCgE9mj+NOAeXlH3gAlASeZH9UxDUzJqIR3xc9VPamhilazvJ7TBw9UjHaoYxEgF34emUm6/T5ZUlmgPGJbjfKDTTU3ejgbKqPC6LL1Ph/AR4qrROTuFMwsTZLgIWgl81ZE1ImXuc979T8tq/oKxkIT4gO3TihbYHbjJ
+Decrypted message: {"Level1Token":{"bankId":"bank01","mobileNumber":"9823242526","crnNumber":{"crnNo":"22222222222221"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec72","deviceOs":"android","deviceOsVersion":"11","deviceIpAddress":"192.168.2.4","bankAppVersion":"1.0"},"sessionId":{"sessionId":""}}}
+HTTP/1.1 200 OK
+Date: Mon, 07 Feb 2022 05:00:23 GMT
+Content-Type: application/json
+Content-Length: 52
+Connection: keep-alive
+
+{
+    "sessionId": "4deeb2dd-acd7-4320-b69e-8b43a78ef243"
+}
+**** Test is skipped: loginWithMultipleDataSet
+**** Test is started: []
+]]></system-out>
+  </testcase>
+  <testcase name="loginWithMultipleDataSet[bank01, 9823242526, 22222222222221, f3ef2be4fe00ec72, android, 11, 192.168.2.4, 1.0, , , 400, HTTP/1.1 400 Bad Request, No key 22222222222221 found in Redis](3)" classname="cipherApi.cipherLogin.userLogin" time="0.205">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+	at cipherApi.cipherLogin.userLogin.loginWithMultipleDataSet(userLogin.java:149)
+]]></failure>
+    <system-out><![CDATA[Number of rows: 11
+Number of cells: 13
+**** Test is started: loginWithMultipleDataSet
+ViNS9bPhdn60WUO70x4ux68M1wRTykn29C2Qf6ipQvpb1VJ/CG5LilYn4rABVGxLnswl69EevwaEPE6dyCvAu+jMSbfFGud3FLJ68+aB2J7cfPz5qH03KnYJixXejwWPXcQl6MPV2WID74hfOD0V5hnnHTQyLjTYqRYq/KmajheCMKHLHWf3wr0jCqwnELhZrl45T7nCYw7fE57HOj/yzr9ZajanYCgE9mj+NOAeXlH3gAlASeZH9UxDUzJqIR3xc9VPamhilazvJ7TBw9UjHaoYxEgF34emUm6/T5ZUlmgPGJbjfKDTTU3ejgbKqPC6LL1Ph/AR4qrROTuFMwsTZLgIWgl81ZE1ImXuc979T8tq/oKxkIT4gO3TihbYHbjJ
+Decrypted message: {"Level1Token":{"bankId":"bank01","mobileNumber":"9823242526","crnNumber":{"crnNo":"22222222222221"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec72","deviceOs":"android","deviceOsVersion":"11","deviceIpAddress":"192.168.2.4","bankAppVersion":"1.0"},"sessionId":{"sessionId":""}}}
+HTTP/1.1 200 OK
+Date: Mon, 07 Feb 2022 05:00:23 GMT
+Content-Type: application/json
+Content-Length: 52
+Connection: keep-alive
+
+{
+    "sessionId": "5ac0f879-a478-48fb-b88d-875840e60864"
+}
+**** Test is failed: loginWithMultipleDataSet
+]]></system-out>
+  </testcase>
+  <testcase name="loginWithMultipleDataSet[bank02, 9823242527, 11113, f3ef2be4fe00ec73, android, 12, 192.168.2.5, 1.1, , , 200, HTTP/1.1 200 OK, sessionId](4)" classname="cipherApi.cipherLogin.userLogin" time="0.162">
+    <system-out><![CDATA[**** Test is started: loginWithMultipleDataSet
+ViNS9bPhdn60WUO70x4ux09D0QmyXDXCbCmCz76ShRlb1VJ/CG5LilYn4rABVGxLvqPH841TJ3bndgqPe0v0cejMSbfFGud3FLJ68+aB2J7J6jI4mIiWMfUXLNnWI61GCqlQ8VxT9NZWBdIMNiS+gSbgBV+25Rc+j8psM9DXVM+Qu3cwqnxhPoHuPI4DOGhaKHv5/95u16WWqllQCldaPGpnldOiUbN1Vk47EGR9ERLX0WBt4tx71B9vhceAt8NbcfulDkQzHt16hmSi3JnGMThldrRqNV8S0wQ3m0OHNXVBrHQEj+aFF+51V1Hm3lhmwdLN4hPTZsQd0LeMyTw5DFtvXQFqMYHEgLZYwxtL/qI=
+Decrypted message: {"Level1Token":{"bankId":"bank02","mobileNumber":"9823242527","crnNumber":{"crnNo":"11113"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec73","deviceOs":"android","deviceOsVersion":"12","deviceIpAddress":"192.168.2.5","bankAppVersion":"1.1"},"sessionId":{"sessionId":""}}}
+HTTP/1.1 200 OK
+Date: Mon, 07 Feb 2022 05:00:23 GMT
+Content-Type: application/json
+Content-Length: 52
+Connection: keep-alive
+
+{
+    "sessionId": "2dc416a6-a39a-48ee-922e-425d374a1c49"
+}
+Session ID: 2dc416a6-a39a-48ee-922e-425d374a1c49
+**** Test is successful: loginWithMultipleDataSet
+]]></system-out>
+  </testcase>
+  <testcase name="loginWithMultipleDataSet[bank03, 9823242528, 11114, f3ef2be4fe00ec74, android, 13, 192.168.2.6, 1.2, , , 200, HTTP/1.1 200 OK, sessionId](5)" classname="cipherApi.cipherLogin.userLogin" time="0.143">
+    <system-out><![CDATA[**** Test is started: loginWithMultipleDataSet
+ViNS9bPhdn60WUO70x4ux78wWvKVGWEZDdWJigrc9oRb1VJ/CG5LilYn4rABVGxL4EfuKGZyJc0SFO6S23XzZ+jMSbfFGud3FLJ68+aB2J7ldrCpWIApj7nFsuXsDhOsCqlQ8VxT9NZWBdIMNiS+gSbgBV+25Rc+j8psM9DXVM/Ua3HfcWEW0+HV9WrHrdikKHv5/95u16WWqllQCldaPGpnldOiUbN1Vk47EGR9ERLCbFnqa3lJ861in6EGRTP+cfulDkQzHt16hmSi3JnGMakgdHEo2nDSD2Ck+4z0IIe7XPvdsKMnc8940RGhbVXzwdLN4hPTZsQd0LeMyTw5DFtvXQFqMYHEgLZYwxtL/qI=
+Decrypted message: {"Level1Token":{"bankId":"bank03","mobileNumber":"9823242528","crnNumber":{"crnNo":"11114"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec74","deviceOs":"android","deviceOsVersion":"13","deviceIpAddress":"192.168.2.6","bankAppVersion":"1.2"},"sessionId":{"sessionId":""}}}
+HTTP/1.1 200 OK
+Date: Mon, 07 Feb 2022 05:00:23 GMT
+Content-Type: application/json
+Content-Length: 52
+Connection: keep-alive
+
+{
+    "sessionId": "5fdbf83b-6e2c-40cc-b0ae-9fd8db662d5d"
+}
+Session ID: 5fdbf83b-6e2c-40cc-b0ae-9fd8db662d5d
+**** Test is successful: loginWithMultipleDataSet
+]]></system-out>
+  </testcase>
+  <testcase name="loginWithMultipleDataSet[bank04, 9823242529, 11115, f3ef2be4fe00ec75, android, 14, 192.168.2.7, 1.3, , , 200, HTTP/1.1 200 OK, sessionId](6)" classname="cipherApi.cipherLogin.userLogin" time="0.147">
+    <system-out><![CDATA[**** Test is started: loginWithMultipleDataSet
+ViNS9bPhdn60WUO70x4uxx6eyJh2OMrWUE4qTa7AZ35b1VJ/CG5LilYn4rABVGxLuhRfrDgZqHiPFrW/k69j2+jMSbfFGud3FLJ68+aB2J7ZNEIA2yqhn8LT+Ri0pCiSCqlQ8VxT9NZWBdIMNiS+gSbgBV+25Rc+j8psM9DXVM/LNDmUEhTHl/Ocx64Z4jWTKHv5/95u16WWqllQCldaPGpnldOiUbN1Vk47EGR9ERJaWqvqVQ208U/G9vCdPHTYcfulDkQzHt16hmSi3JnGMT7TUO+9aDhUra7FSnwQKkjvLqpWwlh9OBswOMYd8ooqwdLN4hPTZsQd0LeMyTw5DFtvXQFqMYHEgLZYwxtL/qI=
+Decrypted message: {"Level1Token":{"bankId":"bank04","mobileNumber":"9823242529","crnNumber":{"crnNo":"11115"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec75","deviceOs":"android","deviceOsVersion":"14","deviceIpAddress":"192.168.2.7","bankAppVersion":"1.3"},"sessionId":{"sessionId":""}}}
+HTTP/1.1 200 OK
+Date: Mon, 07 Feb 2022 05:00:23 GMT
+Content-Type: application/json
+Content-Length: 52
+Connection: keep-alive
+
+{
+    "sessionId": "1b6df870-c7da-4d80-878c-fbe3db77ca9e"
+}
+Session ID: 1b6df870-c7da-4d80-878c-fbe3db77ca9e
+**** Test is successful: loginWithMultipleDataSet
+]]></system-out>
+  </testcase>
+  <testcase name="loginWithMultipleDataSet[bank05, 9823242530, 11116, f3ef2be4fe00ec76, android, 15, 192.168.2.8, 1.4, , , 200, HTTP/1.1 200 OK, sessionId](7)" classname="cipherApi.cipherLogin.userLogin" time="0.162">
+    <system-out><![CDATA[**** Test is started: loginWithMultipleDataSet
+ViNS9bPhdn60WUO70x4uxy4K5EnFbk7OODEsbm9cUApb1VJ/CG5LilYn4rABVGxLgcFEqwH2O3Aqcl35Mmv1cOjMSbfFGud3FLJ68+aB2J5afLS4/FmlrVzhUnadaYQnCqlQ8VxT9NZWBdIMNiS+gSbgBV+25Rc+j8psM9DXVM8Yq/rf7ELRcQ8+ZKUI9rNfKHv5/95u16WWqllQCldaPGpnldOiUbN1Vk47EGR9ERKsfip+tofpfuH9xamVm09RcfulDkQzHt16hmSi3JnGMc1befZmueDIXC/fFYweyy/+EfOEdY7qZMUH4ubJBPPBwdLN4hPTZsQd0LeMyTw5DFtvXQFqMYHEgLZYwxtL/qI=
+Decrypted message: {"Level1Token":{"bankId":"bank05","mobileNumber":"9823242530","crnNumber":{"crnNo":"11116"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec76","deviceOs":"android","deviceOsVersion":"15","deviceIpAddress":"192.168.2.8","bankAppVersion":"1.4"},"sessionId":{"sessionId":""}}}
+HTTP/1.1 200 OK
+Date: Mon, 07 Feb 2022 05:00:23 GMT
+Content-Type: application/json
+Content-Length: 52
+Connection: keep-alive
+
+{
+    "sessionId": "c8166062-73ad-4726-b466-6fa5a25c4fb2"
+}
+Session ID: c8166062-73ad-4726-b466-6fa5a25c4fb2
+**** Test is successful: loginWithMultipleDataSet
+]]></system-out>
+  </testcase>
+  <testcase name="loginWithMultipleDataSet[bank06, 9823242531, 11117, f3ef2be4fe00ec77, android, 16, 192.168.2.9, 1.5, , , 200, HTTP/1.1 200 OK, sessionId](8)" classname="cipherApi.cipherLogin.userLogin" time="0.169">
+    <system-out><![CDATA[**** Test is started: loginWithMultipleDataSet
+ViNS9bPhdn60WUO70x4ux8HDErZx7chlL+o48zV1Vvdb1VJ/CG5LilYn4rABVGxLYLd6iEXO9zrYv1S5FQ9EgOjMSbfFGud3FLJ68+aB2J4z3yPBAJkBPMSfkVNOd10NCqlQ8VxT9NZWBdIMNiS+gSbgBV+25Rc+j8psM9DXVM/6wlk6Igz2V5+9J4baOmj7KHv5/95u16WWqllQCldaPGpnldOiUbN1Vk47EGR9ERK7s9esz1WNbvGcb3fYszHxcfulDkQzHt16hmSi3JnGMerLxqTKEraY+G77S32asDpllRk+uJJxoEf25A26YOZAwdLN4hPTZsQd0LeMyTw5DFtvXQFqMYHEgLZYwxtL/qI=
+Decrypted message: {"Level1Token":{"bankId":"bank06","mobileNumber":"9823242531","crnNumber":{"crnNo":"11117"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec77","deviceOs":"android","deviceOsVersion":"16","deviceIpAddress":"192.168.2.9","bankAppVersion":"1.5"},"sessionId":{"sessionId":""}}}
+HTTP/1.1 200 OK
+Date: Mon, 07 Feb 2022 05:00:24 GMT
+Content-Type: application/json
+Content-Length: 52
+Connection: keep-alive
+
+{
+    "sessionId": "be4be734-d067-43c9-bd3d-609aa08f738f"
+}
+Session ID: be4be734-d067-43c9-bd3d-609aa08f738f
+**** Test is successful: loginWithMultipleDataSet
+]]></system-out>
+  </testcase>
+  <testcase name="loginWithMultipleDataSet[bank07, 9823242532, 11118, f3ef2be4fe00ec78, android, 17, 192.168.2.10, 1.6, , , 200, HTTP/1.1 200 OK, sessionId](9)" classname="cipherApi.cipherLogin.userLogin" time="0.169">
+    <system-out><![CDATA[**** Test is started: loginWithMultipleDataSet
+ViNS9bPhdn60WUO70x4uxz+JoUA7VgaT/tRTNs01mixb1VJ/CG5LilYn4rABVGxLsrI1cvyFeXxD24Z3j00ST+jMSbfFGud3FLJ68+aB2J6Qu9pS5pwWVT8QRIjAcNI8CqlQ8VxT9NZWBdIMNiS+gSbgBV+25Rc+j8psM9DXVM/vcSay81ak4mvvX2h6eck/KHv5/95u16WWqllQCldaPGpnldOiUbN1Vk47EGR9ERJRDASiFo0zMZdMjrE0JwRscfulDkQzHt16hmSi3JnGMUeMo5+1AzrsiBPX6gOgC6in7+YrXMnJGC7Zr+iz38tNso1g03wDTvwLejVolW5zoMYHZtFhq4HpEpFWQxnUdnY=
+Decrypted message: {"Level1Token":{"bankId":"bank07","mobileNumber":"9823242532","crnNumber":{"crnNo":"11118"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec78","deviceOs":"android","deviceOsVersion":"17","deviceIpAddress":"192.168.2.10","bankAppVersion":"1.6"},"sessionId":{"sessionId":""}}}
+HTTP/1.1 200 OK
+Date: Mon, 07 Feb 2022 05:00:24 GMT
+Content-Type: application/json
+Content-Length: 52
+Connection: keep-alive
+
+{
+    "sessionId": "bafc36eb-45a5-480d-9d41-f880e8b0acd2"
+}
+Session ID: bafc36eb-45a5-480d-9d41-f880e8b0acd2
+**** Test is successful: loginWithMultipleDataSet
+]]></system-out>
+  </testcase>
+  <testcase name="loginWithMultipleDataSet[bank08, 9823242533, 22222222222228, f3ef2be4fe00ec79, android, 18, 192.168.2.11, 1.7, , , 400, HTTP/1.1 400 Bad Request, No key 22222222222228 found in Redis](10)" classname="cipherApi.cipherLogin.userLogin" time="0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;200&gt;.&#10;"/>
+    <system-out><![CDATA[**** Test is started: loginWithMultipleDataSet
+ViNS9bPhdn60WUO70x4ux9Rt503AsrdEe7+KVu3kDTBb1VJ/CG5LilYn4rABVGxLuDtmYqrVbeX5u+x4FM4LD+jMSbfFGud3FLJ68+aB2J7cfPz5qH03KnYJixXejwWPwk5Zq8qwp3xrSFus1bj09BnnHTQyLjTYqRYq/KmajheCMKHLHWf3wr0jCqwnELhZUJ46q3jmYdcPY6u3HRsv3b9ZajanYCgE9mj+NOAeXlFufKwTH4L8dnkr6iAGrmqEc9VPamhilazvJ7TBw9UjHeKKwA7iNsf5mGPRydya+wR8tpcaEqByOcC5JCp0rLTd9LsJ5p3VdNv6vDmEAgpL9TfNVNRVIZTJAsNAq44Ajza1tApKgmQB8g6+QdueqOOm
+Decrypted message: {"Level1Token":{"bankId":"bank08","mobileNumber":"9823242533","crnNumber":{"crnNo":"22222222222228"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec79","deviceOs":"android","deviceOsVersion":"18","deviceIpAddress":"192.168.2.11","bankAppVersion":"1.7"},"sessionId":{"sessionId":""}}}
+HTTP/1.1 200 OK
+Date: Mon, 07 Feb 2022 05:00:24 GMT
+Content-Type: application/json
+Content-Length: 52
+Connection: keep-alive
+
+{
+    "sessionId": "b4f048c9-feb5-4715-888e-21cdba9805ba"
+}
+**** Test is skipped: loginWithMultipleDataSet
+**** Test is started: []
+]]></system-out>
+  </testcase>
+  <testcase name="loginWithMultipleDataSet[bank08, 9823242533, 22222222222228, f3ef2be4fe00ec79, android, 18, 192.168.2.11, 1.7, , , 400, HTTP/1.1 400 Bad Request, No key 22222222222228 found in Redis](11)" classname="cipherApi.cipherLogin.userLogin" time="0.164">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+	at cipherApi.cipherLogin.userLogin.loginWithMultipleDataSet(userLogin.java:149)
+]]></failure>
+    <system-out><![CDATA[Number of rows: 11
+Number of cells: 13
+**** Test is started: loginWithMultipleDataSet
+ViNS9bPhdn60WUO70x4ux9Rt503AsrdEe7+KVu3kDTBb1VJ/CG5LilYn4rABVGxLuDtmYqrVbeX5u+x4FM4LD+jMSbfFGud3FLJ68+aB2J7cfPz5qH03KnYJixXejwWPwk5Zq8qwp3xrSFus1bj09BnnHTQyLjTYqRYq/KmajheCMKHLHWf3wr0jCqwnELhZUJ46q3jmYdcPY6u3HRsv3b9ZajanYCgE9mj+NOAeXlFufKwTH4L8dnkr6iAGrmqEc9VPamhilazvJ7TBw9UjHeKKwA7iNsf5mGPRydya+wR8tpcaEqByOcC5JCp0rLTd9LsJ5p3VdNv6vDmEAgpL9TfNVNRVIZTJAsNAq44Ajza1tApKgmQB8g6+QdueqOOm
+Decrypted message: {"Level1Token":{"bankId":"bank08","mobileNumber":"9823242533","crnNumber":{"crnNo":"22222222222228"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec79","deviceOs":"android","deviceOsVersion":"18","deviceIpAddress":"192.168.2.11","bankAppVersion":"1.7"},"sessionId":{"sessionId":""}}}
+HTTP/1.1 200 OK
+Date: Mon, 07 Feb 2022 05:00:24 GMT
+Content-Type: application/json
+Content-Length: 52
+Connection: keep-alive
+
+{
+    "sessionId": "9b81f96d-cd8a-4b72-8ec3-85c1c8440865"
+}
+**** Test is failed: loginWithMultipleDataSet
+]]></system-out>
+  </testcase>
+  <testcase name="loginWithMultipleDataSet[bank09, 9823242534, 22222222222229, f3ef2be4fe00ec80, android, 19, 192.168.2.12, 1.8, , , 400, HTTP/1.1 400 Bad Request, No key 22222222222229 found in Redis](12)" classname="cipherApi.cipherLogin.userLogin" time="0">
+    <skipped message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;200&gt;.&#10;"/>
+    <system-out><![CDATA[**** Test is started: loginWithMultipleDataSet
+ViNS9bPhdn60WUO70x4uxxC0xLhY+TDM9pdhIIShnN5b1VJ/CG5LilYn4rABVGxLMEgnmqgFGKfDn1o9msLvqujMSbfFGud3FLJ68+aB2J7cfPz5qH03KnYJixXejwWPII3vaXy1J8juH/AE6nbvWRnnHTQyLjTYqRYq/KmajheCMKHLHWf3wr0jCqwnELhZ6/0GGBZNE4g9cfVn/o7EHb9ZajanYCgE9mj+NOAeXlGfl723wHrkMcdYHSKDvo1/c9VPamhilazvJ7TBw9UjHQKZAMvdMrrbi5TVY8dN9e18tpcaEqByOcC5JCp0rLTd2QqQLUTus3j60JI/t5xlRDfNVNRVIZTJAsNAq44Ajza1tApKgmQB8g6+QdueqOOm
+Decrypted message: {"Level1Token":{"bankId":"bank09","mobileNumber":"9823242534","crnNumber":{"crnNo":"22222222222229"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec80","deviceOs":"android","deviceOsVersion":"19","deviceIpAddress":"192.168.2.12","bankAppVersion":"1.8"},"sessionId":{"sessionId":""}}}
+HTTP/1.1 200 OK
+Date: Mon, 07 Feb 2022 05:00:24 GMT
+Content-Type: application/json
+Content-Length: 52
+Connection: keep-alive
+
+{
+    "sessionId": "267bc2b7-51c8-4ad5-be50-b36d1ce746a9"
+}
+**** Test is skipped: loginWithMultipleDataSet
+**** Test is started: []
+]]></system-out>
+  </testcase>
+  <testcase name="loginWithMultipleDataSet[bank09, 9823242534, 22222222222229, f3ef2be4fe00ec80, android, 19, 192.168.2.12, 1.8, , , 400, HTTP/1.1 400 Bad Request, No key 22222222222229 found in Redis](13)" classname="cipherApi.cipherLogin.userLogin" time="0.137">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+	at cipherApi.cipherLogin.userLogin.loginWithMultipleDataSet(userLogin.java:149)
+]]></failure>
+    <system-out><![CDATA[Number of rows: 11
+Number of cells: 13
+**** Test is started: loginWithMultipleDataSet
+ViNS9bPhdn60WUO70x4uxxC0xLhY+TDM9pdhIIShnN5b1VJ/CG5LilYn4rABVGxLMEgnmqgFGKfDn1o9msLvqujMSbfFGud3FLJ68+aB2J7cfPz5qH03KnYJixXejwWPII3vaXy1J8juH/AE6nbvWRnnHTQyLjTYqRYq/KmajheCMKHLHWf3wr0jCqwnELhZ6/0GGBZNE4g9cfVn/o7EHb9ZajanYCgE9mj+NOAeXlGfl723wHrkMcdYHSKDvo1/c9VPamhilazvJ7TBw9UjHQKZAMvdMrrbi5TVY8dN9e18tpcaEqByOcC5JCp0rLTd2QqQLUTus3j60JI/t5xlRDfNVNRVIZTJAsNAq44Ajza1tApKgmQB8g6+QdueqOOm
+Decrypted message: {"Level1Token":{"bankId":"bank09","mobileNumber":"9823242534","crnNumber":{"crnNo":"22222222222229"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec80","deviceOs":"android","deviceOsVersion":"19","deviceIpAddress":"192.168.2.12","bankAppVersion":"1.8"},"sessionId":{"sessionId":""}}}
+HTTP/1.1 200 OK
+Date: Mon, 07 Feb 2022 05:00:24 GMT
+Content-Type: application/json
+Content-Length: 52
+Connection: keep-alive
+
+{
+    "sessionId": "83f70fc1-8710-4995-861b-e80c368f6076"
+}
+**** Test is failed: loginWithMultipleDataSet
+]]></system-out>
+  </testcase>
+  <testcase name="performActivityWithValidToken" classname="cipherApi.cipherPerformActivity.performActivity" time="0.196">
+    <system-out><![CDATA[**** Test is started: performActivityWithValidToken
+ViNS9bPhdn60WUO70x4uxxKgAfDSXxqPxnKIKw/3n27OO6X7a2MIuF9j+F5BNzLqv5AsSBDXkikFg3g5BikCBDW965NTo1Fq2upANeytKkg1XMCJzKgDjVm7V9GoyedSCqlQ8VxT9NZWBdIMNiS+gSbgBV+25Rc+j8psM9DXVM8ewuSb1n13b6ptHLdAkLqNKHv5/95u16WWqllQCldaPGpnldOiUbN1Vk47EGR9ERKFK5dESsx3FFTGjE8nNwnGcfulDkQzHt16hmSi3JnGMQAYqecEcApR/+ZOOicC0bA6J9KnNBq7jmcygpcN/ES+nB4Mypg/CDpOkXU2U8A5vAiQaHtyJ//oI+0BLAeCDSGuFR0vmBwHcPIZaaCUqCB4p34YEW4eBvomyKwP1u2aFXZ111n2lVkqvMatKI8Wsy0qQoTa9rlttNP7c+4PFZjIQCy+2PqBclDe5XlcpcDVHA==
+Decrypted message: {"Level1Token":{"bankId":"HDFC","mobileNumber":"9876543210","crnNumber":{"crnNo":"somecrn"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec72","deviceOs":"android","deviceOsVersion":"11","deviceIpAddress":"192.168.2.4","bankAppVersion":"1.0"},"activityType":{"BalanceInquiry":{}},"sessionId":{"sessionId":"779b4529-3bea-477c-9703-3417a5931368"}}}
+HTTP/1.1 200 OK
+Date: Mon, 07 Feb 2022 05:00:25 GMT
+Content-Type: application/json
+Content-Length: 16
+Connection: keep-alive
+
+{
+    "stepUp": false
+}
+**** Test is successful: performActivityWithValidToken
+]]></system-out>
+  </testcase>
+  <testcase name="performActivityWithMultipleDataSet[HDFC, 9876543210, somecrn, f3ef2be4fe00ec72, android, 11, 192.168.2.4, 1.0, BalanceInquiry, 779b4529-3bea-477c-9703-3417a5931368, 200, HTTP/1.1 200 OK, false](1)" classname="cipherApi.cipherPerformActivity.performActivity" time="0.279">
+    <system-out><![CDATA[Number of rows: 11
+Number of cells: 13
+**** Test is started: performActivityWithMultipleDataSet
+ViNS9bPhdn60WUO70x4uxxKgAfDSXxqPxnKIKw/3n27OO6X7a2MIuF9j+F5BNzLqv5AsSBDXkikFg3g5BikCBDW965NTo1Fq2upANeytKkg1XMCJzKgDjVm7V9GoyedSCqlQ8VxT9NZWBdIMNiS+gSbgBV+25Rc+j8psM9DXVM8ewuSb1n13b6ptHLdAkLqNKHv5/95u16WWqllQCldaPGpnldOiUbN1Vk47EGR9ERKFK5dESsx3FFTGjE8nNwnGcfulDkQzHt16hmSi3JnGMQAYqecEcApR/+ZOOicC0bA6J9KnNBq7jmcygpcN/ES+nB4Mypg/CDpOkXU2U8A5vAiQaHtyJ//oI+0BLAeCDSGuFR0vmBwHcPIZaaCUqCB4p34YEW4eBvomyKwP1u2aFXZ111n2lVkqvMatKI8Wsy0qQoTa9rlttNP7c+4PFZjIQCy+2PqBclDe5XlcpcDVHA==
+Decrypted message: {"Level1Token":{"bankId":"HDFC","mobileNumber":"9876543210","crnNumber":{"crnNo":"somecrn"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec72","deviceOs":"android","deviceOsVersion":"11","deviceIpAddress":"192.168.2.4","bankAppVersion":"1.0"},"activityType":{"BalanceInquiry":{}},"sessionId":{"sessionId":"779b4529-3bea-477c-9703-3417a5931368"}}}
+HTTP/1.1 200 OK
+Date: Mon, 07 Feb 2022 05:00:25 GMT
+Content-Type: application/json
+Content-Length: 16
+Connection: keep-alive
+
+{
+    "stepUp": false
+}
+stepUp: false
+**** Test is successful: performActivityWithMultipleDataSet
+]]></system-out>
+  </testcase>
+  <testcase name="performActivityWithMultipleDataSet[bank01, 9823242526, 11111111111111, f3ef2be4fe00ec72, android, 11, 192.168.2.4, 1.0, BalanceInquiry, 779b4529-3bea-477c-9703-3417a5931368, 200, HTTP/1.1 200 OK, false](2)" classname="cipherApi.cipherPerformActivity.performActivity" time="0.185">
+    <system-out><![CDATA[**** Test is started: performActivityWithMultipleDataSet
+ViNS9bPhdn60WUO70x4ux68M1wRTykn29C2Qf6ipQvpb1VJ/CG5LilYn4rABVGxLnswl69EevwaEPE6dyCvAu+jMSbfFGud3FLJ68+aB2J6z7kDdF5N6h4zGOFRHPV9n3FGm6BhMNVhxIwAv6Y84bhnnHTQyLjTYqRYq/KmajheCMKHLHWf3wr0jCqwnELhZrl45T7nCYw7fE57HOj/yzr9ZajanYCgE9mj+NOAeXlH3gAlASeZH9UxDUzJqIR3xc9VPamhilazvJ7TBw9UjHaoYxEgF34emUm6/T5ZUlmgPGJbjfKDTTU3ejgbKqPC6Xyo54rTGdKdCXcJmbSev8JQhSQ88kiQ3Ux3XFJNoYElIdbtv2XE3AyzAzGAxVyVsv7JPLsnVDERm3uh/YiJBPqUAUxUcVrs01zEcegf9yazVYJzwfFPHYBDUphgT7YiLdJmBQjS+CNjyh32p5GnHyQ==
+Decrypted message: {"Level1Token":{"bankId":"bank01","mobileNumber":"9823242526","crnNumber":{"crnNo":"11111111111111"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec72","deviceOs":"android","deviceOsVersion":"11","deviceIpAddress":"192.168.2.4","bankAppVersion":"1.0"},"activityType":{"BalanceInquiry":{}},"sessionId":{"sessionId":"779b4529-3bea-477c-9703-3417a5931368"}}}
+HTTP/1.1 200 OK
+Date: Mon, 07 Feb 2022 05:00:25 GMT
+Content-Type: application/json
+Content-Length: 16
+Connection: keep-alive
+
+{
+    "stepUp": false
+}
+stepUp: false
+**** Test is successful: performActivityWithMultipleDataSet
+]]></system-out>
+  </testcase>
+  <testcase name="performActivityWithMultipleDataSet[bank02, 9823242527, 11111111111112, f3ef2be4fe00ec73, android, 12, 192.168.2.5, 1.1, AddBeneficiary, 779b4529-3bea-477c-9703-3417a5931368, 200, HTTP/1.1 200 OK, true](3)" classname="cipherApi.cipherPerformActivity.performActivity" time="0.193">
+    <system-out><![CDATA[**** Test is started: performActivityWithMultipleDataSet
+ViNS9bPhdn60WUO70x4ux09D0QmyXDXCbCmCz76ShRlb1VJ/CG5LilYn4rABVGxLvqPH841TJ3bndgqPe0v0cejMSbfFGud3FLJ68+aB2J6z7kDdF5N6h4zGOFRHPV9nVs9v/CtXkfLddnIYZ52NNBnnHTQyLjTYqRYq/KmajheCMKHLHWf3wr0jCqwnELhZG8kOKRMbpuQ9H/tFp0a5wb9ZajanYCgE9mj+NOAeXlG/yFcZBpkW0iEB7mEOTSy/c9VPamhilazvJ7TBw9UjHVLTnwPZKBBJjzKGiPyy0GUPGJbjfKDTTU3ejgbKqPC6jK0HfYfQ8SjjjDnxlYlDVJXU4RgVU1/6ppdv2LbxOXnMVazmQAyj4bUHkvx62OUiv7JPLsnVDERm3uh/YiJBPqUAUxUcVrs01zEcegf9yazVYJzwfFPHYBDUphgT7YiLdJmBQjS+CNjyh32p5GnHyQ==
+Decrypted message: {"Level1Token":{"bankId":"bank02","mobileNumber":"9823242527","crnNumber":{"crnNo":"11111111111112"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec73","deviceOs":"android","deviceOsVersion":"12","deviceIpAddress":"192.168.2.5","bankAppVersion":"1.1"},"activityType":{"AddBeneficiary":{}},"sessionId":{"sessionId":"779b4529-3bea-477c-9703-3417a5931368"}}}
+HTTP/1.1 200 OK
+Date: Mon, 07 Feb 2022 05:00:25 GMT
+Content-Type: application/json
+Content-Length: 15
+Connection: keep-alive
+
+{
+    "stepUp": true
+}
+stepUp: true
+**** Test is successful: performActivityWithMultipleDataSet
+]]></system-out>
+  </testcase>
+  <testcase name="performActivityWithMultipleDataSet[bank03, 9823242528, 11111111111113, f3ef2be4fe00ec74, android, 13, 192.168.2.6, 1.2, AddBeneficiary, 779b4529-3bea-477c-9703-3417a5931368, 200, HTTP/1.1 200 OK, true](4)" classname="cipherApi.cipherPerformActivity.performActivity" time="0.145">
+    <system-out><![CDATA[**** Test is started: performActivityWithMultipleDataSet
+ViNS9bPhdn60WUO70x4ux78wWvKVGWEZDdWJigrc9oRb1VJ/CG5LilYn4rABVGxL4EfuKGZyJc0SFO6S23XzZ+jMSbfFGud3FLJ68+aB2J6z7kDdF5N6h4zGOFRHPV9nbAa8MY6PcOHYKWiqpfStTxnnHTQyLjTYqRYq/KmajheCMKHLHWf3wr0jCqwnELhZ3sQECEWmzJADJgTYBOxqRb9ZajanYCgE9mj+NOAeXlHqznK+M1kk1O3vu2YrzQoNc9VPamhilazvJ7TBw9UjHdRc76HkUrKp1lG6Un+2Z/UPGJbjfKDTTU3ejgbKqPC6sAhC0r1PXDVbDfJB8DQf/5XU4RgVU1/6ppdv2LbxOXnMVazmQAyj4bUHkvx62OUiv7JPLsnVDERm3uh/YiJBPqUAUxUcVrs01zEcegf9yazVYJzwfFPHYBDUphgT7YiLdJmBQjS+CNjyh32p5GnHyQ==
+Decrypted message: {"Level1Token":{"bankId":"bank03","mobileNumber":"9823242528","crnNumber":{"crnNo":"11111111111113"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec74","deviceOs":"android","deviceOsVersion":"13","deviceIpAddress":"192.168.2.6","bankAppVersion":"1.2"},"activityType":{"AddBeneficiary":{}},"sessionId":{"sessionId":"779b4529-3bea-477c-9703-3417a5931368"}}}
+HTTP/1.1 200 OK
+Date: Mon, 07 Feb 2022 05:00:25 GMT
+Content-Type: application/json
+Content-Length: 15
+Connection: keep-alive
+
+{
+    "stepUp": true
+}
+stepUp: true
+**** Test is successful: performActivityWithMultipleDataSet
+]]></system-out>
+  </testcase>
+  <testcase name="performActivityWithMultipleDataSet[bank04, 9823242529, 11111111111114, f3ef2be4fe00ec75, android, 14, 192.168.2.7, 1.3, AmountWithdrawal, 779b4529-3bea-477c-9703-3417a5931368, 200, HTTP/1.1 200 OK, false](5)" classname="cipherApi.cipherPerformActivity.performActivity" time="0.123">
+    <system-out><![CDATA[**** Test is started: performActivityWithMultipleDataSet
+ViNS9bPhdn60WUO70x4uxx6eyJh2OMrWUE4qTa7AZ35b1VJ/CG5LilYn4rABVGxLuhRfrDgZqHiPFrW/k69j2+jMSbfFGud3FLJ68+aB2J6z7kDdF5N6h4zGOFRHPV9nMMcn0iDXc5PcTNfVmajlzxnnHTQyLjTYqRYq/KmajheCMKHLHWf3wr0jCqwnELhZgxdx7uUs5iQ6t7EfEgov6L9ZajanYCgE9mj+NOAeXlGl5GPfB5ZXusWdp6FgAFbXc9VPamhilazvJ7TBw9UjHe/iKaJVhPjJFy1dDgyqPPMPGJbjfKDTTU3ejgbKqPC6VH5FKALgSjWiYGuQYUI/xwF6EDF36izR2LupHPtvHoEJR6so7K1FR/4t9L5JIh8KwdLN4hPTZsQd0LeMyTw5DEWfQYS4Dm8atb817zP/831Hq3b9UDOjp5kx8xr9aLJpcSJtWMOr7nFt/u8vhPEb8XP2SVMa5g/pdNHb+FGdUvw=
+Decrypted message: {"Level1Token":{"bankId":"bank04","mobileNumber":"9823242529","crnNumber":{"crnNo":"11111111111114"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec75","deviceOs":"android","deviceOsVersion":"14","deviceIpAddress":"192.168.2.7","bankAppVersion":"1.3"},"activityType":{"AmountWithdrawal":{}},"sessionId":{"sessionId":"779b4529-3bea-477c-9703-3417a5931368"}}}
+HTTP/1.1 200 OK
+Date: Mon, 07 Feb 2022 05:00:26 GMT
+Content-Type: application/json
+Content-Length: 16
+Connection: keep-alive
+
+{
+    "stepUp": false
+}
+stepUp: false
+**** Test is successful: performActivityWithMultipleDataSet
+]]></system-out>
+  </testcase>
+  <testcase name="performActivityWithMultipleDataSet[bank05, 9823242530, 11111111111115, f3ef2be4fe00ec76, android, 15, 192.168.2.8, 1.4, AmountWithdrawal, 779b4529-3bea-477c-9703-3417a5931368, 200, HTTP/1.1 200 OK, false](6)" classname="cipherApi.cipherPerformActivity.performActivity" time="0.138">
+    <system-out><![CDATA[**** Test is started: performActivityWithMultipleDataSet
+ViNS9bPhdn60WUO70x4uxy4K5EnFbk7OODEsbm9cUApb1VJ/CG5LilYn4rABVGxLgcFEqwH2O3Aqcl35Mmv1cOjMSbfFGud3FLJ68+aB2J6z7kDdF5N6h4zGOFRHPV9na4BaFF2beMl0ADlVvIm1bRnnHTQyLjTYqRYq/KmajheCMKHLHWf3wr0jCqwnELhZHjxsyDzBg99dHC2QKNRHjr9ZajanYCgE9mj+NOAeXlEzd4cmNvH9rDhKwr/y0jRpc9VPamhilazvJ7TBw9UjHcQkJngNUqu3n5+3P2aLtQEPGJbjfKDTTU3ejgbKqPC6XP28tzzEl5+ur5Mtjun3rgF6EDF36izR2LupHPtvHoEJR6so7K1FR/4t9L5JIh8KwdLN4hPTZsQd0LeMyTw5DEWfQYS4Dm8atb817zP/831Hq3b9UDOjp5kx8xr9aLJpcSJtWMOr7nFt/u8vhPEb8XP2SVMa5g/pdNHb+FGdUvw=
+Decrypted message: {"Level1Token":{"bankId":"bank05","mobileNumber":"9823242530","crnNumber":{"crnNo":"11111111111115"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec76","deviceOs":"android","deviceOsVersion":"15","deviceIpAddress":"192.168.2.8","bankAppVersion":"1.4"},"activityType":{"AmountWithdrawal":{}},"sessionId":{"sessionId":"779b4529-3bea-477c-9703-3417a5931368"}}}
+HTTP/1.1 200 OK
+Date: Mon, 07 Feb 2022 05:00:26 GMT
+Content-Type: application/json
+Content-Length: 16
+Connection: keep-alive
+
+{
+    "stepUp": false
+}
+stepUp: false
+**** Test is successful: performActivityWithMultipleDataSet
+]]></system-out>
+  </testcase>
+  <testcase name="performActivityWithMultipleDataSet[bank06, 9823242531, 11111111111116, f3ef2be4fe00ec77, android, 16, 192.168.2.9, 1.5, AddBeneficiary, 779b4529-3bea-477c-9703-3417a5931368, 200, HTTP/1.1 200 OK, true](7)" classname="cipherApi.cipherPerformActivity.performActivity" time="0.15">
+    <system-out><![CDATA[**** Test is started: performActivityWithMultipleDataSet
+ViNS9bPhdn60WUO70x4ux8HDErZx7chlL+o48zV1Vvdb1VJ/CG5LilYn4rABVGxLYLd6iEXO9zrYv1S5FQ9EgOjMSbfFGud3FLJ68+aB2J6z7kDdF5N6h4zGOFRHPV9n1iqXjgYVoi9HIaon34bCsxnnHTQyLjTYqRYq/KmajheCMKHLHWf3wr0jCqwnELhZvLkOM+kUMlNAIlor2oTeM79ZajanYCgE9mj+NOAeXlGlvLT+3WFs8oFBIFQHkJu8c9VPamhilazvJ7TBw9UjHezKs+CH26I7DwEnzNF9aiQPGJbjfKDTTU3ejgbKqPC67wbT6PSoVwhH9JRYGM4Qx5XU4RgVU1/6ppdv2LbxOXnMVazmQAyj4bUHkvx62OUiv7JPLsnVDERm3uh/YiJBPqUAUxUcVrs01zEcegf9yazVYJzwfFPHYBDUphgT7YiLdJmBQjS+CNjyh32p5GnHyQ==
+Decrypted message: {"Level1Token":{"bankId":"bank06","mobileNumber":"9823242531","crnNumber":{"crnNo":"11111111111116"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec77","deviceOs":"android","deviceOsVersion":"16","deviceIpAddress":"192.168.2.9","bankAppVersion":"1.5"},"activityType":{"AddBeneficiary":{}},"sessionId":{"sessionId":"779b4529-3bea-477c-9703-3417a5931368"}}}
+HTTP/1.1 200 OK
+Date: Mon, 07 Feb 2022 05:00:26 GMT
+Content-Type: application/json
+Content-Length: 15
+Connection: keep-alive
+
+{
+    "stepUp": true
+}
+stepUp: true
+**** Test is successful: performActivityWithMultipleDataSet
+]]></system-out>
+  </testcase>
+  <testcase name="performActivityWithMultipleDataSet[bank07, 9823242532, 11111111111117, f3ef2be4fe00ec78, android, 17, 192.168.2.10, 1.6, BalanceInquiry, c954eadb-c395-43ec-a117-7bfd4fffa25a, 400, HTTP/1.1 400 Bad Request, No key c954eadb-c395-43ec-a117-7bfd4fffa25a found in Redis](8)" classname="cipherApi.cipherPerformActivity.performActivity" time="0.162">
+    <system-out><![CDATA[**** Test is started: performActivityWithMultipleDataSet
+ViNS9bPhdn60WUO70x4uxz+JoUA7VgaT/tRTNs01mixb1VJ/CG5LilYn4rABVGxLsrI1cvyFeXxD24Z3j00ST+jMSbfFGud3FLJ68+aB2J6z7kDdF5N6h4zGOFRHPV9nGmgwRrZjZ3JljH0qzKoIIBnnHTQyLjTYqRYq/KmajheCMKHLHWf3wr0jCqwnELhZecykXUPz66wx4m/fZAAiCr9ZajanYCgE9mj+NOAeXlHrSxiKCIxinkDumL4ETj+zc9VPamhilazvJ7TBw9UjHVLSWVHT/RLhBL31bTOG66t8tpcaEqByOcC5JCp0rLTdhYGKpWicfU/PqbHzwB7QmDDHqtvW/gJr79evLVMPZcr3gD9l54dIZyEcRjhQ6UFIwcPigGGWQT2CNYbXec1l5ytud78pH8xrUnBbzjzHnn2AS2OWNPPmYXVaw7PLvWdnxcA4yhTdOkrt2fZHQWOGGf/Z1XyV8dQIv6ZJ00rmY7U=
+Decrypted message: {"Level1Token":{"bankId":"bank07","mobileNumber":"9823242532","crnNumber":{"crnNo":"11111111111117"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec78","deviceOs":"android","deviceOsVersion":"17","deviceIpAddress":"192.168.2.10","bankAppVersion":"1.6"},"activityType":{"BalanceInquiry":{}},"sessionId":{"sessionId":"c954eadb-c395-43ec-a117-7bfd4fffa25a"}}}
+HTTP/1.1 400 Bad Request
+Date: Mon, 07 Feb 2022 05:00:26 GMT
+Content-Type: application/json
+Content-Length: 166
+Connection: keep-alive
+
+{
+    "name": "Error in calling performActivity CipherRedisError(No key c954eadb-c395-43ec-a117-7bfd4fffa25a found in Redis)",
+    "detail": "Contact admin for further details."
+}
+**** Test is successful: performActivityWithMultipleDataSet
+]]></system-out>
+  </testcase>
+  <testcase name="performActivityWithMultipleDataSet[bank08, 9823242533, 22222222222227, f3ef2be4fe00ec79, android, 18, 192.168.2.11, 1.7, , c954eadb-c395-43ec-a117-7bfd4fffa25a, 400, HTTP/1.1 400 Bad Request, No key 22222222222227 found in Redis](9)" classname="cipherApi.cipherPerformActivity.performActivity" time="0">
+    <skipped message="expected [true] but found [false]"/>
+    <system-out><![CDATA[**** Test is started: performActivityWithMultipleDataSet
+ViNS9bPhdn60WUO70x4ux9Rt503AsrdEe7+KVu3kDTBb1VJ/CG5LilYn4rABVGxLuDtmYqrVbeX5u+x4FM4LD+jMSbfFGud3FLJ68+aB2J7cfPz5qH03KnYJixXejwWP7YJTSTLdyrBSxqHLnKHipxnnHTQyLjTYqRYq/KmajheCMKHLHWf3wr0jCqwnELhZUJ46q3jmYdcPY6u3HRsv3b9ZajanYCgE9mj+NOAeXlFufKwTH4L8dnkr6iAGrmqEc9VPamhilazvJ7TBw9UjHeKKwA7iNsf5mGPRydya+wR8tpcaEqByOcC5JCp0rLTd9LsJ5p3VdNv6vDmEAgpL9TfNVNRVIZTJAsNAq44Ajzb+JOGU898mKClCUlJQRIjZcsGbTbfxO6drCk5I1jjro2GQjobtbIuLmmT7J7fGtcs=
+Decrypted message: {"Level1Token":{"bankId":"bank08","mobileNumber":"9823242533","crnNumber":{"crnNo":"22222222222227"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec79","deviceOs":"android","deviceOsVersion":"18","deviceIpAddress":"192.168.2.11","bankAppVersion":"1.7"},"sessionId":{"sessionId":"c954eadb-c395-43ec-a117-7bfd4fffa25a"}}}
+HTTP/1.1 400 Bad Request
+Date: Mon, 07 Feb 2022 05:00:26 GMT
+Content-Type: application/json
+Content-Length: 166
+Connection: keep-alive
+
+{
+    "name": "Error in calling performActivity CipherRedisError(No key c954eadb-c395-43ec-a117-7bfd4fffa25a found in Redis)",
+    "detail": "Contact admin for further details."
+}
+**** Test is skipped: performActivityWithMultipleDataSet
+**** Test is started: []
+]]></system-out>
+  </testcase>
+  <testcase name="performActivityWithMultipleDataSet[bank08, 9823242533, 22222222222227, f3ef2be4fe00ec79, android, 18, 192.168.2.11, 1.7, , c954eadb-c395-43ec-a117-7bfd4fffa25a, 400, HTTP/1.1 400 Bad Request, No key 22222222222227 found in Redis](10)" classname="cipherApi.cipherPerformActivity.performActivity" time="0.141">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at cipherApi.cipherPerformActivity.performActivity.performActivityWithMultipleDataSet(performActivity.java:97)
+]]></failure>
+    <system-out><![CDATA[Number of rows: 11
+Number of cells: 13
+**** Test is started: performActivityWithMultipleDataSet
+ViNS9bPhdn60WUO70x4ux9Rt503AsrdEe7+KVu3kDTBb1VJ/CG5LilYn4rABVGxLuDtmYqrVbeX5u+x4FM4LD+jMSbfFGud3FLJ68+aB2J7cfPz5qH03KnYJixXejwWP7YJTSTLdyrBSxqHLnKHipxnnHTQyLjTYqRYq/KmajheCMKHLHWf3wr0jCqwnELhZUJ46q3jmYdcPY6u3HRsv3b9ZajanYCgE9mj+NOAeXlFufKwTH4L8dnkr6iAGrmqEc9VPamhilazvJ7TBw9UjHeKKwA7iNsf5mGPRydya+wR8tpcaEqByOcC5JCp0rLTd9LsJ5p3VdNv6vDmEAgpL9TfNVNRVIZTJAsNAq44Ajzb+JOGU898mKClCUlJQRIjZcsGbTbfxO6drCk5I1jjro2GQjobtbIuLmmT7J7fGtcs=
+Decrypted message: {"Level1Token":{"bankId":"bank08","mobileNumber":"9823242533","crnNumber":{"crnNo":"22222222222227"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec79","deviceOs":"android","deviceOsVersion":"18","deviceIpAddress":"192.168.2.11","bankAppVersion":"1.7"},"sessionId":{"sessionId":"c954eadb-c395-43ec-a117-7bfd4fffa25a"}}}
+HTTP/1.1 400 Bad Request
+Date: Mon, 07 Feb 2022 05:00:26 GMT
+Content-Type: application/json
+Content-Length: 166
+Connection: keep-alive
+
+{
+    "name": "Error in calling performActivity CipherRedisError(No key c954eadb-c395-43ec-a117-7bfd4fffa25a found in Redis)",
+    "detail": "Contact admin for further details."
+}
+**** Test is failed: performActivityWithMultipleDataSet
+]]></system-out>
+  </testcase>
+  <testcase name="performActivityWithMultipleDataSet[bank09, 9823242534, 11111111111119, f3ef2be4fe00ec80, android, 19, 192.168.2.12, 1.8, , , 400, HTTP/1.1 400 Bad Request, Error in calling performActivity](11)" classname="cipherApi.cipherPerformActivity.performActivity" time="0.141">
+    <system-out><![CDATA[**** Test is started: performActivityWithMultipleDataSet
+ViNS9bPhdn60WUO70x4uxxC0xLhY+TDM9pdhIIShnN5b1VJ/CG5LilYn4rABVGxLMEgnmqgFGKfDn1o9msLvqujMSbfFGud3FLJ68+aB2J6z7kDdF5N6h4zGOFRHPV9nAd1YZGYkSWXZItULBtjSzhnnHTQyLjTYqRYq/KmajheCMKHLHWf3wr0jCqwnELhZ6/0GGBZNE4g9cfVn/o7EHb9ZajanYCgE9mj+NOAeXlGfl723wHrkMcdYHSKDvo1/c9VPamhilazvJ7TBw9UjHQKZAMvdMrrbi5TVY8dN9e18tpcaEqByOcC5JCp0rLTd2QqQLUTus3j60JI/t5xlRDfNVNRVIZTJAsNAq44Ajza1tApKgmQB8g6+QdueqOOm
+Decrypted message: {"Level1Token":{"bankId":"bank09","mobileNumber":"9823242534","crnNumber":{"crnNo":"11111111111119"},"deviceDetails":{"deviceId":"f3ef2be4fe00ec80","deviceOs":"android","deviceOsVersion":"19","deviceIpAddress":"192.168.2.12","bankAppVersion":"1.8"},"sessionId":{"sessionId":""}}}
+HTTP/1.1 400 Bad Request
+Date: Mon, 07 Feb 2022 05:00:27 GMT
+Content-Type: application/json
+Content-Length: 167
+Connection: keep-alive
+
+{
+    "name": "Error in calling performActivity CipherValidationErrors(List(Both activityType and SessionId must be defined))",
+    "detail": "Contact admin for further details."
+}
+**** Test is successful: performActivityWithMultipleDataSet
 ]]></system-out>
   </testcase>
 </testsuite>

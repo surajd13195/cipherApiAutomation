@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]" data-provider-thread-count="2">
+  <listeners>
+    <listener class-name="listeners.testNGListeners"/>
+    <listener class-name="listeners.annotationTransformer"/>
+  </listeners>
   <test thread-count="5" name="/home/suraj/IdeaProjects/cipherApiAutomation(failed)">
     <classes>
-      <class name="cipherApi.cipherRegistration.userRegistration">
+      <class name="cipherApi.userLogin">
+        <methods>
+          <include name="loginWithMultipleDataSet" invocation-numbers="1 1 8 8 9 9"/>
+          <include name="loginWithInvalidToken"/>
+        </methods>
+      </class> <!-- cipherApi.userLogin -->
+      <class name="cipherApi.performActivity">
+        <methods>
+          <include name="performActivityWithMultipleDataSet" invocation-numbers="8 8"/>
+        </methods>
+      </class> <!-- cipherApi.performActivity -->
+      <class name="cipherApi.userRegistration">
         <methods>
           <include name="registrationWithInvalidToken"/>
-          <include name="registrationData"/>
         </methods>
-      </class> <!-- cipherApi.cipherRegistration.userRegistration -->
+      </class> <!-- cipherApi.userRegistration -->
     </classes>
   </test> <!-- /home/suraj/IdeaProjects/cipherApiAutomation(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->

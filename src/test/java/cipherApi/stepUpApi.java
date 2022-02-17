@@ -64,9 +64,9 @@ public class stepUpApi extends readConfig {
     }
 
     @Test(priority = 1, dataProvider="testData", enabled = true)
-    public void stepUpWithMultipleDataSet(String bankId, String mobileNumber, String crnNo, String bankAppVersion, String deviceId, String deviceIpAddress, String deviceOs, String deviceOsVersion, String activityType, String sessionId, String statusCode, String statusLine, String message) throws Exception{
+    public void stepUpWithMultipleDataSet(String bankId, String mobileNumber, String crnNo, String bankAppVersion, String deviceId, String deviceIpAddress, String deviceOs, String deviceOsVersion, String activityType, String sessionId, String levelTag, String statusCode, String statusLine, String message) throws Exception{
 
-        readPojo readPojo = new readPojo(bankId, mobileNumber, crnNo,  bankAppVersion, deviceId, deviceIpAddress, deviceOs, deviceOsVersion, activityType, sessionId);
+        readPojo readPojo = new readPojo(bankId, mobileNumber, crnNo, bankAppVersion, deviceId, deviceIpAddress, deviceOs, deviceOsVersion, activityType, sessionId, levelTag);
         String encryptedMessage = readPojo.readParameters();
 
         map.put("token", encryptedMessage);

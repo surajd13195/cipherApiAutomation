@@ -1,3 +1,4 @@
+/*
 package cipherTokenGen;
 
 import pojo.*;
@@ -7,10 +8,12 @@ import javax.crypto.spec.SecretKeySpec;
 import java.security.SecureRandom;
 import java.util.Base64;
 
+*/
 /**
  * Possible KEY_SIZE values are 128, 192 and 256
  * Possible T_LEN values are 128, 120, 112, 104 and 96
- */
+ *//*
+
 
 public class tokenGenerationLevel2 {
 
@@ -81,4 +84,4 @@ public class tokenGenerationLevel2 {
         System.out.println("Encrypted message: " + encryptedMessage);
         System.out.println("Decrypted message: " + gen.decrypt(encryptedMessage));
     }
-}
+}*/

@@ -15,6 +15,7 @@ public class setData {
     String bankAppVersion;
     String activityType;
     String sessionId;
+    String levelTag;
 
     public String level1ValidToken(String sheetName) throws Exception {
 
@@ -31,8 +32,9 @@ public class setData {
         bankAppVersion = excel.getCellData(rowNum, 7);
         activityType = excel.getCellData(rowNum, 8);
         sessionId = excel.getCellData(rowNum, 9);
+        levelTag = excel.getCellData(rowNum, 10);
 
-        readPojo readPojo = new readPojo(bankId, mobileNumber, crnNo, deviceId, deviceOs, deviceOsVersion, deviceIpAddress, bankAppVersion, activityType, sessionId);
+        readPojo readPojo = new readPojo(bankId, mobileNumber, crnNo, deviceId, deviceOs, deviceOsVersion, deviceIpAddress, bankAppVersion, activityType, sessionId, levelTag);
         String encryptedMessage = readPojo.readParameters();
         return encryptedMessage;
 
@@ -77,8 +79,9 @@ public class setData {
         bankAppVersion = excel.getCellData(rowNum, 7);
         activityType = excel.getCellData(rowNum, 8);
         sessionId = excel.getCellData(rowNum, 9);
+        levelTag = excel.getCellData(rowNum, 10);
 
-        readPojo readPojo = new readPojo(bankId, mobileNumber, crnNo, deviceId, deviceOs, deviceOsVersion, deviceIpAddress, bankAppVersion, activityType, sessionId);
+        readPojo readPojo = new readPojo(bankId, mobileNumber, crnNo, deviceId, deviceOs, deviceOsVersion, deviceIpAddress, bankAppVersion, activityType, sessionId, levelTag);
         String encryptedMessage = readPojo.readParameters();
         return encryptedMessage;
     }

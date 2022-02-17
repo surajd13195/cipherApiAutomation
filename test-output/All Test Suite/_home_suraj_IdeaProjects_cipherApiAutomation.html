@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>/home/suraj/IdeaProjects/cipherApiAutomation</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>29/6/6</td>
+<td>Tests passed/Failed/Skipped:</td><td>37/2/2</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Feb 14 16:38:43 IST 2022</td>
+<td>Started on:</td><td>Thu Feb 17 15:50:02 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>25 seconds (25050 ms)</td>
+<tr><td>Total time:</td><td>11 seconds (11975 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -74,140 +74,6 @@ function toggleAllBoxes() {
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
-<tr>
-<td title='cipherApi.userLogin.loginWithInvalidToken()'><b>loginWithInvalidToken</b><br>Test class: cipherApi.userLogin</td>
-<td><div><pre>java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;400&gt; but was &lt;200&gt;.
-
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
-	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
-	at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
-	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-	at cipherApi.userLogin.loginWithInvalidToken(userLogin.java:112)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1465800495", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1465800495'><pre>java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;400&gt; but was &lt;200&gt;.
-
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
-	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
-	at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
-	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-	at cipherApi.userLogin.loginWithInvalidToken(userLogin.java:112)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-</pre></div></td>
-<td>0</td>
-<td>cipherApi.userLogin@3fd7a715</td></tr>
 <tr>
 <td title='cipherApi.userRegistration.registrationWithInvalidToken()'><b>registrationWithInvalidToken</b><br>Test class: cipherApi.userRegistration</td>
 <td><div><pre>java.lang.AssertionError: 1 expectation failed.
@@ -275,8 +141,8 @@ Expected status code &lt;400&gt; but was &lt;200&gt;.
 	at org.testng.TestNG.run(TestNG.java:1031)
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1710422448", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1710422448'><pre>java.lang.AssertionError: 1 expectation failed.
+</pre></div><a href='#' onClick='toggleBox("stack-trace1508130444", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1508130444'><pre>java.lang.AssertionError: 1 expectation failed.
 Expected status code &lt;400&gt; but was &lt;200&gt;.
 
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
@@ -343,273 +209,9 @@ Expected status code &lt;400&gt; but was &lt;200&gt;.
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
 </pre></div></td>
 <td>0</td>
-<td>cipherApi.userRegistration@7d0587f1</td></tr>
+<td>cipherApi.userRegistration@1e6d1014</td></tr>
 <tr>
-<td title='cipherApi.userLogin.loginWithMultipleDataSet()'><b>loginWithMultipleDataSet</b><br>Test class: cipherApi.userLogin<br>Parameters: bank08, 9823242533, 22222222222228, f3ef2be4fe00ec79, android, 18, 192.168.2.11, 1.7, , , 400, HTTP/1.1 400 Bad Request, No key 22222222222228 found in Redis</td>
-<td><div><pre>java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;400&gt; but was &lt;200&gt;.
-
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
-	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
-	at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
-	at sun.reflect.GeneratedMethodAccessor147.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
-	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-	at cipherApi.userLogin.loginWithMultipleDataSet(userLogin.java:149)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-</pre></div><a href='#' onClick='toggleBox("stack-trace333180318", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace333180318'><pre>java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;400&gt; but was &lt;200&gt;.
-
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
-	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
-	at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
-	at sun.reflect.GeneratedMethodAccessor147.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
-	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-	at cipherApi.userLogin.loginWithMultipleDataSet(userLogin.java:149)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-</pre></div></td>
-<td>0</td>
-<td>cipherApi.userLogin@3fd7a715</td></tr>
-<tr>
-<td title='cipherApi.userLogin.loginWithMultipleDataSet()'><b>loginWithMultipleDataSet</b><br>Test class: cipherApi.userLogin<br>Parameters: bank09, 9823242534, 22222222222229, f3ef2be4fe00ec80, android, 19, 192.168.2.12, 1.8, , , 400, HTTP/1.1 400 Bad Request, No key 22222222222229 found in Redis</td>
-<td><div><pre>java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;400&gt; but was &lt;200&gt;.
-
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
-	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
-	at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
-	at sun.reflect.GeneratedMethodAccessor147.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
-	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-	at cipherApi.userLogin.loginWithMultipleDataSet(userLogin.java:149)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-</pre></div><a href='#' onClick='toggleBox("stack-trace216914680", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace216914680'><pre>java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;400&gt; but was &lt;200&gt;.
-
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
-	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
-	at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
-	at sun.reflect.GeneratedMethodAccessor147.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
-	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-	at cipherApi.userLogin.loginWithMultipleDataSet(userLogin.java:149)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-</pre></div></td>
-<td>0</td>
-<td>cipherApi.userLogin@3fd7a715</td></tr>
-<tr>
-<td title='cipherApi.performActivity.performActivityWithMultipleDataSet()'><b>performActivityWithMultipleDataSet</b><br>Test class: cipherApi.performActivity<br>Parameters: bank08, 9823242533, 22222222222227, f3ef2be4fe00ec79, android, 18, 192.168.2.11, 1.7, , c954eadb-c395-43ec-a117-7bfd4fffa25a, 400, HTTP/1.1 400 Bad Request, No key 22222222222227 found in Redis</td>
+<td title='cipherApi.performActivity.performActivityWithMultipleDataSet()'><b>performActivityWithMultipleDataSet</b><br>Test class: cipherApi.performActivity<br>Parameters: bank08, 9823242533, 2222229, f3ef2be4fe00ec79, android, 18, 192.168.2.11, 1.7, AmountWithdrawal, 45cfd3d2-5457-476b-9e09-a09d89f9d94e, Level1, 400, HTTP/1.1 400 Bad Request, No key 2222229 found in Redis</td>
 <td><div><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
@@ -645,8 +247,8 @@ Expected status code &lt;400&gt; but was &lt;200&gt;.
 	at org.testng.TestNG.run(TestNG.java:1031)
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-</pre></div><a href='#' onClick='toggleBox("stack-trace658563862", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace658563862'><pre>java.lang.AssertionError: expected [true] but found [false]
+</pre></div><a href='#' onClick='toggleBox("stack-trace1808547623", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1808547623'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
@@ -683,139 +285,7 @@ Expected status code &lt;400&gt; but was &lt;200&gt;.
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
 </pre></div></td>
 <td>0</td>
-<td>cipherApi.performActivity@71bbf57e</td></tr>
-<tr>
-<td title='cipherApi.userLogin.loginWithMultipleDataSet()'><b>loginWithMultipleDataSet</b><br>Test class: cipherApi.userLogin<br>Parameters: bank01, 9823242526, 22222222222221, f3ef2be4fe00ec72, android, 11, 192.168.2.4, 1.0, , , 400, HTTP/1.1 400 Bad Request, No key 22222222222221 found in Redis</td>
-<td><div><pre>java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;400&gt; but was &lt;200&gt;.
-
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
-	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
-	at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
-	at sun.reflect.GeneratedMethodAccessor147.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
-	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-	at cipherApi.userLogin.loginWithMultipleDataSet(userLogin.java:149)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1015367506", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1015367506'><pre>java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;400&gt; but was &lt;200&gt;.
-
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
-	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
-	at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
-	at sun.reflect.GeneratedMethodAccessor147.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
-	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-	at cipherApi.userLogin.loginWithMultipleDataSet(userLogin.java:149)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-</pre></div></td>
-<td>0</td>
-<td>cipherApi.userLogin@3fd7a715</td></tr>
+<td>cipherApi.performActivity@23faf8f2</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -825,150 +295,190 @@ Expected status code &lt;400&gt; but was &lt;200&gt;.
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='cipherApi.userLogin.loginWithMultipleDataSet()'><b>loginWithMultipleDataSet</b><br>Test class: cipherApi.userLogin<br>Parameters: bank06, 9823242531, 11117, f3ef2be4fe00ec77, android, 16, 192.168.2.9, 1.5, , , 200, HTTP/1.1 200 OK, sessionId</td>
+<td title='cipherApi.userRegistration.registrationWithMultipleDataSet()'><b>registrationWithMultipleDataSet</b><br>Test class: cipherApi.userRegistration<br>Parameters: bank07, 9823242532, 111118, f3ef2be4fe00ec78, android, 17, 192.168.2.10, 1.6, , , Level1, 200, HTTP/1.1 200 OK, User 111118 registered successfully</td>
 <td></td>
 <td>0</td>
-<td>cipherApi.userLogin@3fd7a715</td></tr>
+<td>cipherApi.userRegistration@1e6d1014</td></tr>
 <tr>
-<td title='cipherApi.performActivity.performActivityWithMultipleDataSet()'><b>performActivityWithMultipleDataSet</b><br>Test class: cipherApi.performActivity<br>Parameters: bank06, 9823242531, 11111111111116, f3ef2be4fe00ec77, android, 16, 192.168.2.9, 1.5, AddBeneficiary, b4b1e064-2782-4630-adaf-0d4db46d4248, 200, HTTP/1.1 200 OK, true</td>
+<td title='cipherApi.userLogin.loginWithMultipleDataSet()'><b>loginWithMultipleDataSet</b><br>Test class: cipherApi.userLogin<br>Parameters: bank08, 9823242533, 111119, f3ef2be4fe00ec79, android, 18, 192.168.2.11, 2.7, , , Level1, 400, HTTP/1.1 400 Bad Request, User's device is not registered</td>
 <td></td>
 <td>0</td>
-<td>cipherApi.performActivity@71bbf57e</td></tr>
+<td>cipherApi.userLogin@51cdd8a</td></tr>
 <tr>
-<td title='cipherApi.performActivity.performActivityWithMultipleDataSet()'><b>performActivityWithMultipleDataSet</b><br>Test class: cipherApi.performActivity<br>Parameters: bank04, 9823242529, 11111111111114, f3ef2be4fe00ec75, android, 14, 192.168.2.7, 1.3, AmountWithdrawal, b4b1e064-2782-4630-adaf-0d4db46d4248, 200, HTTP/1.1 200 OK, false</td>
+<td title='cipherApi.performActivity.performActivityWithMultipleDataSet()'><b>performActivityWithMultipleDataSet</b><br>Test class: cipherApi.performActivity<br>Parameters: bank05, 9823242530, 111116, f3ef2be4fe00ec76, android, 15, 192.168.2.8, 1.4, AmountWithdrawal, 3924c64b-66be-482f-bfac-f9c511f524d0, Level2, 200, HTTP/1.1 200 OK, false</td>
 <td></td>
 <td>0</td>
-<td>cipherApi.performActivity@71bbf57e</td></tr>
+<td>cipherApi.performActivity@23faf8f2</td></tr>
 <tr>
-<td title='cipherApi.performActivity.performActivityWithMultipleDataSet()'><b>performActivityWithMultipleDataSet</b><br>Test class: cipherApi.performActivity<br>Parameters: bank07, 9823242532, 11111111111117, f3ef2be4fe00ec78, android, 17, 192.168.2.10, 1.6, BalanceInquiry, c954eadb-c395-43ec-a117-7bfd4fffa25a, 400, HTTP/1.1 400 Bad Request, No key c954eadb-c395-43ec-a117-7bfd4fffa25a found in Redis</td>
+<td title='cipherApi.performActivity.performActivityWithMultipleDataSet()'><b>performActivityWithMultipleDataSet</b><br>Test class: cipherApi.performActivity<br>Parameters: bank02, 9823242527, 111113, f3ef2be4fe00ec73, android, 12, 192.168.2.5, 1.1, AddBeneficiary, 3924c64b-66be-482f-bfac-f9c511f524d0, Level1, 200, HTTP/1.1 200 OK, true</td>
 <td></td>
 <td>0</td>
-<td>cipherApi.performActivity@71bbf57e</td></tr>
+<td>cipherApi.performActivity@23faf8f2</td></tr>
 <tr>
-<td title='cipherApi.userRegistration.registrationWithMultipleDataSet()'><b>registrationWithMultipleDataSet</b><br>Test class: cipherApi.userRegistration<br>Parameters: bank02, 9823242527, 11113, f3ef2be4fe00ec73, android, 12, 192.168.2.5, 1.1, , , 200, HTTP/1.1 200 OK, User 11113 registered successfully</td>
+<td title='cipherApi.updateAuthCriteria.updateAuthCriteriaWithMultipleDataSet()'><b>updateAuthCriteriaWithMultipleDataSet</b><br>Test class: cipherApi.updateAuthCriteria<br>Parameters: ', ', ', ', ', ', ', ', AmountWithdrawal, ', Level1, 200, HTTP/1.1 200 OK, true</td>
 <td></td>
 <td>0</td>
-<td>cipherApi.userRegistration@7d0587f1</td></tr>
+<td>cipherApi.updateAuthCriteria@2d6eabae</td></tr>
 <tr>
-<td title='cipherApi.userLogin.loginWithMultipleDataSet()'><b>loginWithMultipleDataSet</b><br>Test class: cipherApi.userLogin<br>Parameters: bank07, 9823242532, 11118, f3ef2be4fe00ec78, android, 17, 192.168.2.10, 1.6, , , 200, HTTP/1.1 200 OK, sessionId</td>
+<td title='cipherApi.performActivity.performActivityWithMultipleDataSet()'><b>performActivityWithMultipleDataSet</b><br>Test class: cipherApi.performActivity<br>Parameters: bank06, 9823242531, 111117, f3ef2be4fe00ec77, android, 16, 192.168.2.9, 1.5, AddBeneficiary, 3924c64b-66be-482f-bfac-f9c511f524d0, Level1, 200, HTTP/1.1 200 OK, true</td>
 <td></td>
 <td>0</td>
-<td>cipherApi.userLogin@3fd7a715</td></tr>
+<td>cipherApi.performActivity@23faf8f2</td></tr>
 <tr>
-<td title='cipherApi.performActivity.performActivityWithMultipleDataSet()'><b>performActivityWithMultipleDataSet</b><br>Test class: cipherApi.performActivity<br>Parameters: bank09, 9823242534, 11111111111119, f3ef2be4fe00ec80, android, 19, 192.168.2.12, 1.8, , , 400, HTTP/1.1 400 Bad Request, Error in calling performActivity</td>
+<td title='cipherApi.userLogin.loginWithValidToken()'><b>loginWithValidToken</b><br>Test class: cipherApi.userLogin<br>Parameters: org.testng.TestRunner@7efe7b87</td>
 <td></td>
-<td>0</td>
-<td>cipherApi.performActivity@71bbf57e</td></tr>
+<td>1</td>
+<td>cipherApi.userLogin@51cdd8a</td></tr>
 <tr>
-<td title='cipherApi.performActivity.performActivityWithMultipleDataSet()'><b>performActivityWithMultipleDataSet</b><br>Test class: cipherApi.performActivity<br>Parameters: bank01, 9823242526, 11111111111111, f3ef2be4fe00ec72, android, 11, 192.168.2.4, 1.0, BalanceInquiry, b4b1e064-2782-4630-adaf-0d4db46d4248, 200, HTTP/1.1 200 OK, false</td>
+<td title='cipherApi.performActivity.performActivityWithMultipleDataSet()'><b>performActivityWithMultipleDataSet</b><br>Test class: cipherApi.performActivity<br>Parameters: bank07, 9823242532, 111118, f3ef2be4fe00ec78, android, 17, 192.168.2.10, 1.6, , 3924c64b-66be-482f-bfac-f9c511f524d0, Level2, 400, HTTP/1.1 400 Bad Request, Both activityType and SessionId must be defined</td>
 <td></td>
 <td>0</td>
-<td>cipherApi.performActivity@71bbf57e</td></tr>
+<td>cipherApi.performActivity@23faf8f2</td></tr>
 <tr>
-<td title='cipherApi.performActivity.performActivityWithMultipleDataSet()'><b>performActivityWithMultipleDataSet</b><br>Test class: cipherApi.performActivity<br>Parameters: bank03, 9823242528, 11111111111113, f3ef2be4fe00ec74, android, 13, 192.168.2.6, 1.2, AddBeneficiary, b4b1e064-2782-4630-adaf-0d4db46d4248, 200, HTTP/1.1 200 OK, true</td>
+<td title='cipherApi.userRegistration.registrationWithMultipleDataSet()'><b>registrationWithMultipleDataSet</b><br>Test class: cipherApi.userRegistration<br>Parameters: bank01, 9823242526, 111112, f3ef2be4fe00ec72, android, 11, 192.168.2.4, 1.0, , , Level1, 200, HTTP/1.1 200 OK, User 111112 registered successfully</td>
 <td></td>
 <td>0</td>
-<td>cipherApi.performActivity@71bbf57e</td></tr>
+<td>cipherApi.userRegistration@1e6d1014</td></tr>
 <tr>
-<td title='cipherApi.userRegistration.registrationWithMultipleDataSet()'><b>registrationWithMultipleDataSet</b><br>Test class: cipherApi.userRegistration<br>Parameters: bank04, 9823242529, 11115, f3ef2be4fe00ec75, android, 14, 192.168.2.7, 1.3, , , 200, HTTP/1.1 200 OK, User 11115 registered successfully</td>
+<td title='cipherApi.updateAuthCriteria.updateAuthCriteriaWithMultipleDataSet()'><b>updateAuthCriteriaWithMultipleDataSet</b><br>Test class: cipherApi.updateAuthCriteria<br>Parameters: ', ', ', ', ', ', ', ', BalanceInquiry, ', Level1, 200, HTTP/1.1 200 OK, true</td>
 <td></td>
 <td>0</td>
-<td>cipherApi.userRegistration@7d0587f1</td></tr>
+<td>cipherApi.updateAuthCriteria@2d6eabae</td></tr>
 <tr>
-<td title='cipherApi.userLogin.loginWithMultipleDataSet()'><b>loginWithMultipleDataSet</b><br>Test class: cipherApi.userLogin<br>Parameters: bank03, 9823242528, 11114, f3ef2be4fe00ec74, android, 13, 192.168.2.6, 1.2, , , 200, HTTP/1.1 200 OK, sessionId</td>
+<td title='cipherApi.userLogin.loginWithMultipleDataSet()'><b>loginWithMultipleDataSet</b><br>Test class: cipherApi.userLogin<br>Parameters: bank03, 9823242528, 111114, f3ef2be4fe00ec74, android, 13, 192.168.2.6, 1.2, , , Level1, 200, HTTP/1.1 200 OK, sessionId</td>
 <td></td>
 <td>0</td>
-<td>cipherApi.userLogin@3fd7a715</td></tr>
+<td>cipherApi.userLogin@51cdd8a</td></tr>
 <tr>
-<td title='cipherApi.userRegistration.registrationWithMultipleDataSet()'><b>registrationWithMultipleDataSet</b><br>Test class: cipherApi.userRegistration<br>Parameters: bank05, 9823242530, 11116, f3ef2be4fe00ec76, android, 15, 192.168.2.8, 1.4, , , 200, HTTP/1.1 200 OK, User 11116 registered successfully</td>
+<td title='cipherApi.userRegistration.registrationWithMultipleDataSet()'><b>registrationWithMultipleDataSet</b><br>Test class: cipherApi.userRegistration<br>Parameters: bank03, 9823242528, 111114, f3ef2be4fe00ec74, android, 13, 192.168.2.6, 1.2, , , Level1, 200, HTTP/1.1 200 OK, User 111114 registered successfully</td>
 <td></td>
 <td>0</td>
-<td>cipherApi.userRegistration@7d0587f1</td></tr>
+<td>cipherApi.userRegistration@1e6d1014</td></tr>
+<tr>
+<td title='cipherApi.userLogin.loginWithMultipleDataSet()'><b>loginWithMultipleDataSet</b><br>Test class: cipherApi.userLogin<br>Parameters: HDFC, 9876543210, 111111, f3ef2be4fe00ec72, android, 11, 192.168.2.4, 1.0, , , Level1, 200, HTTP/1.1 200 OK, sessionId</td>
+<td></td>
+<td>0</td>
+<td>cipherApi.userLogin@51cdd8a</td></tr>
+<tr>
+<td title='cipherApi.userLogin.loginWithMultipleDataSet()'><b>loginWithMultipleDataSet</b><br>Test class: cipherApi.userLogin<br>Parameters: bank09, 9823242534, 2222230, f3ef2be4fe00ec80, android, 19, 192.168.2.12, 1.8, , , Level1, 400, HTTP/1.1 400 Bad Request, No such binding '2222230':'PRIMARY' found</td>
+<td></td>
+<td>0</td>
+<td>cipherApi.userLogin@51cdd8a</td></tr>
+<tr>
+<td title='cipherApi.userLogin.loginWithMultipleDataSet()'><b>loginWithMultipleDataSet</b><br>Test class: cipherApi.userLogin<br>Parameters: bank05, 9823242530, 111116, f3ef2be4fe00ec76, ios, 15, 192.168.2.7, 1.4, , , Level1, 400, HTTP/1.1 400 Bad Request, User's device is not registered</td>
+<td></td>
+<td>0</td>
+<td>cipherApi.userLogin@51cdd8a</td></tr>
+<tr>
+<td title='cipherApi.userRegistration.registrationWithMultipleDataSet()'><b>registrationWithMultipleDataSet</b><br>Test class: cipherApi.userRegistration<br>Parameters: bank09, 9823242534, 111120, f3ef2be4fe00ec80, android, 19, 192.168.2.12, 1.8, , , Level1, 200, HTTP/1.1 200 OK, User 111120 registered successfully</td>
+<td></td>
+<td>0</td>
+<td>cipherApi.userRegistration@1e6d1014</td></tr>
+<tr>
+<td title='cipherApi.performActivity.performActivityWithMultipleDataSet()'><b>performActivityWithMultipleDataSet</b><br>Test class: cipherApi.performActivity<br>Parameters: bank01, 9823242526, 111112, f3ef2be4fe00ec72, android, 11, 192.168.2.4, 1.0, BalanceInquiry, 3924c64b-66be-482f-bfac-f9c511f524d0, Level2, 200, HTTP/1.1 200 OK, false</td>
+<td></td>
+<td>0</td>
+<td>cipherApi.performActivity@23faf8f2</td></tr>
+<tr>
+<td title='cipherApi.performActivity.performActivityWithMultipleDataSet()'><b>performActivityWithMultipleDataSet</b><br>Test class: cipherApi.performActivity<br>Parameters: HDFC, 9876543210, 111111, f3ef2be4fe00ec72, android, 11, 192.168.2.4, 1.0, BalanceInquiry, 3924c64b-66be-482f-bfac-f9c511f524d0, Level1, 200, HTTP/1.1 200 OK, false</td>
+<td></td>
+<td>0</td>
+<td>cipherApi.performActivity@23faf8f2</td></tr>
+<tr>
+<td title='cipherApi.userRegistration.registrationWithMultipleDataSet()'><b>registrationWithMultipleDataSet</b><br>Test class: cipherApi.userRegistration<br>Parameters: bank08, 9823242533, 111119, f3ef2be4fe00ec79, android, 18, 192.168.2.11, 1.7, , , Level1, 200, HTTP/1.1 200 OK, User 111119 registered successfully</td>
+<td></td>
+<td>0</td>
+<td>cipherApi.userRegistration@1e6d1014</td></tr>
+<tr>
+<td title='cipherApi.userRegistration.registrationWithValidToken()'><b>registrationWithValidToken</b><br>Test class: cipherApi.userRegistration</td>
+<td></td>
+<td>2</td>
+<td>cipherApi.userRegistration@1e6d1014</td></tr>
+<tr>
+<td title='cipherApi.performActivity.performActivityWithMultipleDataSet()'><b>performActivityWithMultipleDataSet</b><br>Test class: cipherApi.performActivity<br>Parameters: bank04, 9823242529, 111115, f3ef2be4fe00ec75, android, 14, 192.168.2.7, 1.3, AmountWithdrawal, 3924c64b-66be-482f-bfac-f9c511f524d0, Level1, 200, HTTP/1.1 200 OK, false</td>
+<td></td>
+<td>0</td>
+<td>cipherApi.performActivity@23faf8f2</td></tr>
+<tr>
+<td title='cipherApi.userRegistration.registrationWithMultipleDataSet()'><b>registrationWithMultipleDataSet</b><br>Test class: cipherApi.userRegistration<br>Parameters: HDFC, 9876543210, 111111, f3ef2be4fe00ec72, android, 11, 192.168.2.4, 1.0, , , Level1, 200, HTTP/1.1 200 OK, User 111111 registered successfully</td>
+<td></td>
+<td>0</td>
+<td>cipherApi.userRegistration@1e6d1014</td></tr>
+<tr>
+<td title='cipherApi.userLogin.loginWithMultipleDataSet()'><b>loginWithMultipleDataSet</b><br>Test class: cipherApi.userLogin<br>Parameters: bank06, 9823242531, 111117, f3ef2be4fe00ec77, android, 26, 192.168.2.7, 1.5, , , Level1, 400, HTTP/1.1 400 Bad Request, User's device is not registered</td>
+<td></td>
+<td>0</td>
+<td>cipherApi.userLogin@51cdd8a</td></tr>
+<tr>
+<td title='cipherApi.userLogin.loginWithInvalidToken()'><b>loginWithInvalidToken</b><br>Test class: cipherApi.userLogin</td>
+<td></td>
+<td>0</td>
+<td>cipherApi.userLogin@51cdd8a</td></tr>
+<tr>
+<td title='cipherApi.userRegistration.registrationWithMultipleDataSet()'><b>registrationWithMultipleDataSet</b><br>Test class: cipherApi.userRegistration<br>Parameters: bank02, 9823242527, 111113, f3ef2be4fe00ec73, android, 12, 192.168.2.5, 1.1, , , Level1, 200, HTTP/1.1 200 OK, User 111113 registered successfully</td>
+<td></td>
+<td>0</td>
+<td>cipherApi.userRegistration@1e6d1014</td></tr>
+<tr>
+<td title='cipherApi.performActivity.performActivityWithMultipleDataSet()'><b>performActivityWithMultipleDataSet</b><br>Test class: cipherApi.performActivity<br>Parameters: bank09, 9823242534, 111120, f3ef2be4fe00ec80, android, 19, 192.168.2.12, 1.8, , , Level2, 400, HTTP/1.1 400 Bad Request, Error in calling performActivity NoSession</td>
+<td></td>
+<td>0</td>
+<td>cipherApi.performActivity@23faf8f2</td></tr>
+<tr>
+<td title='cipherApi.userLogin.loginWithMultipleDataSet()'><b>loginWithMultipleDataSet</b><br>Test class: cipherApi.userLogin<br>Parameters: bank01, 9823242526, 2222222, f3ef2be4fe00ec72, android, 11, 192.168.2.4, 1.0, , , Level1, 400, HTTP/1.1 400 Bad Request, No such binding '2222222':'PRIMARY' found</td>
+<td></td>
+<td>0</td>
+<td>cipherApi.userLogin@51cdd8a</td></tr>
+<tr>
+<td title='cipherApi.userRegistration.registrationWithMultipleDataSet()'><b>registrationWithMultipleDataSet</b><br>Test class: cipherApi.userRegistration<br>Parameters: bank06, 9823242531, 111117, f3ef2be4fe00ec77, android, 16, 192.168.2.9, 1.5, , , Level1, 200, HTTP/1.1 200 OK, User 111117 registered successfully</td>
+<td></td>
+<td>0</td>
+<td>cipherApi.userRegistration@1e6d1014</td></tr>
+<tr>
+<td title='cipherApi.userLogin.loginWithMultipleDataSet()'><b>loginWithMultipleDataSet</b><br>Test class: cipherApi.userLogin<br>Parameters: bank02, 9823242527, 111113, f3ef2be4fe00ec73, android, 12, 192.168.2.5, 1.1, , , Level1, 200, HTTP/1.1 200 OK, sessionId</td>
+<td></td>
+<td>0</td>
+<td>cipherApi.userLogin@51cdd8a</td></tr>
+<tr>
+<td title='cipherApi.performActivity.performActivityWithMultipleDataSet()'><b>performActivityWithMultipleDataSet</b><br>Test class: cipherApi.performActivity<br>Parameters: bank08, 9823242533, 111119, f3ef2be4fe00ec79, android, 18, 192.168.2.11, 1.7, AddBeneficiary, 11445dcb-31b6-4e5e-b935-06d5a89e6e9e, ', 400, HTTP/1.1 400 Bad Request, Error in calling performActivity DecryptionError</td>
+<td></td>
+<td>0</td>
+<td>cipherApi.performActivity@23faf8f2</td></tr>
+<tr>
+<td title='cipherApi.updateAuthCriteria.updateAuthCriteriaWithMultipleDataSet()'><b>updateAuthCriteriaWithMultipleDataSet</b><br>Test class: cipherApi.updateAuthCriteria<br>Parameters: ', ', ', ', ', ', ', ', AddBeneficiary, ', Level2, 200, HTTP/1.1 200 OK, true</td>
+<td></td>
+<td>0</td>
+<td>cipherApi.updateAuthCriteria@2d6eabae</td></tr>
+<tr>
+<td title='cipherApi.performActivity.performActivityWithMultipleDataSet()'><b>performActivityWithMultipleDataSet</b><br>Test class: cipherApi.performActivity<br>Parameters: bank03, 9823242528, 111114, f3ef2be4fe00ec74, android, 13, 192.168.2.6, 1.2, AddBeneficiary, 3924c64b-66be-482f-bfac-f9c511f524d0, Level2, 200, HTTP/1.1 200 OK, false</td>
+<td></td>
+<td>0</td>
+<td>cipherApi.performActivity@23faf8f2</td></tr>
+<tr>
+<td title='cipherApi.userLogin.loginWithMultipleDataSet()'><b>loginWithMultipleDataSet</b><br>Test class: cipherApi.userLogin<br>Parameters: bank07, 9823242532, 111118, f3ef2be4fe00ec77, android, 17, 198.160.0.0, 1.6, , , Level1, 400, HTTP/1.1 400 Bad Request, User's device is not registered</td>
+<td></td>
+<td>0</td>
+<td>cipherApi.userLogin@51cdd8a</td></tr>
+<tr>
+<td title='cipherApi.userRegistration.registrationWithMultipleDataSet()'><b>registrationWithMultipleDataSet</b><br>Test class: cipherApi.userRegistration<br>Parameters: bank04, 9823242529, 111115, f3ef2be4fe00ec75, android, 14, 192.168.2.7, 1.3, , , Level1, 200, HTTP/1.1 200 OK, User 111115 registered successfully</td>
+<td></td>
+<td>0</td>
+<td>cipherApi.userRegistration@1e6d1014</td></tr>
+<tr>
+<td title='cipherApi.userLogin.loginWithMultipleDataSet()'><b>loginWithMultipleDataSet</b><br>Test class: cipherApi.userLogin<br>Parameters: bank04, 9823242529, 111115, f3ef2b, android, 14, 192.168.2.7, 1.3, , , Level1, 400, HTTP/1.1 400 Bad Request, User's device is not registered</td>
+<td></td>
+<td>0</td>
+<td>cipherApi.userLogin@51cdd8a</td></tr>
+<tr>
+<td title='cipherApi.userRegistration.registrationWithMultipleDataSet()'><b>registrationWithMultipleDataSet</b><br>Test class: cipherApi.userRegistration<br>Parameters: bank05, 9823242530, 111116, f3ef2be4fe00ec76, android, 15, 192.168.2.8, 1.4, , , Level1, 200, HTTP/1.1 200 OK, User 111116 registered successfully</td>
+<td></td>
+<td>0</td>
+<td>cipherApi.userRegistration@1e6d1014</td></tr>
 <tr>
 <td title='cipherApi.performActivity.performActivityWithValidToken()'><b>performActivityWithValidToken</b><br>Test class: cipherApi.performActivity</td>
 <td></td>
 <td>0</td>
-<td>cipherApi.performActivity@71bbf57e</td></tr>
-<tr>
-<td title='cipherApi.userRegistration.registrationWithMultipleDataSet()'><b>registrationWithMultipleDataSet</b><br>Test class: cipherApi.userRegistration<br>Parameters: HDFC, 9876543210, 11111, f3ef2be4fe00ec72, android, 11, 192.168.2.4, 1.0, , , 200, HTTP/1.1 200 OK, User 11111 registered successfully</td>
-<td></td>
-<td>0</td>
-<td>cipherApi.userRegistration@7d0587f1</td></tr>
-<tr>
-<td title='cipherApi.performActivity.performActivityWithMultipleDataSet()'><b>performActivityWithMultipleDataSet</b><br>Test class: cipherApi.performActivity<br>Parameters: HDFC, 9876543210, somecrn, f3ef2be4fe00ec72, android, 11, 192.168.2.4, 1.0, BalanceInquiry, b4b1e064-2782-4630-adaf-0d4db46d4248, 200, HTTP/1.1 200 OK, false</td>
-<td></td>
-<td>0</td>
-<td>cipherApi.performActivity@71bbf57e</td></tr>
-<tr>
-<td title='cipherApi.userRegistration.registrationWithMultipleDataSet()'><b>registrationWithMultipleDataSet</b><br>Test class: cipherApi.userRegistration<br>Parameters: bank06, 9823242531, 11117, f3ef2be4fe00ec77, android, 16, 192.168.2.9, 1.5, , , 200, HTTP/1.1 200 OK, User 11117 registered successfully</td>
-<td></td>
-<td>0</td>
-<td>cipherApi.userRegistration@7d0587f1</td></tr>
-<tr>
-<td title='cipherApi.userRegistration.registrationWithMultipleDataSet()'><b>registrationWithMultipleDataSet</b><br>Test class: cipherApi.userRegistration<br>Parameters: bank08, 9823242533, 11119, f3ef2be4fe00ec79, android, 18, 192.168.2.11, 1.7, , , 200, HTTP/1.1 200 OK, User 11119 registered successfully</td>
-<td></td>
-<td>0</td>
-<td>cipherApi.userRegistration@7d0587f1</td></tr>
-<tr>
-<td title='cipherApi.userLogin.loginWithMultipleDataSet()'><b>loginWithMultipleDataSet</b><br>Test class: cipherApi.userLogin<br>Parameters: bank02, 9823242527, 11113, f3ef2be4fe00ec73, android, 12, 192.168.2.5, 1.1, , , 200, HTTP/1.1 200 OK, sessionId</td>
-<td></td>
-<td>0</td>
-<td>cipherApi.userLogin@3fd7a715</td></tr>
-<tr>
-<td title='cipherApi.userRegistration.registrationWithMultipleDataSet()'><b>registrationWithMultipleDataSet</b><br>Test class: cipherApi.userRegistration<br>Parameters: bank03, 9823242528, 11114, f3ef2be4fe00ec74, android, 13, 192.168.2.6, 1.2, , , 200, HTTP/1.1 200 OK, User 11114 registered successfully</td>
-<td></td>
-<td>0</td>
-<td>cipherApi.userRegistration@7d0587f1</td></tr>
-<tr>
-<td title='cipherApi.performActivity.performActivityWithMultipleDataSet()'><b>performActivityWithMultipleDataSet</b><br>Test class: cipherApi.performActivity<br>Parameters: bank05, 9823242530, 11111111111115, f3ef2be4fe00ec76, android, 15, 192.168.2.8, 1.4, AmountWithdrawal, b4b1e064-2782-4630-adaf-0d4db46d4248, 200, HTTP/1.1 200 OK, false</td>
-<td></td>
-<td>0</td>
-<td>cipherApi.performActivity@71bbf57e</td></tr>
-<tr>
-<td title='cipherApi.userRegistration.registrationWithMultipleDataSet()'><b>registrationWithMultipleDataSet</b><br>Test class: cipherApi.userRegistration<br>Parameters: bank09, 9823242534, 11120, f3ef2be4fe00ec80, android, 19, 192.168.2.12, 1.8, , , 200, HTTP/1.1 200 OK, User 11120 registered successfully</td>
-<td></td>
-<td>0</td>
-<td>cipherApi.userRegistration@7d0587f1</td></tr>
-<tr>
-<td title='cipherApi.userLogin.loginWithMultipleDataSet()'><b>loginWithMultipleDataSet</b><br>Test class: cipherApi.userLogin<br>Parameters: bank04, 9823242529, 11115, f3ef2be4fe00ec75, android, 14, 192.168.2.7, 1.3, , , 200, HTTP/1.1 200 OK, sessionId</td>
-<td></td>
-<td>0</td>
-<td>cipherApi.userLogin@3fd7a715</td></tr>
-<tr>
-<td title='cipherApi.userLogin.loginWithValidToken()'><b>loginWithValidToken</b><br>Test class: cipherApi.userLogin<br>Parameters: org.testng.TestRunner@41b1f51e</td>
-<td></td>
-<td>2</td>
-<td>cipherApi.userLogin@3fd7a715</td></tr>
-<tr>
-<td title='cipherApi.userRegistration.registrationWithValidToken()'><b>registrationWithValidToken</b><br>Test class: cipherApi.userRegistration</td>
-<td></td>
-<td>14</td>
-<td>cipherApi.userRegistration@7d0587f1</td></tr>
-<tr>
-<td title='cipherApi.userLogin.loginWithMultipleDataSet()'><b>loginWithMultipleDataSet</b><br>Test class: cipherApi.userLogin<br>Parameters: bank05, 9823242530, 11116, f3ef2be4fe00ec76, android, 15, 192.168.2.8, 1.4, , , 200, HTTP/1.1 200 OK, sessionId</td>
-<td></td>
-<td>0</td>
-<td>cipherApi.userLogin@3fd7a715</td></tr>
-<tr>
-<td title='cipherApi.performActivity.performActivityWithMultipleDataSet()'><b>performActivityWithMultipleDataSet</b><br>Test class: cipherApi.performActivity<br>Parameters: bank02, 9823242527, 11111111111112, f3ef2be4fe00ec73, android, 12, 192.168.2.5, 1.1, AddBeneficiary, b4b1e064-2782-4630-adaf-0d4db46d4248, 200, HTTP/1.1 200 OK, true</td>
-<td></td>
-<td>0</td>
-<td>cipherApi.performActivity@71bbf57e</td></tr>
-<tr>
-<td title='cipherApi.userRegistration.registrationWithMultipleDataSet()'><b>registrationWithMultipleDataSet</b><br>Test class: cipherApi.userRegistration<br>Parameters: bank07, 9823242532, 11118, f3ef2be4fe00ec78, android, 17, 192.168.2.10, 1.6, , , 200, HTTP/1.1 200 OK, User 11118 registered successfully</td>
-<td></td>
-<td>0</td>
-<td>cipherApi.userRegistration@7d0587f1</td></tr>
-<tr>
-<td title='cipherApi.userRegistration.registrationWithMultipleDataSet()'><b>registrationWithMultipleDataSet</b><br>Test class: cipherApi.userRegistration<br>Parameters: bank01, 9823242526, 11112, f3ef2be4fe00ec72, android, 11, 192.168.2.4, 1.0, , , 200, HTTP/1.1 200 OK, User 11112 registered successfully</td>
-<td></td>
-<td>0</td>
-<td>cipherApi.userRegistration@7d0587f1</td></tr>
-<tr>
-<td title='cipherApi.userLogin.loginWithMultipleDataSet()'><b>loginWithMultipleDataSet</b><br>Test class: cipherApi.userLogin<br>Parameters: HDFC, 9876543210, 11111, f3ef2be4fe00ec72, android, 11, 192.168.2.4, 1.0, , , 200, HTTP/1.1 200 OK, sessionId</td>
-<td></td>
-<td>0</td>
-<td>cipherApi.userLogin@3fd7a715</td></tr>
+<td>cipherApi.performActivity@23faf8f2</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -1116,539 +626,9 @@ Expected status code &lt;400&gt; but was &lt;200&gt;.
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
 </pre></div></td>
 <td>0</td>
-<td>cipherApi.userRegistration@7d0587f1</td></tr>
+<td>cipherApi.userRegistration@1e6d1014</td></tr>
 <tr>
-<td title='cipherApi.userLogin.loginWithMultipleDataSet()'><b>loginWithMultipleDataSet</b><br>Test class: cipherApi.userLogin<br>Parameters: bank01, 9823242526, 22222222222221, f3ef2be4fe00ec72, android, 11, 192.168.2.4, 1.0, , , 400, HTTP/1.1 400 Bad Request, No key 22222222222221 found in Redis</td>
-<td><div><pre>java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;400&gt; but was &lt;200&gt;.
-
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
-	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
-	at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
-	at sun.reflect.GeneratedMethodAccessor147.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
-	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-	at cipherApi.userLogin.loginWithMultipleDataSet(userLogin.java:149)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1432687668", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1432687668'><pre>java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;400&gt; but was &lt;200&gt;.
-
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
-	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
-	at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
-	at sun.reflect.GeneratedMethodAccessor147.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
-	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-	at cipherApi.userLogin.loginWithMultipleDataSet(userLogin.java:149)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-</pre></div></td>
-<td>0</td>
-<td>cipherApi.userLogin@3fd7a715</td></tr>
-<tr>
-<td title='cipherApi.userLogin.loginWithMultipleDataSet()'><b>loginWithMultipleDataSet</b><br>Test class: cipherApi.userLogin<br>Parameters: bank09, 9823242534, 22222222222229, f3ef2be4fe00ec80, android, 19, 192.168.2.12, 1.8, , , 400, HTTP/1.1 400 Bad Request, No key 22222222222229 found in Redis</td>
-<td><div><pre>java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;400&gt; but was &lt;200&gt;.
-
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
-	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
-	at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
-	at sun.reflect.GeneratedMethodAccessor147.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
-	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-	at cipherApi.userLogin.loginWithMultipleDataSet(userLogin.java:149)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-</pre></div><a href='#' onClick='toggleBox("stack-trace779511842", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace779511842'><pre>java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;400&gt; but was &lt;200&gt;.
-
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
-	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
-	at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
-	at sun.reflect.GeneratedMethodAccessor147.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
-	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-	at cipherApi.userLogin.loginWithMultipleDataSet(userLogin.java:149)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-</pre></div></td>
-<td>0</td>
-<td>cipherApi.userLogin@3fd7a715</td></tr>
-<tr>
-<td title='cipherApi.userLogin.loginWithInvalidToken()'><b>loginWithInvalidToken</b><br>Test class: cipherApi.userLogin</td>
-<td><div><pre>java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;400&gt; but was &lt;200&gt;.
-
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
-	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
-	at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
-	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-	at cipherApi.userLogin.loginWithInvalidToken(userLogin.java:112)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-</pre></div><a href='#' onClick='toggleBox("stack-trace324701295", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace324701295'><pre>java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;400&gt; but was &lt;200&gt;.
-
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
-	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
-	at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
-	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-	at cipherApi.userLogin.loginWithInvalidToken(userLogin.java:112)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-</pre></div></td>
-<td>0</td>
-<td>cipherApi.userLogin@3fd7a715</td></tr>
-<tr>
-<td title='cipherApi.userLogin.loginWithMultipleDataSet()'><b>loginWithMultipleDataSet</b><br>Test class: cipherApi.userLogin<br>Parameters: bank08, 9823242533, 22222222222228, f3ef2be4fe00ec79, android, 18, 192.168.2.11, 1.7, , , 400, HTTP/1.1 400 Bad Request, No key 22222222222228 found in Redis</td>
-<td><div><pre>java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;400&gt; but was &lt;200&gt;.
-
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
-	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
-	at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
-	at sun.reflect.GeneratedMethodAccessor147.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
-	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-	at cipherApi.userLogin.loginWithMultipleDataSet(userLogin.java:149)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-</pre></div><a href='#' onClick='toggleBox("stack-trace2034460325", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2034460325'><pre>java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;400&gt; but was &lt;200&gt;.
-
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
-	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
-	at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
-	at sun.reflect.GeneratedMethodAccessor147.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
-	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-	at cipherApi.userLogin.loginWithMultipleDataSet(userLogin.java:149)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-</pre></div></td>
-<td>0</td>
-<td>cipherApi.userLogin@3fd7a715</td></tr>
-<tr>
-<td title='cipherApi.performActivity.performActivityWithMultipleDataSet()'><b>performActivityWithMultipleDataSet</b><br>Test class: cipherApi.performActivity<br>Parameters: bank08, 9823242533, 22222222222227, f3ef2be4fe00ec79, android, 18, 192.168.2.11, 1.7, , c954eadb-c395-43ec-a117-7bfd4fffa25a, 400, HTTP/1.1 400 Bad Request, No key 22222222222227 found in Redis</td>
+<td title='cipherApi.performActivity.performActivityWithMultipleDataSet()'><b>performActivityWithMultipleDataSet</b><br>Test class: cipherApi.performActivity<br>Parameters: bank08, 9823242533, 2222229, f3ef2be4fe00ec79, android, 18, 192.168.2.11, 1.7, AmountWithdrawal, 45cfd3d2-5457-476b-9e09-a09d89f9d94e, Level1, 400, HTTP/1.1 400 Bad Request, No key 2222229 found in Redis</td>
 <td><div><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
@@ -1684,8 +664,8 @@ Expected status code &lt;400&gt; but was &lt;200&gt;.
 	at org.testng.TestNG.run(TestNG.java:1031)
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1869373559", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1869373559'><pre>java.lang.AssertionError: expected [true] but found [false]
+</pre></div><a href='#' onClick='toggleBox("stack-trace2107088180", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2107088180'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
@@ -1722,7 +702,7 @@ Expected status code &lt;400&gt; but was &lt;200&gt;.
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
 </pre></div></td>
 <td>0</td>
-<td>cipherApi.performActivity@71bbf57e</td></tr>
+<td>cipherApi.performActivity@23faf8f2</td></tr>
 </table><p>
 </body>
 </html>

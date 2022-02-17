@@ -117,7 +117,7 @@ public class userLogin extends readConfig {
                         .extract().response();
 
         String responseName = response.path("name");
-        Assert.assertEquals(responseName.contains("No key"),true);
+        Assert.assertEquals(responseName.contains("No such binding '2222222':'PRIMARY' found"),true);
         long responseTime = response.getTimeIn(TimeUnit.MILLISECONDS);
         Assert.assertTrue(responseTime<=expectedResponseTime,"Response time is not within limits");
     }
@@ -131,9 +131,9 @@ public class userLogin extends readConfig {
     }
 
     @Test(priority = 2, dataProvider="testData", enabled = true)
-    public void loginWithMultipleDataSet(String bankId, String mobileNumber, String crnNo, String bankAppVersion, String deviceId, String deviceIpAddress, String deviceOs, String deviceOsVersion, String activityType, String sessionId, String statusCode, String statusLine, String message) throws Exception {
+    public void loginWithMultipleDataSet(String bankId, String mobileNumber, String crnNo, String bankAppVersion, String deviceId, String deviceIpAddress, String deviceOs, String deviceOsVersion, String activityType, String sessionId, String levelTag, String statusCode, String statusLine, String message) throws Exception {
 
-        readPojo readPojo = new readPojo(bankId, mobileNumber, crnNo,  bankAppVersion, deviceId, deviceIpAddress, deviceOs, deviceOsVersion, activityType, sessionId);
+        readPojo readPojo = new readPojo(bankId, mobileNumber, crnNo, bankAppVersion, deviceId, deviceIpAddress, deviceOs, deviceOsVersion, activityType, sessionId, levelTag);
         String encryptedMessage = readPojo.readParameters();
 
         map.put("token", encryptedMessage);

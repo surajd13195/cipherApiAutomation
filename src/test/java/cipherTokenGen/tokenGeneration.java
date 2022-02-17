@@ -43,18 +43,18 @@ public class tokenGeneration {
 
     public static void main(String[] args) throws Exception {
 
-        pojo1 pojo1 = new pojo1();
+        pojo1 pojo1 = new pojo1("HDFC","9876543210", null, "Level1" );
 
-        Level1Token level1TokenPojo = new Level1Token("HDFC","9876543210");
-        pojo1.setLevel1Token(level1TokenPojo);
+        /*Level1Token level1TokenPojo = new Level1Token("HDFC","9876543210");
+        pojo1.setLevel1Token(level1TokenPojo);*/
 
-        crnNumber crnNumberPojo = new crnNumber("somecrn11111");
-        level1TokenPojo.setCrnNumber(crnNumberPojo);
+        crnNumber crnNumberPojo = new crnNumber("somecrn11112");
+        pojo1.setCrnNumber(crnNumberPojo);
 
         deviceDetails deviceDetailsPojo = new deviceDetails("f3ef2be4fe00ec72","android","11","192.168.2.4","1.0");
-        level1TokenPojo.setDeviceDetails(deviceDetailsPojo);
+        pojo1.setDeviceDetails(deviceDetailsPojo);
 
-        String activityType = "test";
+        /*String activityType = "test";
         activityType activityTypePojo = new activityType();
         if(activityType.equalsIgnoreCase("BalanceInquiry")){
             BalanceInquiry balanceInquiry = new BalanceInquiry();
@@ -68,11 +68,11 @@ public class tokenGeneration {
         }else {
             activityTypePojo=null;
         }
-        level1TokenPojo.setActivityType(activityTypePojo);
+        level1TokenPojo.setActivityType(activityTypePojo);*/
 
         sessionId sessionIdPojo = null;
         //sessionId sessionIdPojo = new sessionId("1234");
-        level1TokenPojo.setSessionId(sessionIdPojo);
+        pojo1.setSessionId(sessionIdPojo);
 
         String tokenData = new Gson().toJson(pojo1);
         tokenGeneration gen = new tokenGeneration();

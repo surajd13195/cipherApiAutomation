@@ -28,6 +28,11 @@
                     <include name="performActivityWithMultipleDataSet"/>
                 </methods>
             </class>
+            <class name="cipherApi.updateAuthCriteria">
+                <methods>
+                    <include name="updateAuthCriteriaWithMultipleDataSet"/>
+                </methods>
+            </class>
             <!--<class name="cipherApi.authCriteriaCheckApi">
                 <methods>
                     <include name="getAuthCriteriaCheckWithValidToken"/>

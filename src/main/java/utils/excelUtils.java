@@ -60,7 +60,7 @@ public class excelUtils {
     public static double getCellDataNumeric(int rowNum, int colNum) throws IOException {
 
         double value = sheet.getRow(rowNum).getCell(colNum).getNumericCellValue();
-        //System.out.println("Cell data: " +value);
+        System.out.println("Cell data: " +value);
         workbook.close();
         return value;
     }

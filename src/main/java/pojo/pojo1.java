@@ -2,22 +2,74 @@ package pojo;
 
 public class pojo1 {
 
-    Level1Token Level1Token;
-    Level2Token Level2Token;
+    public String bankId;
+    public String mobileNumber;
+    crnNumber crnNumber;
+    deviceDetails deviceDetails;
+    public String activityType;
+    sessionId sessionId;
+    public String levelTag;
 
-    public pojo.Level1Token getLevel1Token() {
-        return Level1Token;
+    public pojo1(String bankId, String mobileNumber, String activityType, String levelTag){
+        this.bankId=bankId;
+        this.mobileNumber=mobileNumber;
+        this.activityType=activityType;
+        this.levelTag=levelTag;
     }
 
-    public void setLevel1Token(pojo.Level1Token level1Token) {
-        Level1Token = level1Token;
+    public String getBankId() {
+        return bankId;
     }
 
-    public pojo.Level2Token getLevel2Token() {
-        return Level2Token;
+    public void setBankId(String bankId) {
+        this.bankId = bankId;
     }
 
-    public void setLevel2Token(pojo.Level2Token level2Token) {
-        Level2Token = level2Token;
+    public String getMobileNumber() {
+        return mobileNumber;
+    }
+
+    public void setMobileNumber(String mobileNumber) {
+        this.mobileNumber = mobileNumber;
+    }
+
+    public pojo.crnNumber getCrnNumber() {
+        return crnNumber;
+    }
+
+    public void setCrnNumber(pojo.crnNumber crnNumber) {
+        this.crnNumber = crnNumber;
+    }
+
+    public pojo.deviceDetails getDeviceDetails() {
+        return deviceDetails;
+    }
+
+    public void setDeviceDetails(pojo.deviceDetails deviceDetails) {
+        this.deviceDetails = deviceDetails;
+    }
+
+    public String getActivityType() {
+        return activityType;
+    }
+
+    public void setActivityType(String activityType) {
+        this.activityType = activityType;
+    }
+
+    public pojo.sessionId getSessionId() {
+        return sessionId;
+    }
+
+    public void setSessionId(pojo.sessionId sessionId) {
+        this.sessionId = sessionId;
+    }
+
+    public String getLevelTag() {
+        return levelTag;
+    }
+
+    public void setLevelTag(String levelTag) {
+        this.levelTag = levelTag;
     }
 }

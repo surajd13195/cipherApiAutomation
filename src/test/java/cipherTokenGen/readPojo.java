@@ -15,8 +15,9 @@ public class readPojo {
     public String bankAppVersion;
     public String activityType;
     public String sessionId;
+    public String levelTag;
 
-    public readPojo(String bankId, String mobileNumber, String crnNo, String deviceId, String deviceOs, String deviceOsVersion, String deviceIpAddress, String bankAppVersion, String activityType, String sessionId){
+    public readPojo(String bankId, String mobileNumber, String crnNo, String deviceId, String deviceOs, String deviceOsVersion, String deviceIpAddress, String bankAppVersion, String activityType, String sessionId, String levelTag){
         this.bankId=bankId;
         this.mobileNumber=mobileNumber;
         this.crnNo=crnNo;
@@ -27,38 +28,33 @@ public class readPojo {
         this.bankAppVersion=bankAppVersion;
         this.activityType=activityType;
         this.sessionId=sessionId;
+        this.levelTag=levelTag;
     }
 
     public String readParameters() throws Exception {
 
-        pojo1 pojo1 = new pojo1();
+        pojo1 pojo1;
 
-        Level1Token level1TokenPojo = new Level1Token(bankId, mobileNumber);
-        pojo1.setLevel1Token(level1TokenPojo);
+        if(activityType.isEmpty()){
+            activityType = null;
+        }else {
+            activityType=activityType;
+        }
+
+        pojo1 = new pojo1(bankId, mobileNumber, activityType, levelTag);
 
         crnNumber crnNumberPojo = new crnNumber(crnNo);
-        level1TokenPojo.setCrnNumber(crnNumberPojo);
+        pojo1.setCrnNumber(crnNumberPojo);
 
         deviceDetails deviceDetailsPojo = new deviceDetails(deviceId, deviceOs, deviceOsVersion, deviceIpAddress, bankAppVersion);
-        level1TokenPojo.setDeviceDetails(deviceDetailsPojo);
+        pojo1.setDeviceDetails(deviceDetailsPojo);
 
-        activityType activityTypePojo = new activityType();
-        if(activityType.equalsIgnoreCase("BalanceInquiry")){
-            BalanceInquiry balanceInquiry = new BalanceInquiry();
-            activityTypePojo.setBalanceInquiry(balanceInquiry);
-        }else if (activityType.equalsIgnoreCase("AddBeneficiary")){
-            AddBeneficiary addBeneficiary = new AddBeneficiary();
-            activityTypePojo.setAddBeneficiary(addBeneficiary);
-        }else if (activityType.equalsIgnoreCase("AmountWithdrawal")){
-            AmountWithdrawal amountWithdrawal = new AmountWithdrawal();
-            activityTypePojo.setAmountWithdrawal(amountWithdrawal);
+        if(sessionId.isEmpty()){
+            pojo.sessionId sessionIdPojo = null;
         }else {
-            activityTypePojo=null;
+            pojo.sessionId sessionIdPojo = new sessionId(sessionId);
+            pojo1.setSessionId(sessionIdPojo);
         }
-        level1TokenPojo.setActivityType(activityTypePojo);
-
-        pojo.sessionId sessionIdPojo = new sessionId(sessionId);
-        level1TokenPojo.setSessionId(sessionIdPojo);
 
         String tokenData = new Gson().toJson(pojo1);
         tokenGeneration gen = new tokenGeneration();
